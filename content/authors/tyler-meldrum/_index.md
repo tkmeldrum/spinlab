@@ -11,7 +11,7 @@ avatar: meldrum.png    # put this image in static/media/
 superuser: true
 
 # Role/position
-role: Associate Professor, Principal Investigator
+role: Associate Professor of Chemistry, Director of Undergradate Research in Chemistry
 
 
 # Organizations/Affiliations
