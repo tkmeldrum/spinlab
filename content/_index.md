@@ -8,9 +8,12 @@ sections:
   - block: hero
     content:
       title: |
-        spinlab
       image:
-        filename: welcome.jpg
+        filename: logo.jpg
+        focal_point: Left
+        align: Left
+        alt_text: "spinlab logo"
+        width: 240
       text: |
         <br>
         

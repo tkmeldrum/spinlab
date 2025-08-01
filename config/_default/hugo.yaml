@@ -71,3 +71,9 @@ security:
   _merge: deep
 sitemap:
   _merge: deep
+
+
+  ######## TKM ########
+logo: "media/logo.jpg"
+header:
+  logo: "media/logo.jpg"
