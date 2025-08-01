@@ -32,7 +32,7 @@ permalinks:
   people: '/people/:slug/'
   research: '/research/:slug/'
   news: '/news/:slug/'
-  publications: '/publication/:slug/'
+  publications: '/publications/:slug/'
   contact: '/contact/:slug/'
   home: '/'
   tags: '/tag/:slug/'

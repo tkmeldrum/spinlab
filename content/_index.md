@@ -17,7 +17,7 @@ sections:
       text: |
         <br>
         
-        **spinlab** is a student-driven, NMR-focused research group investigating physical properties of materials.
+        **spinlab** at William & Mary is a student-driven, NMR-focused research group investigating physical properties of materials.
   
   - block: collection
     content:
