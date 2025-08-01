@@ -5,7 +5,7 @@ title: Tyler Meldrum
 # Full Name (for SEO)
 first_name: Tyler
 last_name: Meldrum
-avatar: meldrum.png    # put this image in static/media/
+avatar: avatar.png    # put this image in static/media/
 
 # Is this the primary user of the site?
 superuser: true
@@ -23,13 +23,13 @@ organizations:
 bio: |
   Physical chemist and teacher, founder of spinlab. Researches NMR, materials, and student-driven discovery.
 
-interests:
-  - nuclear magnetic resonance (NMR)
-  - physical chemistry
-  - materials science
-  - cultural heritage research
-  - undergraduate research
-  - science education and outreach
+# interests:
+#   - nuclear magnetic resonance (NMR)
+#   - physical chemistry
+#   - materials science
+#   - cultural heritage research
+#   - undergraduate research
+#   - science education and outreach
 
 education:
   courses:
@@ -70,6 +70,6 @@ user_groups:
 favorite_coffee: Oat milk cortado, conditionally
 ---
 
-Tyler Meldrum is an associate professor of chemistry at William & Mary and the PI of the spinlab. His research combines nuclear magnetic resonance (NMR) spectroscopy, physical chemistry, and student-driven projects to study materials, molecules, and new scientific frontiers.  
+Tyler Meldrum is an Associate Professor of Chemistry at William & Mary and the PI of the spinlab. His research centers around nuclear magnetic resonance (NMR) to study a range of materials, including adhesives, archaeological samples, and art. His group also drives methodological advancements in single-sided NMR and uses computational and data-science methods to solve material problems. He teaches a range of general and physical chemistry courses.
 
-Outside of research and teaching, Tyler is a coffee enthusiast (black in the mornings, an oat milk cortado in the afternoons), science communicator, and a proud dad. When not wrangling experiments, you can find him exploring the intersection of data, design, and education—with a little bit of sass and a lot of curiosity.
+Outside of research and teaching, Tyler is a coffee enthusiast (black in the mornings, an oat milk cortado in the afternoons), loves scientific outreach, and is a proud father of two. 16-bit video games give him joy, physical activity keeps him grounded, and he's honed his sass watching Taskmaster.

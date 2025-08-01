@@ -11,7 +11,7 @@ avatar: avatar.png    # put this image in static/media/
 superuser: false
 
 # Role/position
-role: Chemistry B.S., Physics B.S.
+role: Chemistry and Physics, 2026
 
 
 # Organizations/Affiliations

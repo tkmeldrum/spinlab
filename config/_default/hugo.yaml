@@ -35,9 +35,9 @@ permalinks:
   publications: '/publications/:slug/'
   contact: '/contact/:slug/'
   home: '/'
-  tags: '/tag/:slug/'
-  categories: '/category/:slug/'
-  publication_types: '/publication-type/:slug/'
+  # tags: '/tag/:slug/'
+  # categories: '/category/:slug/'
+  # publication_types: '/publication-type/:slug/'
 disableAliases: true
 outputs:
   home: [HTML, RSS, JSON, WebAppManifest, headers, redirects]
@@ -48,9 +48,9 @@ imaging:
   anchor: smart
 timeout: 300000
 taxonomies:
-  tag: tags
-  category: categories
-  publication_type: publication_types
+  # tag: tags
+  # category: categories
+  # publication_type: publication_types
   author: authors
   people: people
   research: research
@@ -74,6 +74,6 @@ sitemap:
 
 
   ######## TKM ########
-logo: "media/logo.jpg"
-header:
-  logo: "media/logo.jpg"
+# logo: "media/logo.jpg"
+# header:
+#   logo: "media/logo.jpg"
