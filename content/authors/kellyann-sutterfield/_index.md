@@ -11,7 +11,7 @@ avatar: avatar.png    # put this image in static/media/
 superuser: false
 
 # Role/position
-# role: Undergraduate Student
+role: Chemistry B.S., Physics B.S.
 
 
 # Organizations/Affiliations
