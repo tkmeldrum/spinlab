@@ -1,21 +1,20 @@
 ---
 # Leave the homepage title empty to use the site title
 title:
-date: 2022-10-24
+date: 2025-08-01
 type: landing
 
 sections:
   - block: hero
     content:
       title: |
-        Wowchemy
-        Research Group
+        spinlab
       image:
         filename: welcome.jpg
       text: |
         <br>
         
-        The **Wowchemy Research Group** has been a center of excellence for Artificial Intelligence research, teaching, and practice since its founding in 2016.
+        **spinlab** is a student-driven, NMR-focused research group investigating physical properties of materials.
   
   - block: collection
     content:
@@ -42,7 +41,7 @@ sections:
       subtitle: ''
       text:
     design:
-      columns: '1'
+      columns: '2'
       background:
         image: 
           filename: coders.jpg

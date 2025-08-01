@@ -3,8 +3,8 @@
 # Hugo Documentation: https://gohugo.io/getting-started/configuration/#all-configuration-settings
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
-title: Wowchemy Research Group # Website name
-baseURL: 'https://example.com/' # Website URL
+title: spinlab @ William & Mary # Website name
+baseURL: 'https://meldrumlab.org/' # Website URL
 
 ############################
 ## LANGUAGE
@@ -19,8 +19,8 @@ removePathAccents: true
 ## ADVANCED
 ############################
 
-enableGitInfo: false
-summaryLength: 30
+enableGitInfo: true
+summaryLength: 50
 pagination:
   pagerSize: 10
 enableEmoji: true
@@ -40,7 +40,7 @@ imaging:
   resampleFilter: lanczos
   quality: 75
   anchor: smart
-timeout: 600000
+timeout: 300000
 taxonomies:
   tag: tags
   category: categories
