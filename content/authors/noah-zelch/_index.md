@@ -5,13 +5,13 @@ title: Noah Zelch
 # Full Name (for SEO)
 first_name: Noah
 last_name: Zelch
-avatar: meldrum.png    # put this image in static/media/
+avatar: avatar.png    # put this image in static/media/
 
 # Is this the primary user of the site?
 superuser: false
 
 # Role/position
-# role: Undergraduate Student
+role: Physical Therapy track, 2026
 
 
 # Organizations/Affiliations
@@ -69,3 +69,5 @@ user_groups:
 # Custom/fun fields
 # favorite_coffee: Oat milk cortado, conditionally
 ---
+Noah Zelch is a senior at William & Mary and is a psychology major on the pre-physical therapy tract. In lab, Noah is interested in measuring and characterizing pore structure in porous archaeological artifacts, such as pottery and bricks.
+When not in lab, you can find Noah on the Club B soccer team, painting, or playing board games. He also loves to cook and watch movies (Eternal Sunshine of the Spotless Mind #1).

@@ -52,7 +52,7 @@ social:
 #   - icon: google-scholar
 #     icon_pack: ai
 #     link: https://scholar.google.com/citations?user=yKXJezQAAAAJ
-  - icon: pencil
+  - icon: house
     icon_pack: fas
     link: scakolatse.substack.com
 

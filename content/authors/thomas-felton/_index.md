@@ -5,13 +5,13 @@ title: Thomas Felton
 # Full Name (for SEO)
 first_name: Thomas
 last_name: Felton
-avatar: meldrum.png    # put this image in static/media/
+avatar: avatar.png    # put this image in static/media/
 
 # Is this the primary user of the site?
 superuser: false
 
 # Role/position
-# role: Undergraduate Student
+role: Data Science major, Chemistry minor, 2027
 
 
 # Organizations/Affiliations
@@ -44,13 +44,16 @@ organizations:
 #       year: 2006
 
 # # Social/Academic Networking
-# social:
+social:
 #   - icon: envelope
 #     icon_pack: fas
 #     link: 'mailto:tkmeldrum@wm.edu'
-#   - icon: github
-#     icon_pack: fab
-#     link: https://github.com/tkmeldrum
+  - icon: github
+    icon_pack: fab
+    link: https://github.com/TDFelton
+  - icon: linkedin
+    icon_pack: fab
+    link: https://www.linkedin.com/in/tdfelton/
 #   - icon: orcid
 #     icon_pack: ai
 #     link: https://orcid.org/0000-0002-5954-0795
@@ -69,3 +72,4 @@ user_groups:
 # Custom/fun fields
 # favorite_coffee: Oat milk cortado, conditionally
 ---
+I'm Thomas Felton from Gainesville, VA. I am interested in Baseball, Data Analysis, and travel/exploration. I try to create as many experiences as I can while I still have the time. When I'm not working/studying I'm either playing club baseball or meandering (physically and/or mentally). I like to keep my friends close and my food closer. 
