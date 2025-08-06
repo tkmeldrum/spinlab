@@ -22,10 +22,10 @@ sections:
         author: ''
         category: ''
         exclude_featured: false
-        tag: 'research'
+        tag: ''
       offset: 0
       order: desc
-      page_type: 
+      page_type: research
     design:
       view: card
       columns: '3'

@@ -44,7 +44,10 @@ organizations:
 #       year: 2006
 
 # # Social/Academic Networking
-# social:
+social:
+  - icon: linkedin
+    icon_pack: fab
+    link: https://www.linkedin.com/in/kelly-ann-sutterfield-5ba09a312
 #   - icon: envelope
 #     icon_pack: fas
 #     link: 'mailto:tkmeldrum@wm.edu'
@@ -69,3 +72,6 @@ user_groups:
 # Custom/fun fields
 # favorite_coffee: Oat milk cortado, conditionally
 ---
+Kelly Ann Sutterfield is a Senior in the Meldrum Lab. She joined the lab her Freshman year and has worked on projects involving epoxy cure time, local archaeology, and pulse sequence programming. She is grateful to the lab for the friends she has made and the opportunities to apply what she learns in class.
+
+Outside of lab, Kelly Ann is on the William & Mary Cross Country and Track teams. Additionally, she is secretary of Tribe Rocket Club and a member of Catholic Campus Ministry. Kelly Ann interned in Texas this summer working for the Department of Energy and is hoping to pursue that path after graduation.

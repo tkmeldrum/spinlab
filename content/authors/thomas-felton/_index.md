@@ -72,4 +72,4 @@ user_groups:
 # Custom/fun fields
 # favorite_coffee: Oat milk cortado, conditionally
 ---
-I'm Thomas Felton from Gainesville, VA. I am interested in Baseball, Data Analysis, and travel/exploration. I try to create as many experiences as I can while I still have the time. When I'm not working/studying I'm either playing club baseball or meandering (physically and/or mentally). I like to keep my friends close and my food closer. 
+Thomas Felton is originally from Gainesville, Virginia. He is interested in Baseball, Data Analysis, and travel/exploration. He's trying to create as many experiences as he can while he still has the time. When he's not working/studying, he's either playing club baseball or meandering (physically and/or mentally). He likes to keep his friends close and his food closer. 

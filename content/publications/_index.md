@@ -11,4 +11,5 @@ banner:
 ---
 
 ## View our publications at [Google Scholar.](https://scholar.google.com/citations?user=yKXJezQAAAAJ)
+
 Other possibly useful documents include:

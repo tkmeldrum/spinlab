@@ -20,24 +20,36 @@ sections:
         **spinlab** at William & Mary is a student-driven, NMR-focused research group investigating physical properties of materials.
   
   - block: collection
+    id: research_overview
     content:
       title: Our research
-      subtitle: See what's up 
-      text: 
+      subtitle: ''
+      text: ''
+      # Choose how many pages you would like to display (0 = all pages)
       count: 3
+      # Filter on criteria
       filters:
-        # folders: 
-        #   - pages
-        author: ''
-        # categories: 'research'
+        # The folders to display content from
+        folders:
+          - research_overview
+        author: ""
+        category: ""
+        tag: ""
+        publication_type: ""
+        featured_only: false
         exclude_featured: false
-        # tag: 'research'
+        exclude_future: false
+        exclude_past: false
+      # Choose how many pages you would like to offset by
+      # Useful if you wish to show the first item in the Featured widget
       offset: 0
-      order: desc
-      page_type: research
+      # Field to sort by, such as Date or Title
+      sort_by: 'Title'
+      sort_ascending: false
     design:
+      # Choose a listing view
       view: card
-      columns: '3'
+
 
   - block: collection
     content:
@@ -87,14 +99,15 @@ sections:
   #       padding: ['20px', '0', '20px', '0']
   #     css_class: fullscreen
 
-  # - block: collection
-  #   content:
-  #     title: Latest Preprints
+  # - block: markdown
+  #   content: 
+  #     title: tour
   #     text: ""
-  #     count: 5
+  #     count: 1
+  #     page_type: 
   #     filters:
   #       folders:
-  #         - publication
+  #         - tour
   #       publication_type: 'article'
   #   design:
   #     view: citation

@@ -24,4 +24,26 @@ sections:
       show_interests: false
       show_role: true
       show_social: true
+  
+  - block: collection
+    content:
+      title: Group antics
+      subtitle:
+      text:
+      count: 2
+      filters:
+        author: ''
+        category: ''
+        exclude_featured: false
+        publication_type: ''
+        tag: ''
+      offset: 0
+      order: desc
+      page_type: antics
+    design:
+      view: card
+      columns: '1'
+      show_interests: false
+      show_role: false
+      show_social: false
 ---

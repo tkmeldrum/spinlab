@@ -46,15 +46,15 @@ social:
   - icon: github
     icon_pack: fab
     link: https://github.com/peaceheis
-  - icon: rust
-    icon_pack: devicon
+  # - icon: rust
+  #   icon_pack: devicon
     # link: https://orcid.org/0000-0002-5954-0795
 #   - icon: google-scholar
 #     icon_pack: ai
 #     link: https://scholar.google.com/citations?user=yKXJezQAAAAJ
   - icon: house
     icon_pack: fas
-    link: scakolatse.substack.com
+    link: https://scakolatse.substack.com
 
 #   # Add more as needed
 
