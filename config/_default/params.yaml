@@ -9,7 +9,7 @@ appearance:
   theme_day: minimal
   theme_night:
   font: native
-  font_size: L
+  font_size: M
 
 # SEO
 
@@ -19,7 +19,7 @@ marketing:
     local_business_type: 'Research Group'
     org_name: 'spinlab'
     description: 'A student-driven, NMR-focused research group studying physical properties of materials. At William & Mary in Williamsburg, Virginia.'
-    twitter: 'GetResearchDev'
+    twitter: ''
   analytics:
     google_analytics: ''
     baidu_tongji: ''
@@ -40,7 +40,9 @@ header:
     show_day_night: true
     show_search: true
     highlight_active_link: false
-    logo: "logo.jpg"
+    logo: 
+      filename: "logo.jpg"
+      text: ""
 
 # Site footer
 

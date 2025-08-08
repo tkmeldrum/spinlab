@@ -19,44 +19,43 @@ sections:
         
         **spinlab** at William & Mary is a student-driven, NMR-focused research group investigating physical properties of materials.
   
-  - block: collection
-    id: research_overview
+
+  - block: markdown
+    id: research
     content:
       title: Our research
-      subtitle: ''
-      text: ''
-      # Choose how many pages you would like to display (0 = all pages)
-      count: 3
-      # Filter on criteria
-      filters:
-        # The folders to display content from
-        folders:
-          - research_overview
-        author: ""
-        category: ""
-        tag: ""
-        publication_type: ""
-        featured_only: false
-        exclude_featured: false
-        exclude_future: false
-        exclude_past: false
-      # Choose how many pages you would like to offset by
-      # Useful if you wish to show the first item in the Featured widget
-      offset: 0
-      # Field to sort by, such as Date or Title
-      sort_by: 'Title'
-      sort_ascending: false
-    design:
-      # Choose a listing view
-      view: card
+      text: |
+        Research in the spinlab centers around single-sided nuclear magnetic resonance. We focus on methods and instrumentations development, data and computational models, and a range a applications. 
+        {{% cta cta_link="./research/" cta_text="Learn more →" %}}
 
+  - block: people
+    id: people
+    content:
+      title: Meet the Team
+      # Choose which groups/teams of users to display.
+      #   Edit `user_groups` in each user's profile to add them to one or more of these groups.
+      user_groups:
+          - Principal Investigator
+          - Researchers
+          - Graduate Students
+          - Undergraduate Students
+          - Administration
+          - Visitors
+          - Alumni
+      sort_by: Params.last_name
+      sort_ascending: true
+    design:
+      show_interests: false
+      show_role: true
+      show_social: true
 
   - block: collection
+    id: news
     content:
       title: Latest News
       subtitle:
       text:
-      count: 5
+      count: 3
       filters:
         author: ''
         category: ''
@@ -67,7 +66,7 @@ sections:
       order: desc
       page_type: post
     design:
-      view: card
+      view: compact
       columns: '2'
   
   # - block: markdown

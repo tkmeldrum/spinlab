@@ -5,16 +5,16 @@
 
 main:
   - name: Group
-    url: people
+    url: "/#people"
     weight: 10
   - name: Research
-    url: research
+    url: "/#research"
     weight: 20
   - name: News
-    url: news
+    url: "/#news"
     weight: 30
-  - name: Publications
-    url: publications
+  - name: Resources
+    url: resources
     weight: 40
   - name: Contact
     url: contact
