@@ -19,18 +19,41 @@ sections:
         
         **spinlab** at William & Mary is a student-driven, NMR-focused research group investigating physical properties of materials.
   
-
-  - block: markdown
+  - block: collection
     id: research
     content:
-      title: Our research
+      title: Our Research
+      subtitle:
       text: |
         Research in the spinlab centers around single-sided nuclear magnetic resonance. We focus on methods and instrumentations development, data and computational models, and a range a applications. 
+      count: 3
+      # filters:
+      #   author: ''
+      #   category: ''
+      #   exclude_featured: false
+      #   publication_type: ''
+      #   tag: ''
+      # offset: 0
+      # order: desc
+      page_type: research
+    design:
+      view: showcase
+      columns: 2
+
+  - block: markdown
+    id: publications
+    content:
+      title: Publications
+      text: |
+        {{% cta cta_link="https://scholar.google.com/citations?user=yKXJezQAAAAJ" cta_text="View at Google Scholar →" %}}
+      # design:
+      #   view: card
+      #   columns: 1
 
   - block: people
     id: people
     content:
-      title: Meet the Team
+      title: Meet the Group
       # Choose which groups/teams of users to display.
       #   Edit `user_groups` in each user's profile to add them to one or more of these groups.
       user_groups:
