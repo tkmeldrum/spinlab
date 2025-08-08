@@ -6,10 +6,10 @@
 main:
   - name: Group
     url: "/#people"
-    weight: 10
+    weight: 20
   - name: Research
     url: "/#research"
-    weight: 20
+    weight: 10
   - name: News
     url: "/#news"
     weight: 30
