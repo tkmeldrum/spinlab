@@ -61,12 +61,12 @@ jobs:
         run: touch public/.nojekyll
 
       # Temporary safety net: rewrite protocol-relative //links to /links
-      - name: Fix protocol-relative URLs (temporary)
-        run: |
-          find public -type f -name '*.html' -print0 | xargs -0 sed -i \
-            -e 's|src="//|src="/|g' \
-            -e 's|href="//|href="/|g' \
-            -e 's|srcset="//|srcset="/|g'
+      # - name: Fix protocol-relative URLs (temporary)
+      #   run: |
+      #     find public -type f -name '*.html' -print0 | xargs -0 sed -i \
+      #       -e 's|src="//|src="/|g' \
+      #       -e 's|href="//|href="/|g' \
+      #       -e 's|srcset="//|srcset="/|g'
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
