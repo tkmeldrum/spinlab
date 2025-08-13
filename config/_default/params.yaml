@@ -48,17 +48,12 @@ header:
 
 footer:
   copyright:
-    notice: '© {year} Tyler Meldrum. This work is licensed under {license}'
+    notice: '<a href="https://instagram.com/wm_spinlab" target="_blank" rel="noopener" aria-label="Follow spinlab on Instagram">Follow us on Instagram <i class="fab fa-instagram" aria-hidden="true"></i></a><br style="margin-bottom:0.5rem">© {year} Tyler Meldrum. This work is licensed under {license}'
     license:
       enable: true
       allow_derivatives: false
       share_alike: true
       allow_commercial: false
-  social:
-    - icon: instagram
-      icon_pack: fab
-      link: https://instagram.com/wm_spinlab
-
 
 # Localization
 
