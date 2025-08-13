@@ -1,0 +1,726 @@
+config/_default/hugo.yaml:7:baseURL: 'https://staging.meldrumlab.org/' # Website URL
+config/_default/module.yaml:9:  - path: github.com/HugoBlox/hugo-blox-builder/modules/blox-plugin-netlify
+./.git/hooks/fsmonitor-watchman.sample:8:# (https://facebook.github.io/watchman/) with git to speed up detecting
+./.github/workflows/publish.yaml:54:          hugo --minify --baseURL "${{ vars.SITE_URL }}/"
+./assets/jsconfig.json:3:  "baseUrl": ".",
+./config/_default/hugo.yaml:7:baseURL: 'https://staging.meldrumlab.org/' # Website URL
+./config/_default/module.yaml:9:  - path: github.com/HugoBlox/hugo-blox-builder/modules/blox-plugin-netlify
+./content/contact/index.md:39:    #     provider: netlify
+./content/contact/index.md:42:    #     netlify:
+./content/publications/github/index.md:31:#   url: http://example.org
+./content/publications_backup/conference-paper/index.md:44:#   url: http://example.org
+./content/publications_backup/journal-article/index.md:36:url_pdf: http://arxiv.org/pdf/1512.04133v1
+./content/publications_backup/preprint/index.md:31:  url: http://example.org
+./content/publications_backup/preprint/index.md:32:url_pdf: http://arxiv.org/pdf/1512.04133v1
+./go.mod:9:	github.com/HugoBlox/hugo-blox-builder/modules/blox-plugin-netlify v1.1.2-0.20250301201144-44e75541f7be
+./go.sum:7:github.com/HugoBlox/hugo-blox-builder/modules/blox-plugin-netlify v1.1.2-0.20250301201144-44e75541f7be h1:uKN53b/E8UE/5pbfKrOI/G52Kphw4qolhSrzEb/UHGk=
+./go.sum:8:github.com/HugoBlox/hugo-blox-builder/modules/blox-plugin-netlify v1.1.2-0.20250301201144-44e75541f7be/go.mod h1:C7jfxMLv1bEUqbM9XDSmEpfOpS8w06OgqNDEcbuRgL4=
+./netlify.toml:19:  package = "netlify-plugin-hugo-cache-resources"
+./public/404.html:278:<link rel="alternate" hreflang="en-us" href="http://localhost:1313/404.html" />
+./public/404.html:279:<link rel="canonical" href="http://localhost:1313/404.html" />
+./public/404.html:310:<meta property="twitter:image" content="http://localhost:1313/media/logo_hu_ce9856a497eb07e5.png" />
+./public/404.html:318:<meta property="og:url" content="http://localhost:1313/404.html" />
+./public/404.html:320:<meta property="og:description" content="A student-driven, NMR-focused research group studying physical properties of materials. At William &amp; Mary in Williamsburg, Virginia." /><meta property="og:image" content="http://localhost:1313/media/logo_hu_ce9856a497eb07e5.png" /><meta property="og:locale" content="en-us" />
+./public/admin/index.html:9:  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+./public/author/admin/index.html:278:<link rel="alternate" hreflang="en-us" href="http://localhost:1313/author/admin/" />
+./public/author/admin/index.html:279:<link rel="canonical" href="http://localhost:1313/author/admin/" />
+./public/author/admin/index.html:310:<meta property="twitter:image" content="http://localhost:1313/media/logo_hu_ce9856a497eb07e5.png" />
+./public/author/admin/index.html:318:<meta property="og:url" content="http://localhost:1313/author/admin/" />
+./public/author/admin/index.html:320:<meta property="og:description" content="A student-driven, NMR-focused research group studying physical properties of materials. At William &amp; Mary in Williamsburg, Virginia." /><meta property="og:image" content="http://localhost:1313/media/logo_hu_ce9856a497eb07e5.png" /><meta property="og:locale" content="en-us" />
+./public/author/admin/index.xml:2:<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+./public/author/admin/index.xml:5:    <link>http://localhost:1313/author/admin/</link>
+./public/author/admin/index.xml:6:      <atom:link href="http://localhost:1313/author/admin/index.xml" rel="self" type="application/rss+xml" />
+./public/author/admin/index.xml:10:      <url>http://localhost:1313/media/logo_hu_ce9856a497eb07e5.png</url>
+./public/author/admin/index.xml:12:      <link>http://localhost:1313/author/admin/</link>
+./public/author/admin/index.xml:17:      <link>http://localhost:1313/publications_backup/preprint/</link>
+./public/author/admin/index.xml:19:      <guid>http://localhost:1313/publications_backup/preprint/</guid>
+./public/author/admin/index.xml:31:      <link>http://localhost:1313/publications_backup/journal-article/</link>
+./public/author/admin/index.xml:33:      <guid>http://localhost:1313/publications_backup/journal-article/</guid>
+./public/author/admin/index.xml:50:      <link>http://localhost:1313/publications_backup/conference-paper/</link>
+./public/author/admin/index.xml:52:      <guid>http://localhost:1313/publications_backup/conference-paper/</guid>
+./public/author/alice-wu-吳恩達/index.html:278:<link rel="alternate" hreflang="en-us" href="http://localhost:1313/author/alice-wu-%E5%90%B3%E6%81%A9%E9%81%94/" />
+./public/author/alice-wu-吳恩達/index.html:279:<link rel="canonical" href="http://localhost:1313/author/alice-wu-%E5%90%B3%E6%81%A9%E9%81%94/" />
+./public/author/alice-wu-吳恩達/index.html:312:<meta property="twitter:image" content="http://localhost:1313/author/alice-wu-%E5%90%B3%E6%81%A9%E9%81%94/avatar_hu_2af60430eb74e557.jpg" />
+./public/author/alice-wu-吳恩達/index.html:320:<meta property="og:url" content="http://localhost:1313/author/alice-wu-%E5%90%B3%E6%81%A9%E9%81%94/" />
+./public/author/alice-wu-吳恩達/index.html:322:<meta property="og:description" content="A highly-customizable Hugo research group theme powered by Wowchemy website builder." /><meta property="og:image" content="http://localhost:1313/author/alice-wu-%E5%90%B3%E6%81%A9%E9%81%94/avatar_hu_2af60430eb74e557.jpg" /><meta property="og:locale" content="en-us" />
+./public/author/alice-wu-吳恩達/index.xml:2:<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+./public/author/alice-wu-吳恩達/index.xml:5:    <link>http://localhost:1313/author/alice-wu-%E5%90%B3%E6%81%A9%E9%81%94/</link>
+./public/author/alice-wu-吳恩達/index.xml:6:      <atom:link href="http://localhost:1313/author/alice-wu-%E5%90%B3%E6%81%A9%E9%81%94/index.xml" rel="self" type="application/rss+xml" />
+./public/author/alice-wu-吳恩達/index.xml:10:      <url>http://localhost:1313/author/alice-wu-%E5%90%B3%E6%81%A9%E9%81%94/avatar_hu_2af60430eb74e557.jpg</url>
+./public/author/alice-wu-吳恩達/index.xml:12:      <link>http://localhost:1313/author/alice-wu-%E5%90%B3%E6%81%A9%E9%81%94/</link>
+./public/author/alice-wu-吳恩達/index.xml:17:      <link>http://localhost:1313/author/alice-wu-%E5%90%B3%E6%81%A9%E9%81%94/</link>
+./public/author/alice-wu-吳恩達/index.xml:19:      <guid>http://localhost:1313/author/alice-wu-%E5%90%B3%E6%81%A9%E9%81%94/</guid>
+./public/author/david-han/index.html:278:<link rel="alternate" hreflang="en-us" href="http://localhost:1313/author/david-han/" />
+./public/author/david-han/index.html:279:<link rel="canonical" href="http://localhost:1313/author/david-han/" />
+./public/author/david-han/index.html:311:<meta property="twitter:image" content="http://localhost:1313/author/david-han/avatar_hu_8af197e8ba5fcfee.png" />
+./public/author/david-han/index.html:319:<meta property="og:url" content="http://localhost:1313/author/david-han/" />
+./public/author/david-han/index.html:321:<meta property="og:description" content="A student-driven, NMR-focused research group studying physical properties of materials. At William &amp; Mary in Williamsburg, Virginia." /><meta property="og:image" content="http://localhost:1313/author/david-han/avatar_hu_8af197e8ba5fcfee.png" /><meta property="og:locale" content="en-us" />
+./public/author/david-han/index.xml:2:<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+./public/author/david-han/index.xml:5:    <link>http://localhost:1313/author/david-han/</link>
+./public/author/david-han/index.xml:6:      <atom:link href="http://localhost:1313/author/david-han/index.xml" rel="self" type="application/rss+xml" />
+./public/author/david-han/index.xml:10:      <url>http://localhost:1313/author/david-han/avatar_hu_8af197e8ba5fcfee.png</url>
+./public/author/david-han/index.xml:12:      <link>http://localhost:1313/author/david-han/</link>
+./public/author/eliza-evans/index.html:278:<link rel="alternate" hreflang="en-us" href="http://localhost:1313/author/eliza-evans/" />
+./public/author/eliza-evans/index.html:279:<link rel="canonical" href="http://localhost:1313/author/eliza-evans/" />
+./public/author/eliza-evans/index.html:311:<meta property="twitter:image" content="http://localhost:1313/author/eliza-evans/avatar_hu_5c5a8444b2a679cd.jpg" />
+./public/author/eliza-evans/index.html:319:<meta property="og:url" content="http://localhost:1313/author/eliza-evans/" />
+./public/author/eliza-evans/index.html:321:<meta property="og:description" content="A student-driven, NMR-focused research group studying physical properties of materials. At William &amp; Mary in Williamsburg, Virginia." /><meta property="og:image" content="http://localhost:1313/author/eliza-evans/avatar_hu_5c5a8444b2a679cd.jpg" /><meta property="og:locale" content="en-us" />
+./public/author/eliza-evans/index.xml:2:<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+./public/author/eliza-evans/index.xml:5:    <link>http://localhost:1313/author/eliza-evans/</link>
+./public/author/eliza-evans/index.xml:6:      <atom:link href="http://localhost:1313/author/eliza-evans/index.xml" rel="self" type="application/rss+xml" />
+./public/author/eliza-evans/index.xml:10:      <url>http://localhost:1313/author/eliza-evans/avatar_hu_5c5a8444b2a679cd.jpg</url>
+./public/author/eliza-evans/index.xml:12:      <link>http://localhost:1313/author/eliza-evans/</link>
+./public/author/huy-le/index.html:278:<link rel="alternate" hreflang="en-us" href="http://localhost:1313/author/huy-le/" />
+./public/author/huy-le/index.html:279:<link rel="canonical" href="http://localhost:1313/author/huy-le/" />
+./public/author/huy-le/index.html:311:<meta property="twitter:image" content="http://localhost:1313/author/huy-le/avatar_hu_8af197e8ba5fcfee.png" />
+./public/author/huy-le/index.html:319:<meta property="og:url" content="http://localhost:1313/author/huy-le/" />
+./public/author/huy-le/index.html:321:<meta property="og:description" content="A student-driven, NMR-focused research group studying physical properties of materials. At William &amp; Mary in Williamsburg, Virginia." /><meta property="og:image" content="http://localhost:1313/author/huy-le/avatar_hu_8af197e8ba5fcfee.png" /><meta property="og:locale" content="en-us" />
+./public/author/huy-le/index.xml:2:<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+./public/author/huy-le/index.xml:5:    <link>http://localhost:1313/author/huy-le/</link>
+./public/author/huy-le/index.xml:6:      <atom:link href="http://localhost:1313/author/huy-le/index.xml" rel="self" type="application/rss+xml" />
+./public/author/huy-le/index.xml:10:      <url>http://localhost:1313/author/huy-le/avatar_hu_8af197e8ba5fcfee.png</url>
+./public/author/huy-le/index.xml:12:      <link>http://localhost:1313/author/huy-le/</link>
+./public/author/john-golding/index.html:278:<link rel="alternate" hreflang="en-us" href="http://localhost:1313/author/john-golding/" />
+./public/author/john-golding/index.html:279:<link rel="canonical" href="http://localhost:1313/author/john-golding/" />
+./public/author/john-golding/index.html:311:<meta property="twitter:image" content="http://localhost:1313/author/john-golding/avatar_hu_8af197e8ba5fcfee.png" />
+./public/author/john-golding/index.html:319:<meta property="og:url" content="http://localhost:1313/author/john-golding/" />
+./public/author/john-golding/index.html:321:<meta property="og:description" content="A student-driven, NMR-focused research group studying physical properties of materials. At William &amp; Mary in Williamsburg, Virginia." /><meta property="og:image" content="http://localhost:1313/author/john-golding/avatar_hu_8af197e8ba5fcfee.png" /><meta property="og:locale" content="en-us" />
+./public/author/john-golding/index.xml:2:<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+./public/author/john-golding/index.xml:5:    <link>http://localhost:1313/author/john-golding/</link>
+./public/author/john-golding/index.xml:6:      <atom:link href="http://localhost:1313/author/john-golding/index.xml" rel="self" type="application/rss+xml" />
+./public/author/john-golding/index.xml:10:      <url>http://localhost:1313/author/john-golding/avatar_hu_8af197e8ba5fcfee.png</url>
+./public/author/john-golding/index.xml:12:      <link>http://localhost:1313/author/john-golding/</link>
+./public/author/kelly-ann-sutterfield/index.html:278:<link rel="alternate" hreflang="en-us" href="http://localhost:1313/author/kelly-ann-sutterfield/" />
+./public/author/kelly-ann-sutterfield/index.html:279:<link rel="canonical" href="http://localhost:1313/author/kelly-ann-sutterfield/" />
+./public/author/kelly-ann-sutterfield/index.html:311:<meta property="twitter:image" content="http://localhost:1313/author/kelly-ann-sutterfield/avatar_hu_d9a2980c8f452d76.jpeg" />
+./public/author/kelly-ann-sutterfield/index.html:319:<meta property="og:url" content="http://localhost:1313/author/kelly-ann-sutterfield/" />
+./public/author/kelly-ann-sutterfield/index.html:321:<meta property="og:description" content="A student-driven, NMR-focused research group studying physical properties of materials. At William &amp; Mary in Williamsburg, Virginia." /><meta property="og:image" content="http://localhost:1313/author/kelly-ann-sutterfield/avatar_hu_d9a2980c8f452d76.jpeg" /><meta property="og:locale" content="en-us" />
+./public/author/kelly-ann-sutterfield/index.xml:2:<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+./public/author/kelly-ann-sutterfield/index.xml:5:    <link>http://localhost:1313/author/kelly-ann-sutterfield/</link>
+./public/author/kelly-ann-sutterfield/index.xml:6:      <atom:link href="http://localhost:1313/author/kelly-ann-sutterfield/index.xml" rel="self" type="application/rss+xml" />
+./public/author/kelly-ann-sutterfield/index.xml:10:      <url>http://localhost:1313/author/kelly-ann-sutterfield/avatar_hu_d9a2980c8f452d76.jpeg</url>
+./public/author/kelly-ann-sutterfield/index.xml:12:      <link>http://localhost:1313/author/kelly-ann-sutterfield/</link>
+./public/author/kylie-mccoy/index.html:278:<link rel="alternate" hreflang="en-us" href="http://localhost:1313/author/kylie-mccoy/" />
+./public/author/kylie-mccoy/index.html:279:<link rel="canonical" href="http://localhost:1313/author/kylie-mccoy/" />
+./public/author/kylie-mccoy/index.html:311:<meta property="twitter:image" content="http://localhost:1313/author/kylie-mccoy/avatar_hu_8af197e8ba5fcfee.png" />
+./public/author/kylie-mccoy/index.html:319:<meta property="og:url" content="http://localhost:1313/author/kylie-mccoy/" />
+./public/author/kylie-mccoy/index.html:321:<meta property="og:description" content="A student-driven, NMR-focused research group studying physical properties of materials. At William &amp; Mary in Williamsburg, Virginia." /><meta property="og:image" content="http://localhost:1313/author/kylie-mccoy/avatar_hu_8af197e8ba5fcfee.png" /><meta property="og:locale" content="en-us" />
+./public/author/kylie-mccoy/index.xml:2:<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+./public/author/kylie-mccoy/index.xml:5:    <link>http://localhost:1313/author/kylie-mccoy/</link>
+./public/author/kylie-mccoy/index.xml:6:      <atom:link href="http://localhost:1313/author/kylie-mccoy/index.xml" rel="self" type="application/rss+xml" />
+./public/author/kylie-mccoy/index.xml:10:      <url>http://localhost:1313/author/kylie-mccoy/avatar_hu_8af197e8ba5fcfee.png</url>
+./public/author/kylie-mccoy/index.xml:12:      <link>http://localhost:1313/author/kylie-mccoy/</link>
+./public/author/megan-pruitt/index.html:278:<link rel="alternate" hreflang="en-us" href="http://localhost:1313/author/megan-pruitt/" />
+./public/author/megan-pruitt/index.html:279:<link rel="canonical" href="http://localhost:1313/author/megan-pruitt/" />
+./public/author/megan-pruitt/index.html:311:<meta property="twitter:image" content="http://localhost:1313/author/megan-pruitt/avatar_hu_8af197e8ba5fcfee.png" />
+./public/author/megan-pruitt/index.html:319:<meta property="og:url" content="http://localhost:1313/author/megan-pruitt/" />
+./public/author/megan-pruitt/index.html:321:<meta property="og:description" content="A student-driven, NMR-focused research group studying physical properties of materials. At William &amp; Mary in Williamsburg, Virginia." /><meta property="og:image" content="http://localhost:1313/author/megan-pruitt/avatar_hu_8af197e8ba5fcfee.png" /><meta property="og:locale" content="en-us" />
+./public/author/megan-pruitt/index.xml:2:<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+./public/author/megan-pruitt/index.xml:5:    <link>http://localhost:1313/author/megan-pruitt/</link>
+./public/author/megan-pruitt/index.xml:6:      <atom:link href="http://localhost:1313/author/megan-pruitt/index.xml" rel="self" type="application/rss+xml" />
+./public/author/megan-pruitt/index.xml:10:      <url>http://localhost:1313/author/megan-pruitt/avatar_hu_8af197e8ba5fcfee.png</url>
+./public/author/megan-pruitt/index.xml:12:      <link>http://localhost:1313/author/megan-pruitt/</link>
+./public/author/nelson-bighetti/index.html:278:<link rel="alternate" hreflang="en-us" href="http://localhost:1313/author/nelson-bighetti/" />
+./public/author/nelson-bighetti/index.html:279:<link rel="canonical" href="http://localhost:1313/author/nelson-bighetti/" />
+./public/author/nelson-bighetti/index.html:312:<meta property="twitter:image" content="http://localhost:1313/author/nelson-bighetti/avatar_hu_f35a9639f292dbcf.jpg" />
+./public/author/nelson-bighetti/index.html:320:<meta property="og:url" content="http://localhost:1313/author/nelson-bighetti/" />
+./public/author/nelson-bighetti/index.html:322:<meta property="og:description" content="A highly-customizable Hugo research group theme powered by Wowchemy website builder." /><meta property="og:image" content="http://localhost:1313/author/nelson-bighetti/avatar_hu_f35a9639f292dbcf.jpg" /><meta property="og:locale" content="en-us" />
+./public/author/nelson-bighetti/index.xml:2:<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+./public/author/nelson-bighetti/index.xml:5:    <link>http://localhost:1313/author/nelson-bighetti/</link>
+./public/author/nelson-bighetti/index.xml:6:      <atom:link href="http://localhost:1313/author/nelson-bighetti/index.xml" rel="self" type="application/rss+xml" />
+./public/author/nelson-bighetti/index.xml:10:      <url>http://localhost:1313/author/nelson-bighetti/avatar_hu_f35a9639f292dbcf.jpg</url>
+./public/author/nelson-bighetti/index.xml:12:      <link>http://localhost:1313/author/nelson-bighetti/</link>
+./public/author/nelson-bighetti/index.xml:17:      <link>http://localhost:1313/publication/preprint/</link>
+./public/author/nelson-bighetti/index.xml:19:      <guid>http://localhost:1313/publication/preprint/</guid>
+./public/author/nelson-bighetti/index.xml:31:      <link>http://localhost:1313/publication/journal-article/</link>
+./public/author/nelson-bighetti/index.xml:33:      <guid>http://localhost:1313/publication/journal-article/</guid>
+./public/author/nelson-bighetti/index.xml:50:      <link>http://localhost:1313/publication/conference-paper/</link>
+./public/author/nelson-bighetti/index.xml:52:      <guid>http://localhost:1313/publication/conference-paper/</guid>
+./public/author/noah-zelch/index.html:278:<link rel="alternate" hreflang="en-us" href="http://localhost:1313/author/noah-zelch/" />
+./public/author/noah-zelch/index.html:279:<link rel="canonical" href="http://localhost:1313/author/noah-zelch/" />
+./public/author/noah-zelch/index.html:311:<meta property="twitter:image" content="http://localhost:1313/author/noah-zelch/avatar_hu_e9dd18c096e930ef.png" />
+./public/author/noah-zelch/index.html:319:<meta property="og:url" content="http://localhost:1313/author/noah-zelch/" />
+./public/author/noah-zelch/index.html:321:<meta property="og:description" content="A student-driven, NMR-focused research group studying physical properties of materials. At William &amp; Mary in Williamsburg, Virginia." /><meta property="og:image" content="http://localhost:1313/author/noah-zelch/avatar_hu_e9dd18c096e930ef.png" /><meta property="og:locale" content="en-us" />
+./public/author/noah-zelch/index.xml:2:<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+./public/author/noah-zelch/index.xml:5:    <link>http://localhost:1313/author/noah-zelch/</link>
+./public/author/noah-zelch/index.xml:6:      <atom:link href="http://localhost:1313/author/noah-zelch/index.xml" rel="self" type="application/rss+xml" />
+./public/author/noah-zelch/index.xml:10:      <url>http://localhost:1313/author/noah-zelch/avatar_hu_e9dd18c096e930ef.png</url>
+./public/author/noah-zelch/index.xml:12:      <link>http://localhost:1313/author/noah-zelch/</link>
+./public/author/robert-ford/index.html:278:<link rel="alternate" hreflang="en-us" href="http://localhost:1313/author/robert-ford/" />
+./public/author/robert-ford/index.html:279:<link rel="canonical" href="http://localhost:1313/author/robert-ford/" />
+./public/author/robert-ford/index.html:310:<meta property="twitter:image" content="http://localhost:1313/media/logo_hu_ce9856a497eb07e5.png" />
+./public/author/robert-ford/index.html:318:<meta property="og:url" content="http://localhost:1313/author/robert-ford/" />
+./public/author/robert-ford/index.html:320:<meta property="og:description" content="A student-driven, NMR-focused research group studying physical properties of materials. At William &amp; Mary in Williamsburg, Virginia." /><meta property="og:image" content="http://localhost:1313/media/logo_hu_ce9856a497eb07e5.png" /><meta property="og:locale" content="en-us" />
+./public/author/robert-ford/index.xml:2:<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+./public/author/robert-ford/index.xml:5:    <link>http://localhost:1313/author/robert-ford/</link>
+./public/author/robert-ford/index.xml:6:      <atom:link href="http://localhost:1313/author/robert-ford/index.xml" rel="self" type="application/rss+xml" />
+./public/author/robert-ford/index.xml:10:      <url>http://localhost:1313/media/logo_hu_ce9856a497eb07e5.png</url>
+./public/author/robert-ford/index.xml:12:      <link>http://localhost:1313/author/robert-ford/</link>
+./public/author/robert-ford/index.xml:17:      <link>http://localhost:1313/publications_backup/journal-article/</link>
+./public/author/robert-ford/index.xml:19:      <guid>http://localhost:1313/publications_backup/journal-article/</guid>
+./public/author/robert-ford/index.xml:36:      <link>http://localhost:1313/publications_backup/conference-paper/</link>
+./public/author/robert-ford/index.xml:38:      <guid>http://localhost:1313/publications_backup/conference-paper/</guid>
+./public/author/shalom-akolatse/index.html:278:<link rel="alternate" hreflang="en-us" href="http://localhost:1313/author/shalom-akolatse/" />
+./public/author/shalom-akolatse/index.html:279:<link rel="canonical" href="http://localhost:1313/author/shalom-akolatse/" />
+./public/author/shalom-akolatse/index.html:311:<meta property="twitter:image" content="http://localhost:1313/author/shalom-akolatse/avatar_hu_57ca7a5c80a5ae91.jpg" />
+./public/author/shalom-akolatse/index.html:319:<meta property="og:url" content="http://localhost:1313/author/shalom-akolatse/" />
+./public/author/shalom-akolatse/index.html:321:<meta property="og:description" content="A student-driven, NMR-focused research group studying physical properties of materials. At William &amp; Mary in Williamsburg, Virginia." /><meta property="og:image" content="http://localhost:1313/author/shalom-akolatse/avatar_hu_57ca7a5c80a5ae91.jpg" /><meta property="og:locale" content="en-us" />
+./public/author/shalom-akolatse/index.xml:2:<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+./public/author/shalom-akolatse/index.xml:5:    <link>http://localhost:1313/author/shalom-akolatse/</link>
+./public/author/shalom-akolatse/index.xml:6:      <atom:link href="http://localhost:1313/author/shalom-akolatse/index.xml" rel="self" type="application/rss+xml" />
+./public/author/shalom-akolatse/index.xml:10:      <url>http://localhost:1313/author/shalom-akolatse/avatar_hu_57ca7a5c80a5ae91.jpg</url>
+./public/author/shalom-akolatse/index.xml:12:      <link>http://localhost:1313/author/shalom-akolatse/</link>
+./public/author/thomas-felton/index.html:278:<link rel="alternate" hreflang="en-us" href="http://localhost:1313/author/thomas-felton/" />
+./public/author/thomas-felton/index.html:279:<link rel="canonical" href="http://localhost:1313/author/thomas-felton/" />
+./public/author/thomas-felton/index.html:311:<meta property="twitter:image" content="http://localhost:1313/author/thomas-felton/avatar_hu_2b5504fe67b3b94.jpeg" />
+./public/author/thomas-felton/index.html:319:<meta property="og:url" content="http://localhost:1313/author/thomas-felton/" />
+./public/author/thomas-felton/index.html:321:<meta property="og:description" content="A student-driven, NMR-focused research group studying physical properties of materials. At William &amp; Mary in Williamsburg, Virginia." /><meta property="og:image" content="http://localhost:1313/author/thomas-felton/avatar_hu_2b5504fe67b3b94.jpeg" /><meta property="og:locale" content="en-us" />
+./public/author/thomas-felton/index.xml:2:<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+./public/author/thomas-felton/index.xml:5:    <link>http://localhost:1313/author/thomas-felton/</link>
+./public/author/thomas-felton/index.xml:6:      <atom:link href="http://localhost:1313/author/thomas-felton/index.xml" rel="self" type="application/rss+xml" />
+./public/author/thomas-felton/index.xml:10:      <url>http://localhost:1313/author/thomas-felton/avatar_hu_2b5504fe67b3b94.jpeg</url>
+./public/author/thomas-felton/index.xml:12:      <link>http://localhost:1313/author/thomas-felton/</link>
+./public/author/tyler-meldrum/index.html:278:<link rel="alternate" hreflang="en-us" href="http://localhost:1313/author/tyler-meldrum/" />
+./public/author/tyler-meldrum/index.html:279:<link rel="canonical" href="http://localhost:1313/author/tyler-meldrum/" />
+./public/author/tyler-meldrum/index.html:311:<meta property="twitter:image" content="http://localhost:1313/author/tyler-meldrum/avatar_hu_b50dfb07cfcf9345.png" />
+./public/author/tyler-meldrum/index.html:319:<meta property="og:url" content="http://localhost:1313/author/tyler-meldrum/" />
+./public/author/tyler-meldrum/index.html:321:<meta property="og:description" content="A student-driven, NMR-focused research group studying physical properties of materials. At William &amp; Mary in Williamsburg, Virginia." /><meta property="og:image" content="http://localhost:1313/author/tyler-meldrum/avatar_hu_b50dfb07cfcf9345.png" /><meta property="og:locale" content="en-us" />
+./public/author/tyler-meldrum/index.xml:2:<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+./public/author/tyler-meldrum/index.xml:5:    <link>http://localhost:1313/author/tyler-meldrum/</link>
+./public/author/tyler-meldrum/index.xml:6:      <atom:link href="http://localhost:1313/author/tyler-meldrum/index.xml" rel="self" type="application/rss+xml" />
+./public/author/tyler-meldrum/index.xml:10:      <url>http://localhost:1313/author/tyler-meldrum/avatar_hu_b50dfb07cfcf9345.png</url>
+./public/author/tyler-meldrum/index.xml:12:      <link>http://localhost:1313/author/tyler-meldrum/</link>
+./public/authors/index.html:278:<link rel="alternate" hreflang="en-us" href="http://localhost:1313/authors/" />
+./public/authors/index.html:279:<link rel="canonical" href="http://localhost:1313/authors/" />
+./public/authors/index.html:310:<meta property="twitter:image" content="http://localhost:1313/media/logo_hu_ce9856a497eb07e5.png" />
+./public/authors/index.html:318:<meta property="og:url" content="http://localhost:1313/authors/" />
+./public/authors/index.html:320:<meta property="og:description" content="A student-driven, NMR-focused research group studying physical properties of materials. At William &amp; Mary in Williamsburg, Virginia." /><meta property="og:image" content="http://localhost:1313/media/logo_hu_ce9856a497eb07e5.png" /><meta property="og:locale" content="en-us" />
+./public/authors/index.html:760:      <li><a href="http://localhost:1313/author/admin/">Admin</a></li>
+./public/authors/index.html:763:      <li><a href="http://localhost:1313/author/robert-ford/">Robert Ford</a></li>
+./public/authors/index.html:766:      <li><a href="http://localhost:1313/author/david-han/">David Han</a></li>
+./public/authors/index.html:769:      <li><a href="http://localhost:1313/author/eliza-evans/">Eliza Evans</a></li>
+./public/authors/index.html:772:      <li><a href="http://localhost:1313/author/huy-le/">Huy Le</a></li>
+./public/authors/index.html:775:      <li><a href="http://localhost:1313/author/john-golding/">John Golding</a></li>
+./public/authors/index.html:778:      <li><a href="http://localhost:1313/author/kelly-ann-sutterfield/">Kelly Ann Sutterfield</a></li>
+./public/authors/index.html:781:      <li><a href="http://localhost:1313/author/kylie-mccoy/">Kylie McCoy</a></li>
+./public/authors/index.html:784:      <li><a href="http://localhost:1313/author/megan-pruitt/">Megan Pruitt</a></li>
+./public/authors/index.html:787:      <li><a href="http://localhost:1313/author/noah-zelch/">Noah Zelch</a></li>
+./public/authors/index.xml:2:<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+./public/authors/index.xml:5:    <link>http://localhost:1313/authors/</link>
+./public/authors/index.xml:6:      <atom:link href="http://localhost:1313/authors/index.xml" rel="self" type="application/rss+xml" />
+./public/authors/index.xml:10:      <url>http://localhost:1313/media/logo_hu_ce9856a497eb07e5.png</url>
+./public/authors/index.xml:12:      <link>http://localhost:1313/authors/</link>
+./public/authors/page/1/index.html:4:    <title>http://localhost:1313/authors/</title>
+./public/authors/page/1/index.html:5:    <link rel="canonical" href="http://localhost:1313/authors/">
+./public/authors/page/1/index.html:8:    <meta http-equiv="refresh" content="0; url=http://localhost:1313/authors/">
+./public/authors/page/2/index.html:278:<link rel="alternate" hreflang="en-us" href="http://localhost:1313/authors/" />
+./public/authors/page/2/index.html:279:<link rel="canonical" href="http://localhost:1313/authors/" />
+./public/authors/page/2/index.html:310:<meta property="twitter:image" content="http://localhost:1313/media/logo_hu_ce9856a497eb07e5.png" />
+./public/authors/page/2/index.html:318:<meta property="og:url" content="http://localhost:1313/authors/" />
+./public/authors/page/2/index.html:320:<meta property="og:description" content="A student-driven, NMR-focused research group studying physical properties of materials. At William &amp; Mary in Williamsburg, Virginia." /><meta property="og:image" content="http://localhost:1313/media/logo_hu_ce9856a497eb07e5.png" /><meta property="og:locale" content="en-us" />
+./public/authors/page/2/index.html:760:      <li><a href="http://localhost:1313/author/shalom-akolatse/">Shalom Akolatse</a></li>
+./public/authors/page/2/index.html:763:      <li><a href="http://localhost:1313/author/thomas-felton/">Thomas Felton</a></li>
+./public/authors/page/2/index.html:766:      <li><a href="http://localhost:1313/author/tyler-meldrum/">Tyler Meldrum</a></li>
+./public/categories/index.html:278:<link rel="alternate" hreflang="en-us" href="http://localhost:1313/categories/" />
+./public/categories/index.html:279:<link rel="canonical" href="http://localhost:1313/categories/" />
+./public/categories/index.html:311:<meta property="twitter:image" content="http://localhost:1313/media/icon_hu_7613a4a452ac7087.png" />
+./public/categories/index.html:319:<meta property="og:url" content="http://localhost:1313/categories/" />
+./public/categories/index.html:321:<meta property="og:description" content="A highly-customizable Hugo research group theme powered by Wowchemy website builder." /><meta property="og:image" content="http://localhost:1313/media/icon_hu_7613a4a452ac7087.png" /><meta property="og:locale" content="en-us" />
+./public/categories/index.xml:2:<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+./public/categories/index.xml:5:    <link>http://localhost:1313/categories/</link>
+./public/categories/index.xml:6:      <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+./public/categories/index.xml:10:      <url>http://localhost:1313/media/icon_hu_7613a4a452ac7087.png</url>
+./public/categories/index.xml:12:      <link>http://localhost:1313/categories/</link>
+./public/categories/page/1/index.html:4:    <title>http://localhost:1313/categories/</title>
+./public/categories/page/1/index.html:5:    <link rel="canonical" href="http://localhost:1313/categories/">
+./public/categories/page/1/index.html:8:    <meta http-equiv="refresh" content="0; url=http://localhost:1313/categories/">
+./public/contact/index.html:282:<link rel="alternate" hreflang="en-us" href="http://localhost:1313/contact/" />
+./public/contact/index.html:283:<link rel="canonical" href="http://localhost:1313/contact/" />
+./public/contact/index.html:314:<meta property="twitter:image" content="http://localhost:1313/media/logo_hu_ce9856a497eb07e5.png" />
+./public/contact/index.html:322:<meta property="og:url" content="http://localhost:1313/contact/" />
+./public/contact/index.html:324:<meta property="og:description" content="" /><meta property="og:image" content="http://localhost:1313/media/logo_hu_ce9856a497eb07e5.png" /><meta property="og:locale" content="en-us" />
+./public/css/wowchemy.css:1570:  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8' viewBox='0 0 8 8'%3e%3cpath fill='%2328a745' d='M2.3 6.73L.6 4.53c-.4-1.04.46-1.4 1.1-.8l1.1 1.4 3.4-3.8c.6-.63 1.6-.27 1.2.7l-4 4.6c-.43.5-.8.4-1.1.1z'/%3e%3c/svg%3e");
+./public/css/wowchemy.css:1589:  background: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='4' height='5' viewBox='0 0 4 5'%3e%3cpath fill='%23343a40' d='M2 0L0 2h4zm0 5L0 3h4z'/%3e%3c/svg%3e") right 0.75rem center/8px 10px no-repeat, #fff url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8' viewBox='0 0 8 8'%3e%3cpath fill='%2328a745' d='M2.3 6.73L.6 4.53c-.4-1.04.46-1.4 1.1-.8l1.1 1.4 3.4-3.8c.6-.63 1.6-.27 1.2.7l-4 4.6c-.43.5-.8.4-1.1.1z'/%3e%3c/svg%3e") center right 1.75rem/calc(0.75em + 0.375rem) calc(0.75em + 0.375rem) no-repeat; }
+./public/css/wowchemy.css:1657:  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' fill='none' stroke='%23dc3545' viewBox='0 0 12 12'%3e%3ccircle cx='6' cy='6' r='4.5'/%3e%3cpath stroke-linejoin='round' d='M5.8 3.6h.4L6 6.5z'/%3e%3ccircle cx='6' cy='8.2' r='.6' fill='%23dc3545' stroke='none'/%3e%3c/svg%3e");
+./public/css/wowchemy.css:1676:  background: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='4' height='5' viewBox='0 0 4 5'%3e%3cpath fill='%23343a40' d='M2 0L0 2h4zm0 5L0 3h4z'/%3e%3c/svg%3e") right 0.75rem center/8px 10px no-repeat, #fff url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' fill='none' stroke='%23dc3545' viewBox='0 0 12 12'%3e%3ccircle cx='6' cy='6' r='4.5'/%3e%3cpath stroke-linejoin='round' d='M5.8 3.6h.4L6 6.5z'/%3e%3ccircle cx='6' cy='8.2' r='.6' fill='%23dc3545' stroke='none'/%3e%3c/svg%3e") center right 1.75rem/calc(0.75em + 0.375rem) calc(0.75em + 0.375rem) no-repeat; }
+./public/css/wowchemy.css:2703:  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8' viewBox='0 0 8 8'%3e%3cpath fill='%23fff' d='M6.564.75l-3.59 3.612-1.538-1.55L0 4.26l2.974 2.99L8 2.193z'/%3e%3c/svg%3e"); }
+./public/css/wowchemy.css:2710:  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='4' height='4' viewBox='0 0 4 4'%3e%3cpath stroke='%23fff' d='M0 2h4'/%3e%3c/svg%3e"); }
+./public/css/wowchemy.css:2722:  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='%23fff'/%3e%3c/svg%3e"); }
+./public/css/wowchemy.css:2761:  background: #fff url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='4' height='5' viewBox='0 0 4 5'%3e%3cpath fill='%23343a40' d='M2 0L0 2h4zm0 5L0 3h4z'/%3e%3c/svg%3e") right 0.75rem center/8px 10px no-repeat;
+./public/css/wowchemy.css:3308:  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='%2334495e' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e"); }
+./public/css/wowchemy.css:3340:  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.5%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e"); }
+./public/css/wowchemy.css:4630:  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' width='8' height='8' viewBox='0 0 8 8'%3e%3cpath d='M5.25 0l-4 4 4 4 1.5-1.5L4.25 4l2.5-2.5L5.25 0z'/%3e%3c/svg%3e"); }
+./public/css/wowchemy.css:4633:  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' width='8' height='8' viewBox='0 0 8 8'%3e%3cpath d='M2.75 0l-1.5 1.5L3.75 4l-2.5 2.5L2.75 8l4-4-4-4z'/%3e%3c/svg%3e"); }
+./public/event/example/index.html:278:<link rel="alternate" hreflang="en-us" href="http://localhost:1313/event/example/" />
+./public/event/example/index.html:279:<link rel="canonical" href="http://localhost:1313/event/example/" />
+./public/event/example/index.html:309:<meta property="twitter:image" content="http://localhost:1313/event/example/featured.jpg" />
+./public/event/example/index.html:317:<meta property="og:url" content="http://localhost:1313/event/example/" />
+./public/event/example/index.html:319:<meta property="og:description" content="An example event." /><meta property="og:image" content="http://localhost:1313/event/example/featured.jpg" /><meta property="og:locale" content="en-us" />
+./public/event/example/index.html:349:    "@id": "http://localhost:1313/event/example/"
+./public/event/example/index.html:369:    "http://localhost:1313/event/example/featured.jpg"
+./public/event/index.html:278:<link rel="alternate" hreflang="en-us" href="http://localhost:1313/event/" />
+./public/event/index.html:279:<link rel="canonical" href="http://localhost:1313/event/" />
+./public/event/index.html:310:<meta property="twitter:image" content="http://localhost:1313/media/logo_hu_ce9856a497eb07e5.png" />
+./public/event/index.html:318:<meta property="og:url" content="http://localhost:1313/event/" />
+./public/event/index.html:320:<meta property="og:description" content="A student-driven, NMR-focused research group studying physical properties of materials. At William &amp; Mary in Williamsburg, Virginia." /><meta property="og:image" content="http://localhost:1313/media/logo_hu_ce9856a497eb07e5.png" /><meta property="og:locale" content="en-us" />
+./public/event/index.xml:2:<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+./public/event/index.xml:5:    <link>http://localhost:1313/event/</link>
+./public/event/index.xml:6:      <atom:link href="http://localhost:1313/event/index.xml" rel="self" type="application/rss+xml" />
+./public/event/index.xml:10:      <url>http://localhost:1313/media/logo_hu_ce9856a497eb07e5.png</url>
+./public/event/index.xml:12:      <link>http://localhost:1313/event/</link>
+./public/event/index.xml:17:      <link>http://localhost:1313/event/example/</link>
+./public/event/index.xml:19:      <guid>http://localhost:1313/event/example/</guid>
+./public/index.html:290:<link rel="alternate" hreflang="en-us" href="http://localhost:1313/" />
+./public/index.html:291:<link rel="canonical" href="http://localhost:1313/" />
+./public/index.html:322:<meta property="twitter:image" content="http://localhost:1313/media/logo_hu_ce9856a497eb07e5.png" />
+./public/index.html:332:<meta property="og:url" content="http://localhost:1313/" />
+./public/index.html:334:<meta property="og:description" content="A student-driven, NMR-focused research group studying physical properties of materials. At William &amp; Mary in Williamsburg, Virginia." /><meta property="og:image" content="http://localhost:1313/media/logo_hu_ce9856a497eb07e5.png" /><meta property="og:locale" content="en-us" />
+./public/index.html:350:    "target": "http://localhost:1313/?q={search_term_string}",
+./public/index.html:353:  "url": "http://localhost:1313/"
+./public/index.html:363:  "@id": "http://localhost:1313/",
+./public/index.html:365:  "logo": "http://localhost:1313/media/logo_hu_cf3a2abd5608f06d.png",
+./public/index.html:370:  "url": "http://localhost:1313/"
+./public/index.html:382:    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+./public/index.json:28:    [{"authors":null,"categories":null,"content":"","date":-62135596800,"expirydate":-62135596800,"kind":"term","lang":"en","lastmod":-62135596800,"objectID":"addd2714b3af5636e763aab5c74c3dac","permalink":"http://localhost:1313/author/david-han/","publishdate":"0001-01-01T00:00:00Z","relpermalink":"/author/david-han/","section":"authors","summary":"","tags":null,"title":"David Han","type":"authors"},{"authors":null,"categories":null,"content":"","date":-62135596800,"expirydate":-62135596800,"kind":"term","lang":"en","lastmod":-62135596800,"objectID":"b845a157b565d79fe6e51292a4c2f714","permalink":"http://localhost:1313/author/eliza-evans/","publishdate":"0001-01-01T00:00:00Z","relpermalink":"/author/eliza-evans/","section":"authors","summary":"","tags":null,"title":"Eliza Evans","type":"authors"},{"authors":null,"categories":null,"content":"","date":-62135596800,"expirydate":-62135596800,"kind":"term","lang":"en","lastmod":-62135596800,"objectID":"b8318084f1a02095e0190c2e2f392148","permalink":"http://localhost:1313/author/huy-le/","publishdate":"0001-01-01T00:00:00Z","relpermalink":"/author/huy-le/","section":"authors","summary":"","tags":null,"title":"Huy Le","type":"authors"},{"authors":null,"categories":null,"content":"","date":-62135596800,"expirydate":-62135596800,"kind":"term","lang":"en","lastmod":-62135596800,"objectID":"40d944f5f126ed0695824865445659d1","permalink":"http://localhost:1313/author/john-golding/","publishdate":"0001-01-01T00:00:00Z","relpermalink":"/author/john-golding/","section":"authors","summary":"","tags":null,"title":"John Golding","type":"authors"},{"authors":null,"categories":null,"content":"Kelly Ann Sutterfield is a Senior in the Meldrum Lab. She joined the lab her Freshman year and has worked on projects involving epoxy cure time, local archaeology, and pulse sequence programming. She is grateful to the lab for the friends she has made and the opportunities to apply what she learns in class.\nOutside of lab, Kelly Ann is on the William \u0026amp; Mary Cross Country and Track teams. Additionally, she is secretary of Tribe Rocket Club and a member of Catholic Campus Ministry. Kelly Ann interned in Texas this summer working for the Department of Energy and is hoping to pursue that path after graduation.\n","date":-62135596800,"expirydate":-62135596800,"kind":"term","lang":"en","lastmod":-62135596800,"objectID":"ab24301cb8f630d321ab8b0fd4ba7ba5","permalink":"http://localhost:1313/author/kelly-ann-sutterfield/","publishdate":"0001-01-01T00:00:00Z","relpermalink":"/author/kelly-ann-sutterfield/","section":"authors","summary":"Kelly Ann Sutterfield is a Senior in the Meldrum Lab. She joined the lab her Freshman year and has worked on projects involving epoxy cure time, local archaeology, and pulse sequence programming. She is grateful to the lab for the friends she has made and the opportunities to apply what she learns in class.\n","tags":null,"title":"Kelly Ann Sutterfield","type":"authors"},{"authors":null,"categories":null,"content":"","date":-62135596800,"expirydate":-62135596800,"kind":"term","lang":"en","lastmod":-62135596800,"objectID":"0513ddea3e8525cb39db3cfd24a40c8d","permalink":"http://localhost:1313/author/kylie-mccoy/","publishdate":"0001-01-01T00:00:00Z","relpermalink":"/author/kylie-mccoy/","section":"authors","summary":"","tags":null,"title":"Kylie McCoy","type":"authors"},{"authors":null,"categories":null,"content":"","date":-62135596800,"expirydate":-62135596800,"kind":"term","lang":"en","lastmod":-62135596800,"objectID":"8165fb8423dc26a030b18fc89b594842","permalink":"http://localhost:1313/author/megan-pruitt/","publishdate":"0001-01-01T00:00:00Z","relpermalink":"/author/megan-pruitt/","section":"authors","summary":"","tags":null,"title":"Megan Pruitt","type":"authors"},{"authors":null,"categories":null,"content":"Noah Zelch is a senior at William \u0026amp; Mary and is a psychology major on the pre-physical therapy tract. In lab, Noah is interested in measuring and characterizing pore structure in porous archaeological artifacts, such as pottery and bricks.\nWhen not in lab, you can find Noah on the Club B soccer team, painting, or playing board games. He also loves to cook and watch movies (Eternal Sunshine of the Spotless Mind #1).\n","date":-62135596800,"expirydate":-62135596800,"kind":"term","lang":"en","lastmod":-62135596800,"objectID":"00dcaaec140afabb79dacc7d31427074","permalink":"http://localhost:1313/author/noah-zelch/","publishdate":"0001-01-01T00:00:00Z","relpermalink":"/author/noah-zelch/","section":"authors","summary":"Noah Zelch is a senior at William \u0026 Mary and is a psychology major on the pre-physical therapy tract. In lab, Noah is interested in measuring and characterizing pore structure in porous archaeological artifacts, such as pottery and bricks.\nWhen not in lab, you can find Noah on the Club B soccer team, painting, or playing board games. He also loves to cook and watch movies (Eternal Sunshine of the Spotless Mind #1).\n","tags":null,"title":"Noah Zelch","type":"authors"},{"authors":null,"categories":null,"content":"Originally from: it’s complicated (military kid).\nCurrently, Shalom’s favorite programming language is Rust. When he’s not moving the magnet between labs, he can be found sleeping on couches, fixing code, or going on random rants.\n","date":-62135596800,"expirydate":-62135596800,"kind":"term","lang":"en","lastmod":-62135596800,"objectID":"0fc60d1be08645b75cbf47502dd33af0","permalink":"http://localhost:1313/author/shalom-akolatse/","publishdate":"0001-01-01T00:00:00Z","relpermalink":"/author/shalom-akolatse/","section":"authors","summary":"Originally from: it’s complicated (military kid).\nCurrently, Shalom’s favorite programming language is Rust. When he’s not moving the magnet between labs, he can be found sleeping on couches, fixing code, or going on random rants.\n","tags":null,"title":"Shalom Akolatse","type":"authors"},{"authors":null,"categories":null,"content":"Thomas Felton is originally from Gainesville, Virginia. He is interested in Baseball, Data Analysis, and travel/exploration. He’s trying to create as many experiences as he can while he still has the time. When he’s not working/studying, he’s either playing club baseball or meandering (physically and/or mentally). He likes to keep his friends close and his food closer.\n","date":-62135596800,"expirydate":-62135596800,"kind":"term","lang":"en","lastmod":-62135596800,"objectID":"36600b2b1207a876b4d4d31e8dd49506","permalink":"http://localhost:1313/author/thomas-felton/","publishdate":"0001-01-01T00:00:00Z","relpermalink":"/author/thomas-felton/","section":"authors","summary":"Thomas Felton is originally from Gainesville, Virginia. He is interested in Baseball, Data Analysis, and travel/exploration. He’s trying to create as many experiences as he can while he still has the time. When he’s not working/studying, he’s either playing club baseball or meandering (physically and/or mentally). He likes to keep his friends close and his food closer.\n","tags":null,"title":"Thomas Felton","type":"authors"},{"authors":null,"categories":null,"content":"Tyler Meldrum is an Associate Professor of Chemistry at William \u0026amp; Mary and the PI of the spinlab. His research centers around nuclear magnetic resonance (NMR) to study a range of materials, including adhesives, archaeological samples, and art. His group also drives methodological advancements in single-sided NMR and uses computational and data-science methods to solve material problems. He teaches a range of general and physical chemistry courses.\nOutside of research and teaching, Tyler is a coffee enthusiast (black in the mornings, an oat milk cortado in the afternoons), loves scientific outreach, and is a proud father of two. 16-bit video games give him joy, physical activity keeps him grounded, and he’s honed his sass watching Taskmaster.\n","date":-62135596800,"expirydate":-62135596800,"kind":"term","lang":"en","lastmod":-62135596800,"objectID":"e06a3fdcb6b36baf24d88b20bb052a50","permalink":"http://localhost:1313/author/tyler-meldrum/","publishdate":"0001-01-01T00:00:00Z","relpermalink":"/author/tyler-meldrum/","section":"authors","summary":"Tyler Meldrum is an Associate Professor of Chemistry at William \u0026 Mary and the PI of the spinlab. His research centers around nuclear magnetic resonance (NMR) to study a range of materials, including adhesives, archaeological samples, and art. His group also drives methodological advancements in single-sided NMR and uses computational and data-science methods to solve material problems. He teaches a range of general and physical chemistry courses.\n","tags":null,"title":"Tyler Meldrum","type":"authors"},{"authors":[],"categories":null,"content":"Slides can be added in a few ways:\nCreate slides using Wowchemy’s Slides feature and link using slides parameter in the front matter of the talk file Upload an existing slide deck to static/ and link using url_slides parameter in the front matter of the talk file Embed your slides (e.g. Google Slides) or presentation video on this page using shortcodes. Further event details, including page elements such as image galleries, can be added to the body of this page.\n","date":1906549200,"expirydate":-62135596800,"kind":"page","lang":"en","lastmod":1906549200,"objectID":"a8edef490afe42206247b6ac05657af0","permalink":"http://localhost:1313/event/example/","publishdate":"2017-01-01T00:00:00Z","relpermalink":"/event/example/","section":"event","summary":"An example event.","tags":[],"title":"Example Event","type":"event"},{"authors":null,"categories":null,"content":"","date":1754006400,"expirydate":-62135596800,"kind":"page","lang":"en","lastmod":1754006400,"objectID":"6d99026b9e19e4fa43d5aadf147c7176","permalink":"http://localhost:1313/contact/","publishdate":"2025-08-01T00:00:00Z","relpermalink":"/contact/","section":"","summary":"","tags":null,"title":"Contact","type":"landing"},{"authors":null,"categories":null,"content":"","date":1754006400,"expirydate":-62135596800,"kind":"page","lang":"en","lastmod":1754006400,"objectID":"c6625328e7b2e36b114847f299065f54","permalink":"http://localhost:1313/resources/","publishdate":"2025-08-01T00:00:00Z","relpermalink":"/resources/","section":"","summary":"","tags":null,"title":"Resources","type":"landing"},{"authors":null,"categories":null,"content":"Congratulations to Jian Yang and Monica Hall for winning the Best Paper Award at the 2020 Conference on Wowchemy for their paper “Learning Wowchemy”.\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tempus augue non tempor egestas. Proin nisl nunc, dignissim in accumsan dapibus, auctor ullamcorper neque. Quisque at elit felis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Aenean eget elementum odio. Cras interdum eget risus sit amet aliquet. In volutpat, nisl ut fringilla dignissim, arcu nisl suscipit ante, at accumsan sapien nisl eu eros.\nSed eu dui nec ligula bibendum dapibus. Nullam imperdiet auctor tortor, vel cursus mauris malesuada non. Quisque ultrices euismod dapibus. Aenean sed gravida risus. Sed nisi tortor, vulputate nec quam non, placerat porta nisl. Nunc varius lobortis urna, condimentum facilisis ipsum molestie eu. Ut molestie eleifend ligula sed dignissim. Duis ut tellus turpis. Praesent tincidunt, nunc sed congue malesuada, mauris enim maximus massa, eget interdum turpis urna et ante. Morbi sem nisl, cursus quis mollis et, interdum luctus augue. Aliquam laoreet, leo et accumsan tincidunt, libero neque aliquet lectus, a ultricies lorem mi a orci.\nMauris dapibus sem vel magna convallis laoreet. Donec in venenatis urna, vitae sodales odio. Praesent tortor diam, varius non luctus nec, bibendum vel est. Quisque id sem enim. Maecenas at est leo. Vestibulum tristique pellentesque ex, blandit placerat nunc eleifend sit amet. Fusce eget lectus bibendum, accumsan mi quis, luctus sem. Etiam vitae nulla scelerisque, eleifend odio in, euismod quam. Etiam porta ullamcorper massa, vitae gravida turpis euismod quis. Mauris sodales sem ac ultrices viverra. In placerat ultrices sapien. Suspendisse eu arcu hendrerit, luctus tortor cursus, maximus dolor. Proin et velit et quam gravida dapibus. Donec blandit justo ut consequat tristique.\n","date":1751414400,"expirydate":-62135596800,"kind":"page","lang":"en","lastmod":1751414400,"objectID":"9c9ca990526e78c95983fa6a7d466828","permalink":"http://localhost:1313/post_backup/20-12-02-icml-best-paper/","publishdate":"2025-07-02T00:00:00Z","relpermalink":"/post_backup/20-12-02-icml-best-paper/","section":"post_backup","summary":"Congratulations to Jian Yang and Monica Hall for winning the Best Paper Award at the 2020 Conference on Wowchemy for their paper “Learning Wowchemy”.\n","tags":null,"title":"Jian Yang and Monica Hall Win the Best Paper Award at Wowchemy 2020","type":"post_backup"},{"authors":null,"categories":null,"content":"Congratulations to Shinjer, Nathan, and Olivia, our 2025 graduates!\nNathan and Shinjer, both December 2024 graduates, are starting medical school this fall. Olivia will be moving to Madison, Wisconisn for a Ph.D. program in Chemistry. Congratulations, all of you! We’ll miss you in the spinlab!\n","date":1746144000,"expirydate":-62135596800,"kind":"page","lang":"en","lastmod":1746144000,"objectID":"3c58ec8f19fea7cefe2e1f881372d919","permalink":"http://localhost:1313/post/25-05-02_graduates/","publishdate":"2025-05-02T00:00:00Z","relpermalink":"/post/25-05-02_graduates/","section":"post","summary":"Congratulations to Shinjer, Nathan, and Olivia, our 2025 graduates!\n","tags":null,"title":"2025 Graduation","type":"post"},{"authors":null,"categories":null,"content":"","date":1666569600,"expirydate":-62135596800,"kind":"page","lang":"en","lastmod":1666569600,"objectID":"c1d17ff2b20dca0ad6653a3161942b64","permalink":"http://localhost:1313/people/","publishdate":"2022-10-24T00:00:00Z","relpermalink":"/people/","section":"","summary":"","tags":null,"title":"People","type":"landing"},{"authors":null,"categories":null,"content":"","date":1666569600,"expirydate":-62135596800,"kind":"page","lang":"en","lastmod":1666569600,"objectID":"b0d61e5cbb7472bf320bf0ef2aaeb977","permalink":"http://localhost:1313/tour/","publishdate":"2022-10-24T00:00:00Z","relpermalink":"/tour/","section":"","summary":"","tags":null,"title":"Tour","type":"landing"},{"authors":null,"categories":null,"content":"Congratulations to Richard Hendricks for winning first place in the Wowchemy Prize.\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tempus augue non tempor egestas. Proin nisl nunc, dignissim in accumsan dapibus, auctor ullamcorper neque. Quisque at elit felis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Aenean eget elementum odio. Cras interdum eget risus sit amet aliquet. In volutpat, nisl ut fringilla dignissim, arcu nisl suscipit ante, at accumsan sapien nisl eu eros.\nSed eu dui nec ligula bibendum dapibus. Nullam imperdiet auctor tortor, vel cursus mauris malesuada non. Quisque ultrices euismod dapibus. Aenean sed gravida risus. Sed nisi tortor, vulputate nec quam non, placerat porta nisl. Nunc varius lobortis urna, condimentum facilisis ipsum molestie eu. Ut molestie eleifend ligula sed dignissim. Duis ut tellus turpis. Praesent tincidunt, nunc sed congue malesuada, mauris enim maximus massa, eget interdum turpis urna et ante. Morbi sem nisl, cursus quis mollis et, interdum luctus augue. Aliquam laoreet, leo et accumsan tincidunt, libero neque aliquet lectus, a ultricies lorem mi a orci.\nMauris dapibus sem vel magna convallis laoreet. Donec in venenatis urna, vitae sodales odio. Praesent tortor diam, varius non luctus nec, bibendum vel est. Quisque id sem enim. Maecenas at est leo. Vestibulum tristique pellentesque ex, blandit placerat nunc eleifend sit amet. Fusce eget lectus bibendum, accumsan mi quis, luctus sem. Etiam vitae nulla scelerisque, eleifend odio in, euismod quam. Etiam porta ullamcorper massa, vitae gravida turpis euismod quis. Mauris sodales sem ac ultrices viverra. In placerat ultrices sapien. Suspendisse eu arcu hendrerit, luctus tortor cursus, maximus dolor. Proin et velit et quam gravida dapibus. Donec blandit justo ut consequat tristique.\n","date":1593561600,"expirydate":-62135596800,"kind":"page","lang":"en","lastmod":1593561600,"objectID":"9ddb3fc934784279609f6391be9b9393","permalink":"http://localhost:1313/post_backup/20-12-01-wowchemy-prize/","publishdate":"2020-07-01T00:00:00Z","relpermalink":"/post_backup/20-12-01-wowchemy-prize/","section":"post_backup","summary":"Congratulations to Richard Hendricks for winning first place in the Wowchemy Prize.\n","tags":null,"title":"Richard Hendricks Wins First Place in the Wowchemy Prize","type":"post_backup"},{"authors":["admin"],"categories":null,"content":" Create your slides in Markdown - click the Slides button to check out the example. Add the publication’s full text or supplementary notes here. You can use rich formatting such as including code, math, and images.\n","date":1554595200,"expirydate":-62135596800,"kind":"page","lang":"en","lastmod":1554595200,"objectID":"f358503f489380b59087f40b25c80d64","permalink":"http://localhost:1313/publications_backup/preprint/","publishdate":"2017-01-01T00:00:00Z","relpermalink":"/publications_backup/preprint/","section":"publications_backup","summary":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.","tags":["Source Themes"],"title":"An example preprint / working paper","type":"publications_backup"},{"authors":null,"categories":null,"content":"\r","date":1554595200,"expirydate":-62135596800,"kind":"page","lang":"en","lastmod":1554595200,"objectID":"1ad86876de62ea1bd3d5ac5d8aeec820","permalink":"http://localhost:1313/publications/physical-chemistry-equations/","publishdate":"2019-04-07T00:00:00Z","relpermalink":"/publications/physical-chemistry-equations/","section":"publications","summary":"A collction of equations useful to physical chemistry. LaTeX source code available on GitHub. PDF is available here.","tags":["Source Themes"],"title":"Physical Chemistry Equations","type":"publications"},{"authors":["admin","Robert Ford"],"categories":null,"content":" Click the Cite button above to demo the feature to enable visitors to import publication metadata into their reference management software. Create your slides in Markdown - click the Slides button to check out the example. Add the publication’s full text or supplementary notes here. You can use rich formatting such as including code, math, and images.\n","date":1441065600,"expirydate":-62135596800,"kind":"page","lang":"en","lastmod":1441065600,"objectID":"d56ab6b6cb0ece9faa63e1983463539b","permalink":"http://localhost:1313/publications_backup/journal-article/","publishdate":"2017-01-01T00:00:00Z","relpermalink":"/publications_backup/journal-article/","section":"publications_backup","summary":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.","tags":["Source Themes"],"title":"An example journal article","type":"publications_backup"},{"authors":["admin","Robert Ford"],"categories":null,"content":" Click the Cite button above to demo the feature to enable visitors to import publication metadata into their reference management software. Create your slides in Markdown - click the Slides button to check out the example. Add the publication’s full text or supplementary notes here. You can use rich formatting such as including code, math, and images.\n","date":1372636800,"expirydate":-62135596800,"kind":"page","lang":"en","lastmod":1372636800,"objectID":"8caa0c0799755fd75f0d0c0ab83edd79","permalink":"http://localhost:1313/publications_backup/conference-paper/","publishdate":"2017-01-01T00:00:00Z","relpermalink":"/publications_backup/conference-paper/","section":"publications_backup","summary":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.","tags":[],"title":"An example conference paper","type":"publications_backup"},{"authors":null,"categories":null,"content":"","date":-62135596800,"expirydate":-62135596800,"kind":"page","lang":"en","lastmod":-62135596800,"objectID":"e585485133624dbdfed13af139582c6e","permalink":"http://localhost:1313/research/applications/","publishdate":"0001-01-01T00:00:00Z","relpermalink":"/research/applications/","section":"research","summary":"*Using NMR to study adhesives, artwork, and more*\n\nWe using NMR, along with other methods, to study a wide range of materials and applications. Some of these include coatings, epoxies, and polymers; chemical kinetics; art, archaeology, and objects of cultural heritage; and biomaterials.\n","tags":null,"title":"Applications","type":"research"},{"authors":null,"categories":null,"content":"","date":-62135596800,"expirydate":-62135596800,"kind":"page","lang":"en","lastmod":-62135596800,"objectID":"e10a0aae072b898820d3c2cf8db512ef","permalink":"http://localhost:1313/research/computational-modeling-and-analysis/","publishdate":"0001-01-01T00:00:00Z","relpermalink":"/research/computational-modeling-and-analysis/","section":"research","summary":"*Connecting molecular behavior and macroscopic measurements.*\n\nWe use computational methods to predict and interpret relaxometry and other measurements done using single-sided magnets. We also actively pursue better methods to analyze relaxometry data in context of particular applications.\n","tags":null,"title":"Computational Modeling and Analysis","type":"research"},{"authors":null,"categories":null,"content":"","date":-62135596800,"expirydate":-62135596800,"kind":"page","lang":"en","lastmod":-62135596800,"objectID":"8cce6efb49a430d57b51d5ce8ceb931a","permalink":"http://localhost:1313/research/instrumentation-and-methods/","publishdate":"0001-01-01T00:00:00Z","relpermalink":"/research/instrumentation-and-methods/","section":"research","summary":"*Improving single-sided NMR instrumentation and use*\n\nWe develop pulse sequences, nuclear hyperpolarization, and accessory hardware that improve the ease of use, accuracy, and quality of single-sided NMR measurements.\n","tags":null,"title":"Instrumentation and Methods","type":"research"},{"authors":null,"categories":null,"content":"","date":-62135596800,"expirydate":-62135596800,"kind":"page","lang":"en","lastmod":-62135596800,"objectID":"36b31893f706217b27491d3609df855c","permalink":"http://localhost:1313/research/skills/","publishdate":"0001-01-01T00:00:00Z","relpermalink":"/research/skills/","section":"research","summary":"*Skills students learn*\n\nStudents in the spinlab develop a range of skills broadly relevant to science and research. Some of these skills include experimental design, electronics, Python and/or Matlab programming, literature searching, and data management.\n","tags":null,"title":"Skills","type":"research"}]
+./public/index.xml:2:<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+./public/index.xml:5:    <link>http://localhost:1313/</link>
+./public/index.xml:6:      <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+./public/index.xml:10:      <url>http://localhost:1313/media/logo_hu_ce9856a497eb07e5.png</url>
+./public/index.xml:12:      <link>http://localhost:1313/</link>
+./public/index.xml:17:      <link>http://localhost:1313/event/example/</link>
+./public/index.xml:19:      <guid>http://localhost:1313/event/example/</guid>
+./public/index.xml:32:      <link>http://localhost:1313/contact/</link>
+./public/index.xml:34:      <guid>http://localhost:1313/contact/</guid>
+./public/index.xml:40:      <link>http://localhost:1313/resources/</link>
+./public/index.xml:42:      <guid>http://localhost:1313/resources/</guid>
+./public/index.xml:48:      <link>http://localhost:1313/post_backup/20-12-02-icml-best-paper/</link>
+./public/index.xml:50:      <guid>http://localhost:1313/post_backup/20-12-02-icml-best-paper/</guid>
+./public/index.xml:59:      <link>http://localhost:1313/post/25-05-02_graduates/</link>
+./public/index.xml:61:      <guid>http://localhost:1313/post/25-05-02_graduates/</guid>
+./public/index.xml:68:      <link>http://localhost:1313/people/</link>
+./public/index.xml:70:      <guid>http://localhost:1313/people/</guid>
+./public/index.xml:76:      <link>http://localhost:1313/tour/</link>
+./public/index.xml:78:      <guid>http://localhost:1313/tour/</guid>
+./public/index.xml:84:      <link>http://localhost:1313/post_backup/20-12-01-wowchemy-prize/</link>
+./public/index.xml:86:      <guid>http://localhost:1313/post_backup/20-12-01-wowchemy-prize/</guid>
+./public/index.xml:95:      <link>http://localhost:1313/publications_backup/preprint/</link>
+./public/index.xml:97:      <guid>http://localhost:1313/publications_backup/preprint/</guid>
+./public/index.xml:109:      <link>http://localhost:1313/publications/physical-chemistry-equations/</link>
+./public/index.xml:111:      <guid>http://localhost:1313/publications/physical-chemistry-equations/</guid>
+./public/index.xml:127:      <link>http://localhost:1313/publications_backup/journal-article/</link>
+./public/index.xml:129:      <guid>http://localhost:1313/publications_backup/journal-article/</guid>
+./public/index.xml:146:      <link>http://localhost:1313/publications_backup/conference-paper/</link>
+./public/index.xml:148:      <guid>http://localhost:1313/publications_backup/conference-paper/</guid>
+./public/index.xml:165:      <link>http://localhost:1313/admin/config.yml</link>
+./public/index.xml:167:      <guid>http://localhost:1313/admin/config.yml</guid>
+./public/index.xml:173:      <link>http://localhost:1313/research/applications/</link>
+./public/index.xml:175:      <guid>http://localhost:1313/research/applications/</guid>
+./public/index.xml:181:      <link>http://localhost:1313/research/computational-modeling-and-analysis/</link>
+./public/index.xml:183:      <guid>http://localhost:1313/research/computational-modeling-and-analysis/</guid>
+./public/index.xml:189:      <link>http://localhost:1313/research/instrumentation-and-methods/</link>
+./public/index.xml:191:      <guid>http://localhost:1313/research/instrumentation-and-methods/</guid>
+./public/index.xml:197:      <link>http://localhost:1313/research/skills/</link>
+./public/index.xml:199:      <guid>http://localhost:1313/research/skills/</guid>
+./public/js/wowchemy-headroom.js:4: * Copyright (c) 2020 Nick Williams - http://wicky.nillia.ms/headroom.js
+./public/js/wowchemy-init.min.js:63:    if (window.netlifyIdentity) {
+./public/js/wowchemy-init.min.js:64:      window.netlifyIdentity.on("init", (user) => {
+./public/js/wowchemy-init.min.js:66:          window.netlifyIdentity.on("login", () => {
+./public/js/wowchemy-map.js:1:function m(){if($("#map").length){let n=$("#map-provider").val(),e=$("#map-lat").val(),t=$("#map-lng").val(),o=parseInt($("#map-zoom").val()),p=$("#map-dir").val(),l=$("#map-api-key").val();if(n==="google")new GMaps({div:"#map",lat:e,lng:t,zoom:o,zoomControl:!0,zoomControlOpt:{style:"SMALL",position:"TOP_LEFT"},streetViewControl:!1,mapTypeControl:!1,gestureHandling:"cooperative"}).addMarker({lat:e,lng:t,click:function(){let r="https://www.google.com/maps/place/"+encodeURIComponent(p)+"/@"+e+","+t+"/";window.open(r,"_blank")},title:p});else{let a=new L.map("map").setView([e,t],o);n==="mapbox"&&l.length?L.tileLayer("https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}",{attribution:'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery \xA9 <a href="http://mapbox.com">Mapbox</a>',tileSize:512,maxZoom:18,zoomOffset:-1,id:"mapbox/streets-v11",accessToken:l}).addTo(a):L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",{maxZoom:19,attribution:'&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'}).addTo(a);let r=L.marker([e,t]).addTo(a),i=e+","+t+"#map="+o+"/"+e+"/"+t+"&layers=N";r.bindPopup(p+'<p><a href="https://www.openstreetmap.org/directions?engine=osrm_car&route='+i+'">Routing via OpenStreetMap</a></p>')}}}document.addEventListener("DOMContentLoaded",function(){m()});
+./public/news/index.html:278:<link rel="alternate" hreflang="en-us" href="http://localhost:1313/news/" />
+./public/news/index.html:279:<link rel="canonical" href="http://localhost:1313/news/" />
+./public/news/index.html:310:<meta property="twitter:image" content="http://localhost:1313/media/logo_hu_ce9856a497eb07e5.png" />
+./public/news/index.html:318:<meta property="og:url" content="http://localhost:1313/news/" />
+./public/news/index.html:320:<meta property="og:description" content="A student-driven, NMR-focused research group studying physical properties of materials. At William &amp; Mary in Williamsburg, Virginia." /><meta property="og:image" content="http://localhost:1313/media/logo_hu_ce9856a497eb07e5.png" /><meta property="og:locale" content="en-us" />
+./public/news/index.xml:2:<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+./public/news/index.xml:5:    <link>http://localhost:1313/news/</link>
+./public/news/index.xml:6:      <atom:link href="http://localhost:1313/news/index.xml" rel="self" type="application/rss+xml" />
+./public/news/index.xml:10:      <url>http://localhost:1313/media/logo_hu_ce9856a497eb07e5.png</url>
+./public/news/index.xml:12:      <link>http://localhost:1313/news/</link>
+./public/news/page/1/index.html:4:    <title>http://localhost:1313/news/</title>
+./public/news/page/1/index.html:5:    <link rel="canonical" href="http://localhost:1313/news/">
+./public/news/page/1/index.html:8:    <meta http-equiv="refresh" content="0; url=http://localhost:1313/news/">
+./public/people/index.html:282:<link rel="alternate" hreflang="en-us" href="http://localhost:1313/people/" />
+./public/people/index.html:283:<link rel="canonical" href="http://localhost:1313/people/" />
+./public/people/index.html:314:<meta property="twitter:image" content="http://localhost:1313/media/logo_hu_ce9856a497eb07e5.png" />
+./public/people/index.html:322:<meta property="og:url" content="http://localhost:1313/people/" />
+./public/people/index.html:324:<meta property="og:description" content="" /><meta property="og:image" content="http://localhost:1313/media/logo_hu_ce9856a497eb07e5.png" /><meta property="og:locale" content="en-us" />
+./public/post/20-12-01-wowchemy-prize/index.html:278:<link rel="alternate" hreflang="en-us" href="http://localhost:1313/post/20-12-01-wowchemy-prize/" />
+./public/post/20-12-01-wowchemy-prize/index.html:279:<link rel="canonical" href="http://localhost:1313/post/20-12-01-wowchemy-prize/" />
+./public/post/20-12-01-wowchemy-prize/index.html:309:<meta property="twitter:image" content="http://localhost:1313/post/20-12-01-wowchemy-prize/featured.jpg" />
+./public/post/20-12-01-wowchemy-prize/index.html:317:<meta property="og:url" content="http://localhost:1313/post/20-12-01-wowchemy-prize/" />
+./public/post/20-12-01-wowchemy-prize/index.html:319:<meta property="og:description" content="Congratulations to Richard Hendricks for winning first place in the Wowchemy Prize." /><meta property="og:image" content="http://localhost:1313/post/20-12-01-wowchemy-prize/featured.jpg" /><meta property="og:locale" content="en-us" />
+./public/post/20-12-01-wowchemy-prize/index.html:354:    "@id": "http://localhost:1313/post/20-12-01-wowchemy-prize/"
+./public/post/20-12-01-wowchemy-prize/index.html:359:    "http://localhost:1313/post/20-12-01-wowchemy-prize/featured.jpg"
+./public/post/20-12-01-wowchemy-prize/index.html:375:      "url": "http://localhost:1313/media/logo_hu_cf3a2abd5608f06d.png"
+./public/post/20-12-02-icml-best-paper/index.html:278:<link rel="alternate" hreflang="en-us" href="http://localhost:1313/post/20-12-02-icml-best-paper/" />
+./public/post/20-12-02-icml-best-paper/index.html:279:<link rel="canonical" href="http://localhost:1313/post/20-12-02-icml-best-paper/" />
+./public/post/20-12-02-icml-best-paper/index.html:309:<meta property="twitter:image" content="http://localhost:1313/post/20-12-02-icml-best-paper/featured.jpg" />
+./public/post/20-12-02-icml-best-paper/index.html:317:<meta property="og:url" content="http://localhost:1313/post/20-12-02-icml-best-paper/" />
+./public/post/20-12-02-icml-best-paper/index.html:319:<meta property="og:description" content="Congratulations to Jian Yang and Monica Hall for winning the Best Paper Award at the 2020 Conference on Wowchemy for their paper “Learning Wowchemy”." /><meta property="og:image" content="http://localhost:1313/post/20-12-02-icml-best-paper/featured.jpg" /><meta property="og:locale" content="en-us" />
+./public/post/20-12-02-icml-best-paper/index.html:354:    "@id": "http://localhost:1313/post/20-12-02-icml-best-paper/"
+./public/post/20-12-02-icml-best-paper/index.html:359:    "http://localhost:1313/post/20-12-02-icml-best-paper/featured.jpg"
+./public/post/20-12-02-icml-best-paper/index.html:375:      "url": "http://localhost:1313/media/logo_hu_cf3a2abd5608f06d.png"
+./public/post/25-05-02_graduates/index.html:278:<link rel="alternate" hreflang="en-us" href="http://localhost:1313/post/25-05-02_graduates/" />
+./public/post/25-05-02_graduates/index.html:279:<link rel="canonical" href="http://localhost:1313/post/25-05-02_graduates/" />
+./public/post/25-05-02_graduates/index.html:309:<meta property="twitter:image" content="http://localhost:1313/post/25-05-02_graduates/featured.jpg" />
+./public/post/25-05-02_graduates/index.html:317:<meta property="og:url" content="http://localhost:1313/post/25-05-02_graduates/" />
+./public/post/25-05-02_graduates/index.html:319:<meta property="og:description" content="Congratulations to Shinjer, Nathan, and Olivia, our 2025 graduates!" /><meta property="og:image" content="http://localhost:1313/post/25-05-02_graduates/featured.jpg" /><meta property="og:locale" content="en-us" />
+./public/post/25-05-02_graduates/index.html:354:    "@id": "http://localhost:1313/post/25-05-02_graduates/"
+./public/post/25-05-02_graduates/index.html:359:    "http://localhost:1313/post/25-05-02_graduates/featured.jpg"
+./public/post/25-05-02_graduates/index.html:375:      "url": "http://localhost:1313/media/logo_hu_cf3a2abd5608f06d.png"
+./public/post/index.html:278:<link rel="alternate" hreflang="en-us" href="http://localhost:1313/post/" />
+./public/post/index.html:279:<link rel="canonical" href="http://localhost:1313/post/" />
+./public/post/index.html:310:<meta property="twitter:image" content="http://localhost:1313/media/logo_hu_ce9856a497eb07e5.png" />
+./public/post/index.html:318:<meta property="og:url" content="http://localhost:1313/post/" />
+./public/post/index.html:320:<meta property="og:description" content="A student-driven, NMR-focused research group studying physical properties of materials. At William &amp; Mary in Williamsburg, Virginia." /><meta property="og:image" content="http://localhost:1313/media/logo_hu_ce9856a497eb07e5.png" /><meta property="og:locale" content="en-us" />
+./public/post/index.xml:2:<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+./public/post/index.xml:5:    <link>http://localhost:1313/post/</link>
+./public/post/index.xml:6:      <atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" />
+./public/post/index.xml:10:      <url>http://localhost:1313/media/logo_hu_ce9856a497eb07e5.png</url>
+./public/post/index.xml:12:      <link>http://localhost:1313/post/</link>
+./public/post/index.xml:17:      <link>http://localhost:1313/post/25-05-02_graduates/</link>
+./public/post/index.xml:19:      <guid>http://localhost:1313/post/25-05-02_graduates/</guid>
+./public/post/page/1/index.html:4:    <title>http://localhost:1313/post/</title>
+./public/post/page/1/index.html:5:    <link rel="canonical" href="http://localhost:1313/post/">
+./public/post/page/1/index.html:8:    <meta http-equiv="refresh" content="0; url=http://localhost:1313/post/">
+./public/post_backup/20-12-01-wowchemy-prize/index.html:278:<link rel="alternate" hreflang="en-us" href="http://localhost:1313/post_backup/20-12-01-wowchemy-prize/" />
+./public/post_backup/20-12-01-wowchemy-prize/index.html:279:<link rel="canonical" href="http://localhost:1313/post_backup/20-12-01-wowchemy-prize/" />
+./public/post_backup/20-12-01-wowchemy-prize/index.html:309:<meta property="twitter:image" content="http://localhost:1313/post_backup/20-12-01-wowchemy-prize/featured.jpg" />
+./public/post_backup/20-12-01-wowchemy-prize/index.html:317:<meta property="og:url" content="http://localhost:1313/post_backup/20-12-01-wowchemy-prize/" />
+./public/post_backup/20-12-01-wowchemy-prize/index.html:319:<meta property="og:description" content="Congratulations to Richard Hendricks for winning first place in the Wowchemy Prize." /><meta property="og:image" content="http://localhost:1313/post_backup/20-12-01-wowchemy-prize/featured.jpg" /><meta property="og:locale" content="en-us" />
+./public/post_backup/20-12-02-icml-best-paper/index.html:278:<link rel="alternate" hreflang="en-us" href="http://localhost:1313/post_backup/20-12-02-icml-best-paper/" />
+./public/post_backup/20-12-02-icml-best-paper/index.html:279:<link rel="canonical" href="http://localhost:1313/post_backup/20-12-02-icml-best-paper/" />
+./public/post_backup/20-12-02-icml-best-paper/index.html:309:<meta property="twitter:image" content="http://localhost:1313/post_backup/20-12-02-icml-best-paper/featured.jpg" />
+./public/post_backup/20-12-02-icml-best-paper/index.html:317:<meta property="og:url" content="http://localhost:1313/post_backup/20-12-02-icml-best-paper/" />
+./public/post_backup/20-12-02-icml-best-paper/index.html:319:<meta property="og:description" content="Congratulations to Jian Yang and Monica Hall for winning the Best Paper Award at the 2020 Conference on Wowchemy for their paper “Learning Wowchemy”." /><meta property="og:image" content="http://localhost:1313/post_backup/20-12-02-icml-best-paper/featured.jpg" /><meta property="og:locale" content="en-us" />
+./public/post_backup/index.html:278:<link rel="alternate" hreflang="en-us" href="http://localhost:1313/post_backup/" />
+./public/post_backup/index.html:279:<link rel="canonical" href="http://localhost:1313/post_backup/" />
+./public/post_backup/index.html:310:<meta property="twitter:image" content="http://localhost:1313/media/logo_hu_ce9856a497eb07e5.png" />
+./public/post_backup/index.html:318:<meta property="og:url" content="http://localhost:1313/post_backup/" />
+./public/post_backup/index.html:320:<meta property="og:description" content="A student-driven, NMR-focused research group studying physical properties of materials. At William &amp; Mary in Williamsburg, Virginia." /><meta property="og:image" content="http://localhost:1313/media/logo_hu_ce9856a497eb07e5.png" /><meta property="og:locale" content="en-us" />
+./public/post_backup/index.xml:2:<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+./public/post_backup/index.xml:5:    <link>http://localhost:1313/post_backup/</link>
+./public/post_backup/index.xml:6:      <atom:link href="http://localhost:1313/post_backup/index.xml" rel="self" type="application/rss+xml" />
+./public/post_backup/index.xml:10:      <url>http://localhost:1313/media/logo_hu_ce9856a497eb07e5.png</url>
+./public/post_backup/index.xml:12:      <link>http://localhost:1313/post_backup/</link>
+./public/post_backup/index.xml:17:      <link>http://localhost:1313/post_backup/20-12-02-icml-best-paper/</link>
+./public/post_backup/index.xml:19:      <guid>http://localhost:1313/post_backup/20-12-02-icml-best-paper/</guid>
+./public/post_backup/index.xml:28:      <link>http://localhost:1313/post_backup/20-12-01-wowchemy-prize/</link>
+./public/post_backup/index.xml:30:      <guid>http://localhost:1313/post_backup/20-12-01-wowchemy-prize/</guid>
+./public/post_backup/page/1/index.html:4:    <title>http://localhost:1313/post_backup/</title>
+./public/post_backup/page/1/index.html:5:    <link rel="canonical" href="http://localhost:1313/post_backup/">
+./public/post_backup/page/1/index.html:8:    <meta http-equiv="refresh" content="0; url=http://localhost:1313/post_backup/">
+./public/publication/conference-paper/index.html:278:<link rel="alternate" hreflang="en-us" href="http://localhost:1313/publication/conference-paper/" />
+./public/publication/conference-paper/index.html:279:<link rel="canonical" href="http://localhost:1313/publication/conference-paper/" />
+./public/publication/conference-paper/index.html:310:<meta property="twitter:image" content="http://localhost:1313/publication/conference-paper/featured.jpg" />
+./public/publication/conference-paper/index.html:318:<meta property="og:url" content="http://localhost:1313/publication/conference-paper/" />
+./public/publication/conference-paper/index.html:320:<meta property="og:description" content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum." /><meta property="og:image" content="http://localhost:1313/publication/conference-paper/featured.jpg" /><meta property="og:locale" content="en-us" />
+./public/publication/conference-paper/index.html:353:    "@id": "http://localhost:1313/publication/conference-paper/"
+./public/publication/conference-paper/index.html:358:    "http://localhost:1313/publication/conference-paper/featured.jpg"
+./public/publication/conference-paper/index.html:374:      "url": "http://localhost:1313/media/icon_hu_f7eee4fa97025c42.png"
+./public/publication/index.html:278:<link rel="alternate" hreflang="en-us" href="http://localhost:1313/publication/" />
+./public/publication/index.html:279:<link rel="canonical" href="http://localhost:1313/publication/" />
+./public/publication/index.html:311:<meta property="twitter:image" content="http://localhost:1313/media/icon_hu_7613a4a452ac7087.png" />
+./public/publication/index.html:319:<meta property="og:url" content="http://localhost:1313/publication/" />
+./public/publication/index.html:321:<meta property="og:description" content="A highly-customizable Hugo research group theme powered by Wowchemy website builder." /><meta property="og:image" content="http://localhost:1313/media/icon_hu_7613a4a452ac7087.png" /><meta property="og:locale" content="en-us" />
+./public/publication/index.html:800:<a class="btn btn-outline-primary btn-page-header btn-sm" href="http://arxiv.org/pdf/1512.04133v1" target="_blank" rel="noopener">
+./public/publication/index.html:874:  <a class="btn btn-outline-primary btn-page-header btn-sm" href="http://example.org" target="_blank" rel="noopener">
+./public/publication/index.html:927:<a class="btn btn-outline-primary btn-page-header btn-sm" href="http://arxiv.org/pdf/1512.04133v1" target="_blank" rel="noopener">
+./public/publication/index.xml:2:<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+./public/publication/index.xml:5:    <link>http://localhost:1313/publication/</link>
+./public/publication/index.xml:6:      <atom:link href="http://localhost:1313/publication/index.xml" rel="self" type="application/rss+xml" />
+./public/publication/index.xml:10:      <url>http://localhost:1313/media/icon_hu_7613a4a452ac7087.png</url>
+./public/publication/index.xml:12:      <link>http://localhost:1313/publication/</link>
+./public/publication/index.xml:17:      <link>http://localhost:1313/publication/preprint/</link>
+./public/publication/index.xml:19:      <guid>http://localhost:1313/publication/preprint/</guid>
+./public/publication/index.xml:31:      <link>http://localhost:1313/publication/journal-article/</link>
+./public/publication/index.xml:33:      <guid>http://localhost:1313/publication/journal-article/</guid>
+./public/publication/index.xml:50:      <link>http://localhost:1313/publication/conference-paper/</link>
+./public/publication/index.xml:52:      <guid>http://localhost:1313/publication/conference-paper/</guid>
+./public/publication/journal-article/index.html:278:<link rel="alternate" hreflang="en-us" href="http://localhost:1313/publication/journal-article/" />
+./public/publication/journal-article/index.html:279:<link rel="canonical" href="http://localhost:1313/publication/journal-article/" />
+./public/publication/journal-article/index.html:310:<meta property="twitter:image" content="http://localhost:1313/publication/journal-article/featured.jpg" />
+./public/publication/journal-article/index.html:318:<meta property="og:url" content="http://localhost:1313/publication/journal-article/" />
+./public/publication/journal-article/index.html:320:<meta property="og:description" content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum." /><meta property="og:image" content="http://localhost:1313/publication/journal-article/featured.jpg" /><meta property="og:locale" content="en-us" />
+./public/publication/journal-article/index.html:353:    "@id": "http://localhost:1313/publication/journal-article/"
+./public/publication/journal-article/index.html:358:    "http://localhost:1313/publication/journal-article/featured.jpg"
+./public/publication/journal-article/index.html:374:      "url": "http://localhost:1313/media/icon_hu_f7eee4fa97025c42.png"
+./public/publication/journal-article/index.html:822:<a class="btn btn-outline-primary btn-page-header" href="http://arxiv.org/pdf/1512.04133v1" target="_blank" rel="noopener">
+./public/publication/preprint/index.html:278:<link rel="alternate" hreflang="en-us" href="http://localhost:1313/publication/preprint/" />
+./public/publication/preprint/index.html:279:<link rel="canonical" href="http://localhost:1313/publication/preprint/" />
+./public/publication/preprint/index.html:310:<meta property="twitter:image" content="http://localhost:1313/publication/preprint/featured.jpg" />
+./public/publication/preprint/index.html:318:<meta property="og:url" content="http://localhost:1313/publication/preprint/" />
+./public/publication/preprint/index.html:320:<meta property="og:description" content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum." /><meta property="og:image" content="http://localhost:1313/publication/preprint/featured.jpg" /><meta property="og:locale" content="en-us" />
+./public/publication/preprint/index.html:353:    "@id": "http://localhost:1313/publication/preprint/"
+./public/publication/preprint/index.html:358:    "http://localhost:1313/publication/preprint/featured.jpg"
+./public/publication/preprint/index.html:374:      "url": "http://localhost:1313/media/icon_hu_f7eee4fa97025c42.png"
+./public/publication/preprint/index.html:821:<a class="btn btn-outline-primary btn-page-header" href="http://arxiv.org/pdf/1512.04133v1" target="_blank" rel="noopener">
+./public/publication/preprint/index.html:895:  <a class="btn btn-outline-primary btn-page-header" href="http://example.org" target="_blank" rel="noopener">
+./public/publication-type/article/index.html:278:<link rel="alternate" hreflang="en-us" href="http://localhost:1313/publication-type/article/" />
+./public/publication-type/article/index.html:279:<link rel="canonical" href="http://localhost:1313/publication-type/article/" />
+./public/publication-type/article/index.html:311:<meta property="twitter:image" content="http://localhost:1313/media/icon_hu_7613a4a452ac7087.png" />
+./public/publication-type/article/index.html:319:<meta property="og:url" content="http://localhost:1313/publication-type/article/" />
+./public/publication-type/article/index.html:321:<meta property="og:description" content="A highly-customizable Hugo research group theme powered by Wowchemy website builder." /><meta property="og:image" content="http://localhost:1313/media/icon_hu_7613a4a452ac7087.png" /><meta property="og:locale" content="en-us" />
+./public/publication-type/article/index.html:767:<a class="btn btn-outline-primary btn-page-header btn-sm" href="http://arxiv.org/pdf/1512.04133v1" target="_blank" rel="noopener">
+./public/publication-type/article/index.html:841:  <a class="btn btn-outline-primary btn-page-header btn-sm" href="http://example.org" target="_blank" rel="noopener">
+./public/publication-type/article/index.xml:2:<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+./public/publication-type/article/index.xml:5:    <link>http://localhost:1313/publication-type/article/</link>
+./public/publication-type/article/index.xml:6:      <atom:link href="http://localhost:1313/publication-type/article/index.xml" rel="self" type="application/rss+xml" />
+./public/publication-type/article/index.xml:10:      <url>http://localhost:1313/media/icon_hu_7613a4a452ac7087.png</url>
+./public/publication-type/article/index.xml:12:      <link>http://localhost:1313/publication-type/article/</link>
+./public/publication-type/article/index.xml:17:      <link>http://localhost:1313/publication/preprint/</link>
+./public/publication-type/article/index.xml:19:      <guid>http://localhost:1313/publication/preprint/</guid>
+./public/publication-type/article/page/1/index.html:4:    <title>http://localhost:1313/publication-type/article/</title>
+./public/publication-type/article/page/1/index.html:5:    <link rel="canonical" href="http://localhost:1313/publication-type/article/">
+./public/publication-type/article/page/1/index.html:8:    <meta http-equiv="refresh" content="0; url=http://localhost:1313/publication-type/article/">
+./public/publication-type/article-journal/index.html:278:<link rel="alternate" hreflang="en-us" href="http://localhost:1313/publication-type/article-journal/" />
+./public/publication-type/article-journal/index.html:279:<link rel="canonical" href="http://localhost:1313/publication-type/article-journal/" />
+./public/publication-type/article-journal/index.html:311:<meta property="twitter:image" content="http://localhost:1313/media/icon_hu_7613a4a452ac7087.png" />
+./public/publication-type/article-journal/index.html:319:<meta property="og:url" content="http://localhost:1313/publication-type/article-journal/" />
+./public/publication-type/article-journal/index.html:321:<meta property="og:description" content="A highly-customizable Hugo research group theme powered by Wowchemy website builder." /><meta property="og:image" content="http://localhost:1313/media/icon_hu_7613a4a452ac7087.png" /><meta property="og:locale" content="en-us" />
+./public/publication-type/article-journal/index.html:768:<a class="btn btn-outline-primary btn-page-header btn-sm" href="http://arxiv.org/pdf/1512.04133v1" target="_blank" rel="noopener">
+./public/publication-type/article-journal/index.xml:2:<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+./public/publication-type/article-journal/index.xml:5:    <link>http://localhost:1313/publication-type/article-journal/</link>
+./public/publication-type/article-journal/index.xml:6:      <atom:link href="http://localhost:1313/publication-type/article-journal/index.xml" rel="self" type="application/rss+xml" />
+./public/publication-type/article-journal/index.xml:10:      <url>http://localhost:1313/media/icon_hu_7613a4a452ac7087.png</url>
+./public/publication-type/article-journal/index.xml:12:      <link>http://localhost:1313/publication-type/article-journal/</link>
+./public/publication-type/article-journal/index.xml:17:      <link>http://localhost:1313/publication/journal-article/</link>
+./public/publication-type/article-journal/index.xml:19:      <guid>http://localhost:1313/publication/journal-article/</guid>
+./public/publication-type/article-journal/page/1/index.html:4:    <title>http://localhost:1313/publication-type/article-journal/</title>
+./public/publication-type/article-journal/page/1/index.html:5:    <link rel="canonical" href="http://localhost:1313/publication-type/article-journal/">
+./public/publication-type/article-journal/page/1/index.html:8:    <meta http-equiv="refresh" content="0; url=http://localhost:1313/publication-type/article-journal/">
+./public/publication-type/paper-conference/index.html:278:<link rel="alternate" hreflang="en-us" href="http://localhost:1313/publication-type/paper-conference/" />
+./public/publication-type/paper-conference/index.html:279:<link rel="canonical" href="http://localhost:1313/publication-type/paper-conference/" />
+./public/publication-type/paper-conference/index.html:311:<meta property="twitter:image" content="http://localhost:1313/media/icon_hu_7613a4a452ac7087.png" />
+./public/publication-type/paper-conference/index.html:319:<meta property="og:url" content="http://localhost:1313/publication-type/paper-conference/" />
+./public/publication-type/paper-conference/index.html:321:<meta property="og:description" content="A highly-customizable Hugo research group theme powered by Wowchemy website builder." /><meta property="og:image" content="http://localhost:1313/media/icon_hu_7613a4a452ac7087.png" /><meta property="og:locale" content="en-us" />
+./public/publication-type/paper-conference/index.xml:2:<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+./public/publication-type/paper-conference/index.xml:5:    <link>http://localhost:1313/publication-type/paper-conference/</link>
+./public/publication-type/paper-conference/index.xml:6:      <atom:link href="http://localhost:1313/publication-type/paper-conference/index.xml" rel="self" type="application/rss+xml" />
+./public/publication-type/paper-conference/index.xml:10:      <url>http://localhost:1313/media/icon_hu_7613a4a452ac7087.png</url>
+./public/publication-type/paper-conference/index.xml:12:      <link>http://localhost:1313/publication-type/paper-conference/</link>
+./public/publication-type/paper-conference/index.xml:17:      <link>http://localhost:1313/publication/conference-paper/</link>
+./public/publication-type/paper-conference/index.xml:19:      <guid>http://localhost:1313/publication/conference-paper/</guid>
+./public/publication-type/paper-conference/page/1/index.html:4:    <title>http://localhost:1313/publication-type/paper-conference/</title>
+./public/publication-type/paper-conference/page/1/index.html:5:    <link rel="canonical" href="http://localhost:1313/publication-type/paper-conference/">
+./public/publication-type/paper-conference/page/1/index.html:8:    <meta http-equiv="refresh" content="0; url=http://localhost:1313/publication-type/paper-conference/">
+./public/publications/index.html:278:<link rel="alternate" hreflang="en-us" href="http://localhost:1313/publications/" />
+./public/publications/index.html:279:<link rel="canonical" href="http://localhost:1313/publications/" />
+./public/publications/index.html:310:<meta property="twitter:image" content="http://localhost:1313/media/logo_hu_ce9856a497eb07e5.png" />
+./public/publications/index.html:318:<meta property="og:url" content="http://localhost:1313/publications/" />
+./public/publications/index.html:320:<meta property="og:description" content="A student-driven, NMR-focused research group studying physical properties of materials. At William &amp; Mary in Williamsburg, Virginia." /><meta property="og:image" content="http://localhost:1313/media/logo_hu_ce9856a497eb07e5.png" /><meta property="og:locale" content="en-us" />
+./public/publications/index.xml:2:<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+./public/publications/index.xml:5:    <link>http://localhost:1313/publications/</link>
+./public/publications/index.xml:6:      <atom:link href="http://localhost:1313/publications/index.xml" rel="self" type="application/rss+xml" />
+./public/publications/index.xml:10:      <url>http://localhost:1313/media/logo_hu_ce9856a497eb07e5.png</url>
+./public/publications/index.xml:12:      <link>http://localhost:1313/publications/</link>
+./public/publications/index.xml:17:      <link>http://localhost:1313/publications/physical-chemistry-equations/</link>
+./public/publications/index.xml:19:      <guid>http://localhost:1313/publications/physical-chemistry-equations/</guid>
+./public/publications/page/1/index.html:4:    <title>http://localhost:1313/publications/</title>
+./public/publications/page/1/index.html:5:    <link rel="canonical" href="http://localhost:1313/publications/">
+./public/publications/page/1/index.html:8:    <meta http-equiv="refresh" content="0; url=http://localhost:1313/publications/">
+./public/publications/physical-chemistry-equations/index.html:278:<link rel="alternate" hreflang="en-us" href="http://localhost:1313/publications/physical-chemistry-equations/" />
+./public/publications/physical-chemistry-equations/index.html:279:<link rel="canonical" href="http://localhost:1313/publications/physical-chemistry-equations/" />
+./public/publications/physical-chemistry-equations/index.html:310:<meta property="twitter:image" content="http://localhost:1313/media/logo_hu_ce9856a497eb07e5.png" />
+./public/publications/physical-chemistry-equations/index.html:318:<meta property="og:url" content="http://localhost:1313/publications/physical-chemistry-equations/" />
+./public/publications/physical-chemistry-equations/index.html:320:<meta property="og:description" content="A collction of equations useful to physical chemistry. LaTeX source code available on GitHub. PDF is available here." /><meta property="og:image" content="http://localhost:1313/media/logo_hu_ce9856a497eb07e5.png" /><meta property="og:locale" content="en-us" />
+./public/publications_backup/conference-paper/index.html:278:<link rel="alternate" hreflang="en-us" href="http://localhost:1313/publications_backup/conference-paper/" />
+./public/publications_backup/conference-paper/index.html:279:<link rel="canonical" href="http://localhost:1313/publications_backup/conference-paper/" />
+./public/publications_backup/conference-paper/index.html:309:<meta property="twitter:image" content="http://localhost:1313/publications_backup/conference-paper/featured.jpg" />
+./public/publications_backup/conference-paper/index.html:317:<meta property="og:url" content="http://localhost:1313/publications_backup/conference-paper/" />
+./public/publications_backup/conference-paper/index.html:319:<meta property="og:description" content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum." /><meta property="og:image" content="http://localhost:1313/publications_backup/conference-paper/featured.jpg" /><meta property="og:locale" content="en-us" />
+./public/publications_backup/index.html:278:<link rel="alternate" hreflang="en-us" href="http://localhost:1313/publications_backup/" />
+./public/publications_backup/index.html:279:<link rel="canonical" href="http://localhost:1313/publications_backup/" />
+./public/publications_backup/index.html:310:<meta property="twitter:image" content="http://localhost:1313/media/logo_hu_ce9856a497eb07e5.png" />
+./public/publications_backup/index.html:318:<meta property="og:url" content="http://localhost:1313/publications_backup/" />
+./public/publications_backup/index.html:320:<meta property="og:description" content="A student-driven, NMR-focused research group studying physical properties of materials. At William &amp; Mary in Williamsburg, Virginia." /><meta property="og:image" content="http://localhost:1313/media/logo_hu_ce9856a497eb07e5.png" /><meta property="og:locale" content="en-us" />
+./public/publications_backup/index.html:858:<a class="btn btn-outline-primary btn-page-header btn-sm" href="http://arxiv.org/pdf/1512.04133v1" target="_blank" rel="noopener">
+./public/publications_backup/index.html:932:  <a class="btn btn-outline-primary btn-page-header btn-sm" href="http://example.org" target="_blank" rel="noopener">
+./public/publications_backup/index.html:1054:<a class="btn btn-outline-primary btn-page-header btn-sm" href="http://arxiv.org/pdf/1512.04133v1" target="_blank" rel="noopener">
+./public/publications_backup/index.xml:2:<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+./public/publications_backup/index.xml:5:    <link>http://localhost:1313/publications_backup/</link>
+./public/publications_backup/index.xml:6:      <atom:link href="http://localhost:1313/publications_backup/index.xml" rel="self" type="application/rss+xml" />
+./public/publications_backup/index.xml:10:      <url>http://localhost:1313/media/logo_hu_ce9856a497eb07e5.png</url>
+./public/publications_backup/index.xml:12:      <link>http://localhost:1313/publications_backup/</link>
+./public/publications_backup/index.xml:17:      <link>http://localhost:1313/publications_backup/preprint/</link>
+./public/publications_backup/index.xml:19:      <guid>http://localhost:1313/publications_backup/preprint/</guid>
+./public/publications_backup/index.xml:31:      <link>http://localhost:1313/publications_backup/journal-article/</link>
+./public/publications_backup/index.xml:33:      <guid>http://localhost:1313/publications_backup/journal-article/</guid>
+./public/publications_backup/index.xml:50:      <link>http://localhost:1313/publications_backup/conference-paper/</link>
+./public/publications_backup/index.xml:52:      <guid>http://localhost:1313/publications_backup/conference-paper/</guid>
+./public/publications_backup/journal-article/index.html:278:<link rel="alternate" hreflang="en-us" href="http://localhost:1313/publications_backup/journal-article/" />
+./public/publications_backup/journal-article/index.html:279:<link rel="canonical" href="http://localhost:1313/publications_backup/journal-article/" />
+./public/publications_backup/journal-article/index.html:309:<meta property="twitter:image" content="http://localhost:1313/publications_backup/journal-article/featured.jpg" />
+./public/publications_backup/journal-article/index.html:317:<meta property="og:url" content="http://localhost:1313/publications_backup/journal-article/" />
+./public/publications_backup/journal-article/index.html:319:<meta property="og:description" content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum." /><meta property="og:image" content="http://localhost:1313/publications_backup/journal-article/featured.jpg" /><meta property="og:locale" content="en-us" />
+./public/publications_backup/journal-article/index.html:825:<a class="btn btn-outline-primary btn-page-header" href="http://arxiv.org/pdf/1512.04133v1" target="_blank" rel="noopener">
+./public/publications_backup/page/1/index.html:4:    <title>http://localhost:1313/publications_backup/</title>
+./public/publications_backup/page/1/index.html:5:    <link rel="canonical" href="http://localhost:1313/publications_backup/">
+./public/publications_backup/page/1/index.html:8:    <meta http-equiv="refresh" content="0; url=http://localhost:1313/publications_backup/">
+./public/publications_backup/preprint/index.html:278:<link rel="alternate" hreflang="en-us" href="http://localhost:1313/publications_backup/preprint/" />
+./public/publications_backup/preprint/index.html:279:<link rel="canonical" href="http://localhost:1313/publications_backup/preprint/" />
+./public/publications_backup/preprint/index.html:309:<meta property="twitter:image" content="http://localhost:1313/publications_backup/preprint/featured.jpg" />
+./public/publications_backup/preprint/index.html:317:<meta property="og:url" content="http://localhost:1313/publications_backup/preprint/" />
+./public/publications_backup/preprint/index.html:319:<meta property="og:description" content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum." /><meta property="og:image" content="http://localhost:1313/publications_backup/preprint/featured.jpg" /><meta property="og:locale" content="en-us" />
+./public/publications_backup/preprint/index.html:824:<a class="btn btn-outline-primary btn-page-header" href="http://arxiv.org/pdf/1512.04133v1" target="_blank" rel="noopener">
+./public/publications_backup/preprint/index.html:898:  <a class="btn btn-outline-primary btn-page-header" href="http://example.org" target="_blank" rel="noopener">
+./public/publication_types/index.html:278:<link rel="alternate" hreflang="en-us" href="http://localhost:1313/publication_types/" />
+./public/publication_types/index.html:279:<link rel="canonical" href="http://localhost:1313/publication_types/" />
+./public/publication_types/index.html:311:<meta property="twitter:image" content="http://localhost:1313/media/icon_hu_7613a4a452ac7087.png" />
+./public/publication_types/index.html:319:<meta property="og:url" content="http://localhost:1313/publication_types/" />
+./public/publication_types/index.html:321:<meta property="og:description" content="A highly-customizable Hugo research group theme powered by Wowchemy website builder." /><meta property="og:image" content="http://localhost:1313/media/icon_hu_7613a4a452ac7087.png" /><meta property="og:locale" content="en-us" />
+./public/publication_types/index.xml:2:<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+./public/publication_types/index.xml:5:    <link>http://localhost:1313/publication_types/</link>
+./public/publication_types/index.xml:6:      <atom:link href="http://localhost:1313/publication_types/index.xml" rel="self" type="application/rss+xml" />
+./public/publication_types/index.xml:10:      <url>http://localhost:1313/media/icon_hu_7613a4a452ac7087.png</url>
+./public/publication_types/index.xml:12:      <link>http://localhost:1313/publication_types/</link>
+./public/publication_types/page/1/index.html:4:    <title>http://localhost:1313/publication_types/</title>
+./public/publication_types/page/1/index.html:5:    <link rel="canonical" href="http://localhost:1313/publication_types/">
+./public/publication_types/page/1/index.html:8:    <meta http-equiv="refresh" content="0; url=http://localhost:1313/publication_types/">
+./public/research/applications/index.html:281:<link rel="alternate" hreflang="en-us" href="http://localhost:1313/research/applications/" />
+./public/research/applications/index.html:282:<link rel="canonical" href="http://localhost:1313/research/applications/" />
+./public/research/applications/index.html:312:<meta property="twitter:image" content="http://localhost:1313/research/applications/featured.webp" />
+./public/research/applications/index.html:320:<meta property="og:url" content="http://localhost:1313/research/applications/" />
+./public/research/applications/index.html:325:" /><meta property="og:image" content="http://localhost:1313/research/applications/featured.webp" /><meta property="og:locale" content="en-us" />
+./public/research/computational-modeling-and-analysis/index.html:281:<link rel="alternate" hreflang="en-us" href="http://localhost:1313/research/computational-modeling-and-analysis/" />
+./public/research/computational-modeling-and-analysis/index.html:282:<link rel="canonical" href="http://localhost:1313/research/computational-modeling-and-analysis/" />
+./public/research/computational-modeling-and-analysis/index.html:312:<meta property="twitter:image" content="http://localhost:1313/research/computational-modeling-and-analysis/featured.webp" />
+./public/research/computational-modeling-and-analysis/index.html:320:<meta property="og:url" content="http://localhost:1313/research/computational-modeling-and-analysis/" />
+./public/research/computational-modeling-and-analysis/index.html:325:" /><meta property="og:image" content="http://localhost:1313/research/computational-modeling-and-analysis/featured.webp" /><meta property="og:locale" content="en-us" />
+./public/research/index.html:278:<link rel="alternate" hreflang="en-us" href="http://localhost:1313/research/" />
+./public/research/index.html:279:<link rel="canonical" href="http://localhost:1313/research/" />
+./public/research/index.html:310:<meta property="twitter:image" content="http://localhost:1313/media/logo_hu_ce9856a497eb07e5.png" />
+./public/research/index.html:318:<meta property="og:url" content="http://localhost:1313/research/" />
+./public/research/index.html:320:<meta property="og:description" content="A student-driven, NMR-focused research group studying physical properties of materials. At William &amp; Mary in Williamsburg, Virginia." /><meta property="og:image" content="http://localhost:1313/media/logo_hu_ce9856a497eb07e5.png" /><meta property="og:locale" content="en-us" />
+./public/research/index.xml:2:<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+./public/research/index.xml:5:    <link>http://localhost:1313/research/</link>
+./public/research/index.xml:6:      <atom:link href="http://localhost:1313/research/index.xml" rel="self" type="application/rss+xml" />
+./public/research/index.xml:10:      <url>http://localhost:1313/media/logo_hu_ce9856a497eb07e5.png</url>
+./public/research/index.xml:12:      <link>http://localhost:1313/research/</link>
+./public/research/index.xml:17:      <link>http://localhost:1313/research/applications/</link>
+./public/research/index.xml:19:      <guid>http://localhost:1313/research/applications/</guid>
+./public/research/index.xml:25:      <link>http://localhost:1313/research/computational-modeling-and-analysis/</link>
+./public/research/index.xml:27:      <guid>http://localhost:1313/research/computational-modeling-and-analysis/</guid>
+./public/research/index.xml:33:      <link>http://localhost:1313/research/instrumentation-and-methods/</link>
+./public/research/index.xml:35:      <guid>http://localhost:1313/research/instrumentation-and-methods/</guid>
+./public/research/index.xml:41:      <link>http://localhost:1313/research/skills/</link>
+./public/research/index.xml:43:      <guid>http://localhost:1313/research/skills/</guid>
+./public/research/instrumentation-and-methods/index.html:281:<link rel="alternate" hreflang="en-us" href="http://localhost:1313/research/instrumentation-and-methods/" />
+./public/research/instrumentation-and-methods/index.html:282:<link rel="canonical" href="http://localhost:1313/research/instrumentation-and-methods/" />
+./public/research/instrumentation-and-methods/index.html:312:<meta property="twitter:image" content="http://localhost:1313/research/instrumentation-and-methods/featured.webp" />
+./public/research/instrumentation-and-methods/index.html:320:<meta property="og:url" content="http://localhost:1313/research/instrumentation-and-methods/" />
+./public/research/instrumentation-and-methods/index.html:325:" /><meta property="og:image" content="http://localhost:1313/research/instrumentation-and-methods/featured.webp" /><meta property="og:locale" content="en-us" />
+./public/research/page/1/index.html:4:    <title>http://localhost:1313/research/</title>
+./public/research/page/1/index.html:5:    <link rel="canonical" href="http://localhost:1313/research/">
+./public/research/page/1/index.html:8:    <meta http-equiv="refresh" content="0; url=http://localhost:1313/research/">
+./public/research/skills/index.html:281:<link rel="alternate" hreflang="en-us" href="http://localhost:1313/research/skills/" />
+./public/research/skills/index.html:282:<link rel="canonical" href="http://localhost:1313/research/skills/" />
+./public/research/skills/index.html:313:<meta property="twitter:image" content="http://localhost:1313/media/logo_hu_ce9856a497eb07e5.png" />
+./public/research/skills/index.html:321:<meta property="og:url" content="http://localhost:1313/research/skills/" />
+./public/research/skills/index.html:326:" /><meta property="og:image" content="http://localhost:1313/media/logo_hu_ce9856a497eb07e5.png" /><meta property="og:locale" content="en-us" />
+./public/resources/index.html:282:<link rel="alternate" hreflang="en-us" href="http://localhost:1313/resources/" />
+./public/resources/index.html:283:<link rel="canonical" href="http://localhost:1313/resources/" />
+./public/resources/index.html:314:<meta property="twitter:image" content="http://localhost:1313/media/logo_hu_ce9856a497eb07e5.png" />
+./public/resources/index.html:322:<meta property="og:url" content="http://localhost:1313/resources/" />
+./public/resources/index.html:324:<meta property="og:description" content="" /><meta property="og:image" content="http://localhost:1313/media/logo_hu_ce9856a497eb07e5.png" /><meta property="og:locale" content="en-us" />
+./public/robots.txt:3:Sitemap: http://localhost:1313/sitemap.xml
+./public/sitemap.xml:2:<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+./public/sitemap.xml:3:  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+./public/sitemap.xml:5:    <loc>http://localhost:1313/event/example/</loc>
+./public/sitemap.xml:9:    <loc>http://localhost:1313/event/</loc>
+./public/sitemap.xml:13:    <loc>http://localhost:1313/</loc>
+./public/sitemap.xml:17:    <loc>http://localhost:1313/contact/</loc>
+./public/sitemap.xml:21:    <loc>http://localhost:1313/resources/</loc>
+./public/sitemap.xml:25:    <loc>http://localhost:1313/post_backup/20-12-02-icml-best-paper/</loc>
+./public/sitemap.xml:29:    <loc>http://localhost:1313/post_backup/</loc>
+./public/sitemap.xml:33:    <loc>http://localhost:1313/post/25-05-02_graduates/</loc>
+./public/sitemap.xml:37:    <loc>http://localhost:1313/post/</loc>
+./public/sitemap.xml:41:    <loc>http://localhost:1313/people/</loc>
+./public/sitemap.xml:45:    <loc>http://localhost:1313/tour/</loc>
+./public/sitemap.xml:49:    <loc>http://localhost:1313/post_backup/20-12-01-wowchemy-prize/</loc>
+./public/sitemap.xml:53:    <loc>http://localhost:1313/author/admin/</loc>
+./public/sitemap.xml:57:    <loc>http://localhost:1313/publications_backup/preprint/</loc>
+./public/sitemap.xml:61:    <loc>http://localhost:1313/authors/</loc>
+./public/sitemap.xml:65:    <loc>http://localhost:1313/publications/physical-chemistry-equations/</loc>
+./public/sitemap.xml:69:    <loc>http://localhost:1313/publications/</loc>
+./public/sitemap.xml:73:    <loc>http://localhost:1313/publications_backup/</loc>
+./public/sitemap.xml:77:    <loc>http://localhost:1313/publications_backup/journal-article/</loc>
+./public/sitemap.xml:81:    <loc>http://localhost:1313/author/robert-ford/</loc>
+./public/sitemap.xml:85:    <loc>http://localhost:1313/publications_backup/conference-paper/</loc>
+./public/sitemap.xml:89:    <loc>http://localhost:1313/admin/</loc>
+./public/sitemap.xml:92:    <loc>http://localhost:1313/research/applications/</loc>
+./public/sitemap.xml:95:    <loc>http://localhost:1313/research/computational-modeling-and-analysis/</loc>
+./public/sitemap.xml:98:    <loc>http://localhost:1313/author/david-han/</loc>
+./public/sitemap.xml:101:    <loc>http://localhost:1313/author/eliza-evans/</loc>
+./public/sitemap.xml:104:    <loc>http://localhost:1313/author/huy-le/</loc>
+./public/sitemap.xml:107:    <loc>http://localhost:1313/research/instrumentation-and-methods/</loc>
+./public/sitemap.xml:110:    <loc>http://localhost:1313/author/john-golding/</loc>
+./public/sitemap.xml:113:    <loc>http://localhost:1313/author/kelly-ann-sutterfield/</loc>
+./public/sitemap.xml:116:    <loc>http://localhost:1313/author/kylie-mccoy/</loc>
+./public/sitemap.xml:119:    <loc>http://localhost:1313/author/megan-pruitt/</loc>
+./public/sitemap.xml:122:    <loc>http://localhost:1313/news/</loc>
+./public/sitemap.xml:125:    <loc>http://localhost:1313/author/noah-zelch/</loc>
+./public/sitemap.xml:128:    <loc>http://localhost:1313/author/shalom-akolatse/</loc>
+./public/sitemap.xml:131:    <loc>http://localhost:1313/research/skills/</loc>
+./public/sitemap.xml:134:    <loc>http://localhost:1313/research/</loc>
+./public/sitemap.xml:137:    <loc>http://localhost:1313/author/thomas-felton/</loc>
+./public/sitemap.xml:140:    <loc>http://localhost:1313/author/tyler-meldrum/</loc>
+./public/tag/source-themes/index.html:278:<link rel="alternate" hreflang="en-us" href="http://localhost:1313/tag/source-themes/" />
+./public/tag/source-themes/index.html:279:<link rel="canonical" href="http://localhost:1313/tag/source-themes/" />
+./public/tag/source-themes/index.html:311:<meta property="twitter:image" content="http://localhost:1313/media/icon_hu_7613a4a452ac7087.png" />
+./public/tag/source-themes/index.html:319:<meta property="og:url" content="http://localhost:1313/tag/source-themes/" />
+./public/tag/source-themes/index.html:321:<meta property="og:description" content="A highly-customizable Hugo research group theme powered by Wowchemy website builder." /><meta property="og:image" content="http://localhost:1313/media/icon_hu_7613a4a452ac7087.png" /><meta property="og:locale" content="en-us" />
+./public/tag/source-themes/index.html:767:<a class="btn btn-outline-primary btn-page-header btn-sm" href="http://arxiv.org/pdf/1512.04133v1" target="_blank" rel="noopener">
+./public/tag/source-themes/index.html:841:  <a class="btn btn-outline-primary btn-page-header btn-sm" href="http://example.org" target="_blank" rel="noopener">
+./public/tag/source-themes/index.html:929:<a class="btn btn-outline-primary btn-page-header btn-sm" href="http://arxiv.org/pdf/1512.04133v1" target="_blank" rel="noopener">
+./public/tag/source-themes/index.xml:2:<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+./public/tag/source-themes/index.xml:5:    <link>http://localhost:1313/tag/source-themes/</link>
+./public/tag/source-themes/index.xml:6:      <atom:link href="http://localhost:1313/tag/source-themes/index.xml" rel="self" type="application/rss+xml" />
+./public/tag/source-themes/index.xml:10:      <url>http://localhost:1313/media/icon_hu_7613a4a452ac7087.png</url>
+./public/tag/source-themes/index.xml:12:      <link>http://localhost:1313/tag/source-themes/</link>
+./public/tag/source-themes/index.xml:17:      <link>http://localhost:1313/publication/preprint/</link>
+./public/tag/source-themes/index.xml:19:      <guid>http://localhost:1313/publication/preprint/</guid>
+./public/tag/source-themes/index.xml:31:      <link>http://localhost:1313/publication/journal-article/</link>
+./public/tag/source-themes/index.xml:33:      <guid>http://localhost:1313/publication/journal-article/</guid>
+./public/tag/source-themes/page/1/index.html:4:    <title>http://localhost:1313/tag/source-themes/</title>
+./public/tag/source-themes/page/1/index.html:5:    <link rel="canonical" href="http://localhost:1313/tag/source-themes/">
+./public/tag/source-themes/page/1/index.html:8:    <meta http-equiv="refresh" content="0; url=http://localhost:1313/tag/source-themes/">
+./public/tags/index.html:278:<link rel="alternate" hreflang="en-us" href="http://localhost:1313/tags/" />
+./public/tags/index.html:279:<link rel="canonical" href="http://localhost:1313/tags/" />
+./public/tags/index.html:311:<meta property="twitter:image" content="http://localhost:1313/media/icon_hu_7613a4a452ac7087.png" />
+./public/tags/index.html:319:<meta property="og:url" content="http://localhost:1313/tags/" />
+./public/tags/index.html:321:<meta property="og:description" content="A highly-customizable Hugo research group theme powered by Wowchemy website builder." /><meta property="og:image" content="http://localhost:1313/media/icon_hu_7613a4a452ac7087.png" /><meta property="og:locale" content="en-us" />
+./public/tags/index.xml:2:<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+./public/tags/index.xml:5:    <link>http://localhost:1313/tags/</link>
+./public/tags/index.xml:6:      <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+./public/tags/index.xml:10:      <url>http://localhost:1313/media/icon_hu_7613a4a452ac7087.png</url>
+./public/tags/index.xml:12:      <link>http://localhost:1313/tags/</link>
+./public/tags/page/1/index.html:4:    <title>http://localhost:1313/tags/</title>
+./public/tags/page/1/index.html:5:    <link rel="canonical" href="http://localhost:1313/tags/">
+./public/tags/page/1/index.html:8:    <meta http-equiv="refresh" content="0; url=http://localhost:1313/tags/">
+./public/tour/index.html:282:<link rel="alternate" hreflang="en-us" href="http://localhost:1313/tour/" />
+./public/tour/index.html:283:<link rel="canonical" href="http://localhost:1313/tour/" />
+./public/tour/index.html:314:<meta property="twitter:image" content="http://localhost:1313/media/logo_hu_ce9856a497eb07e5.png" />
+./public/tour/index.html:322:<meta property="og:url" content="http://localhost:1313/tour/" />
+./public/tour/index.html:324:<meta property="og:description" content="" /><meta property="og:image" content="http://localhost:1313/media/logo_hu_ce9856a497eb07e5.png" /><meta property="og:locale" content="en-us" />
+./public/tour/index.html:861:  <div class="carousel-item active fullscreen" style=" background-color: #666;background-image: url(&#39;http://localhost:1313/media/coders.jpg&#39;); background-repeat: no-repeat; background-position: center; background-size: cover; ">
+./public/tour/index.html:903:  <div class="carousel-item fullscreen" style=" background-color: #555;background-image: url(&#39;http://localhost:1313/media/contact.jpg&#39;); background-repeat: no-repeat; background-position: center; background-size: cover; ">
+./public/tour/index.html:945:  <div class="carousel-item fullscreen" style=" background-color: #333;background-image: url(&#39;http://localhost:1313/media/welcome.jpg&#39;); background-repeat: no-repeat; background-position: center; background-size: cover; ">
+./public/_headers:1:# Netlify headers
+./public/_redirects:1:# Netlify redirects
+./public/_redirects:3:# Documentation: https://docs.netlify.com/routing/redirects/
+./README.md:15:[Check out the latest demo](https://research-group.netlify.app/) of what you'll get in less than 60 seconds, or [view the showcase](https://hugoblox.com/creators/).
+./README.md:17:The integrated [**Wowchemy**](https://hugoblox.com) website builder and CMS makes it easy to create a beautiful website for free. Edit your site in the CMS (or your favorite editor), generate it with [Hugo](https://github.com/gohugoio/hugo), and deploy with GitHub or Netlify. Customize anything on your site with widgets, light/dark themes, and language packs.
+./resources/_gen/assets/scss/main.scss_35d2871d83849b8ae542dee056bea3ce.content:1567:  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8' viewBox='0 0 8 8'%3e%3cpath fill='%2328a745' d='M2.3 6.73L.6 4.53c-.4-1.04.46-1.4 1.1-.8l1.1 1.4 3.4-3.8c.6-.63 1.6-.27 1.2.7l-4 4.6c-.43.5-.8.4-1.1.1z'/%3e%3c/svg%3e");
+./resources/_gen/assets/scss/main.scss_35d2871d83849b8ae542dee056bea3ce.content:1586:  background: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='4' height='5' viewBox='0 0 4 5'%3e%3cpath fill='%23343a40' d='M2 0L0 2h4zm0 5L0 3h4z'/%3e%3c/svg%3e") right 0.75rem center/8px 10px no-repeat, #fff url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8' viewBox='0 0 8 8'%3e%3cpath fill='%2328a745' d='M2.3 6.73L.6 4.53c-.4-1.04.46-1.4 1.1-.8l1.1 1.4 3.4-3.8c.6-.63 1.6-.27 1.2.7l-4 4.6c-.43.5-.8.4-1.1.1z'/%3e%3c/svg%3e") center right 1.75rem/calc(0.75em + 0.375rem) calc(0.75em + 0.375rem) no-repeat; }
+./resources/_gen/assets/scss/main.scss_35d2871d83849b8ae542dee056bea3ce.content:1654:  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' fill='none' stroke='%23dc3545' viewBox='0 0 12 12'%3e%3ccircle cx='6' cy='6' r='4.5'/%3e%3cpath stroke-linejoin='round' d='M5.8 3.6h.4L6 6.5z'/%3e%3ccircle cx='6' cy='8.2' r='.6' fill='%23dc3545' stroke='none'/%3e%3c/svg%3e");
+./resources/_gen/assets/scss/main.scss_35d2871d83849b8ae542dee056bea3ce.content:1673:  background: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='4' height='5' viewBox='0 0 4 5'%3e%3cpath fill='%23343a40' d='M2 0L0 2h4zm0 5L0 3h4z'/%3e%3c/svg%3e") right 0.75rem center/8px 10px no-repeat, #fff url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' fill='none' stroke='%23dc3545' viewBox='0 0 12 12'%3e%3ccircle cx='6' cy='6' r='4.5'/%3e%3cpath stroke-linejoin='round' d='M5.8 3.6h.4L6 6.5z'/%3e%3ccircle cx='6' cy='8.2' r='.6' fill='%23dc3545' stroke='none'/%3e%3c/svg%3e") center right 1.75rem/calc(0.75em + 0.375rem) calc(0.75em + 0.375rem) no-repeat; }
+./resources/_gen/assets/scss/main.scss_35d2871d83849b8ae542dee056bea3ce.content:2700:  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8' viewBox='0 0 8 8'%3e%3cpath fill='%23fff' d='M6.564.75l-3.59 3.612-1.538-1.55L0 4.26l2.974 2.99L8 2.193z'/%3e%3c/svg%3e"); }
+./resources/_gen/assets/scss/main.scss_35d2871d83849b8ae542dee056bea3ce.content:2707:  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='4' height='4' viewBox='0 0 4 4'%3e%3cpath stroke='%23fff' d='M0 2h4'/%3e%3c/svg%3e"); }
+./resources/_gen/assets/scss/main.scss_35d2871d83849b8ae542dee056bea3ce.content:2719:  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='%23fff'/%3e%3c/svg%3e"); }
+./resources/_gen/assets/scss/main.scss_35d2871d83849b8ae542dee056bea3ce.content:2758:  background: #fff url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='4' height='5' viewBox='0 0 4 5'%3e%3cpath fill='%23343a40' d='M2 0L0 2h4zm0 5L0 3h4z'/%3e%3c/svg%3e") right 0.75rem center/8px 10px no-repeat;
+./resources/_gen/assets/scss/main.scss_35d2871d83849b8ae542dee056bea3ce.content:3305:  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='%2334495e' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e"); }
+./resources/_gen/assets/scss/main.scss_35d2871d83849b8ae542dee056bea3ce.content:3337:  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.5%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e"); }
+./resources/_gen/assets/scss/main.scss_35d2871d83849b8ae542dee056bea3ce.content:4627:  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' width='8' height='8' viewBox='0 0 8 8'%3e%3cpath d='M5.25 0l-4 4 4 4 1.5-1.5L4.25 4l2.5-2.5L5.25 0z'/%3e%3c/svg%3e"); }
+./resources/_gen/assets/scss/main.scss_35d2871d83849b8ae542dee056bea3ce.content:4630:  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' width='8' height='8' viewBox='0 0 8 8'%3e%3cpath d='M2.75 0l-1.5 1.5L3.75 4l-2.5 2.5L2.75 8l4-4-4-4z'/%3e%3c/svg%3e"); }
+./theme.toml:6:demosite = "https://research-group.netlify.app/"

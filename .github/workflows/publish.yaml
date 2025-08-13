@@ -50,6 +50,7 @@ jobs:
           HUGO_ENVIRONMENT: production
         run: |
           echo "Hugo Cache Dir: $(hugo config | grep cachedir)"
+          echo "SITE_URL -> ${{ vars.SITE_URL }}"
           hugo --minify --baseURL "${{ vars.SITE_URL }}/"
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
