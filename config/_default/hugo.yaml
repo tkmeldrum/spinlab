@@ -5,6 +5,8 @@
 
 title: spinlab @ William & Mary # Website name
 baseURL: 'https://staging.meldrumlab.org/' # Website URL
+relativeURLs: false
+canonifyURLs: true
 
 ############################
 ## LANGUAGE
