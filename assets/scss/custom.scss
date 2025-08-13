@@ -1,0 +1,13 @@
+/* Make navbar brand image scale to navbar height */
+.navbar-brand img {
+  height: 100%;
+  width: auto;
+  max-height: var(--navbar-height, 60px); /* fallback for browsers that don't support CSS vars */
+  object-fit: contain;
+  display: block;
+}
+
+/* Ensure navbar height variable matches your theme's setting */
+.navbar {
+  --navbar-height: 60px; /* adjust to match your actual navbar height */
+}

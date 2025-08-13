@@ -30,6 +30,8 @@ marketing:
     baidu: ''
 
 # Site header
+# Old Wowchemy shape (flat string)
+logo: "media/logo.png"
 
 header:
   navbar:
@@ -41,7 +43,7 @@ header:
     show_search: true
     highlight_active_link: false
     logo: 
-      filename: "logo.jpg"
+      filename: "media/logo.png"
       text: ""
 
 # Site footer
