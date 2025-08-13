@@ -37,12 +37,12 @@ header:
     align: r
     show_logo: true
     show_language: false
-    show_day_night: true
-    show_search: true
+    show_day_night: false
+    show_search: false
     highlight_active_link: false
     logo: 
       filename: "logo.png"
-      text: "@ William & Mary"
+      text: ""
 
 # Site footer
 
@@ -67,9 +67,9 @@ locale:
 features:
   syntax_highlighter:
     enable: false
-    extra_languages:
-      - r
-      - latex
+    # extra_languages:
+      # - r
+      # - latex
   math:
     enable: false
   privacy_pack:
@@ -81,25 +81,25 @@ features:
   avatar:
     gravatar: false
     shape: circle
-  comment:
-    provider: ''
-    disqus:
-      shortname: ''
-      show_count: true
-    commento:
-      url: ''
-    giscus:
-      repo: ''
-      repo_id: ''
-      category: ''
-      category_id: ''
-  search:
-    provider: wowchemy
-    algolia:
-      app_id: ''
-      api_key: ''
-      index_name: ''
-      show_logo: false
+  # comment:
+  #   provider: ''
+  #   disqus:
+  #     shortname: ''
+  #     show_count: false
+  #   commento:
+  #     url: ''
+  #   giscus:
+  #     repo: ''
+  #     repo_id: ''
+  #     category: ''
+  #     category_id: ''
+  # search:
+  #   provider: wowchemy
+  #   algolia:
+  #     app_id: ''
+  #     api_key: ''
+  #     index_name: ''
+  #     show_logo: false
   map:
     provider: 'mapnik'
     api_key: ''
