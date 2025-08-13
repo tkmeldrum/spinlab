@@ -21,51 +21,58 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  # Build website
   build:
     if: github.repository_owner != 'HugoBlox'
     runs-on: ubuntu-latest
     steps:
-    - name: Checkout
-      uses: actions/checkout@v4
-      with:
-          # Fetch history for Hugo's .GitInfo and .Lastmod
-        fetch-depth: 0
-    - name: Setup Hugo
-      uses: peaceiris/actions-hugo@v3
-      with:
-        hugo-version: ${{ env.WC_HUGO_VERSION }}
-        extended: true
-    - uses: actions/cache@v4
-      with:
-        path: /tmp/hugo_cache_runner/
-        key: ${{ runner.os }}-hugomod-${{ hashFiles('**/go.mod') }}
-        restore-keys: |
-          ${{ runner.os }}-hugomod-
-    - name: Setup Pages
-      id: pages
-      uses: actions/configure-pages@v5
-    - name: Build with Hugo
-      env:
-        HUGO_ENVIRONMENT: production
-      run: |
-        echo "Hugo Cache Dir: $(hugo config | grep cachedir)"
-        echo "SITE_URL -> ${{ vars.SITE_URL }}"
-        hugo --minify --baseURL "${{ vars.SITE_URL }}/"
-    - name: Generate Pagefind search index
-      run: npx pagefind --source "public"
-    - name: Inspect build output TKM
-      run: |
-        echo "== Effective config =="
-        hugo config | grep -Ei 'baseurl|cdn|asset|static' || true
-        echo "== First stylesheet/script URLs on homepage =="
-        grep -Eo 'href="[^"]+\.css[^"]*"|src="[^"]+\.js[^"]*"' public/index.html | head -n 20
-    - name: Upload artifact
-      uses: actions/upload-pages-artifact@v3
-      with:
-        path: ./public
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
-  # Deploy website to GitHub Pages hosting
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v3
+        with:
+          hugo-version: ${{ env.WC_HUGO_VERSION }}
+          extended: true
+
+      # If you use Hugo Modules (Hugo Blox does), fetch them explicitly
+      - name: Hugo Modules tidy
+        run: |
+          hugo mod get -u ./... || true
+          hugo mod tidy || true
+
+      - name: Setup Pages
+        id: pages
+        uses: actions/configure-pages@v5
+
+      - name: Build with Hugo
+        env:
+          HUGO_ENVIRONMENT: production
+        run: |
+          echo "SITE_URL -> ${{ vars.SITE_URL }}"
+          hugo --minify --baseURL "${{ vars.SITE_URL }}"
+          echo "== Effective config ==" && hugo config | grep -Ei 'baseurl|cdn|asset|static' || true
+          echo "== First stylesheet/script URLs on homepage ==" && \
+            grep -Eo 'href="[^"]+\.css[^"]*"|src="[^"]+\.js[^"]*"' public/index.html | head -n 40 || true
+
+      # Belt & suspenders: ensure Pages won't try Jekyll
+      - name: Add .nojekyll
+        run: touch public/.nojekyll
+
+      # Temporary safety net: rewrite protocol-relative //links to /links
+      - name: Fix protocol-relative URLs (temporary)
+        run: |
+          find public -type f -name '*.html' -print0 | xargs -0 sed -i \
+            -e 's|src="//|src="/|g' \
+            -e 's|href="//|href="/|g' \
+            -e 's|srcset="//|srcset="/|g'
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./public
+
   deploy:
     if: github.repository_owner != 'HugoBlox'
     environment:
@@ -74,6 +81,65 @@ jobs:
     runs-on: ubuntu-latest
     needs: build
     steps:
-    - name: Deploy to GitHub Pages
-      id: deployment
-      uses: actions/deploy-pages@v4
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
+
+
+# jobs:
+#   # Build website
+#   build:
+#     if: github.repository_owner != 'HugoBlox'
+#     runs-on: ubuntu-latest
+#     steps:
+#     - name: Checkout
+#       uses: actions/checkout@v4
+#       with:
+#           # Fetch history for Hugo's .GitInfo and .Lastmod
+#         fetch-depth: 0
+#     - name: Setup Hugo
+#       uses: peaceiris/actions-hugo@v3
+#       with:
+#         hugo-version: ${{ env.WC_HUGO_VERSION }}
+#         extended: true
+#     - uses: actions/cache@v4
+#       with:
+#         path: /tmp/hugo_cache_runner/
+#         key: ${{ runner.os }}-hugomod-${{ hashFiles('**/go.mod') }}
+#         restore-keys: |
+#           ${{ runner.os }}-hugomod-
+#     - name: Setup Pages
+#       id: pages
+#       uses: actions/configure-pages@v5
+#     - name: Build with Hugo
+#       env:
+#         HUGO_ENVIRONMENT: production
+#       run: |
+#         echo "Hugo Cache Dir: $(hugo config | grep cachedir)"
+#         echo "SITE_URL -> ${{ vars.SITE_URL }}"
+#         hugo --minify --baseURL "${{ vars.SITE_URL }}/"
+#     - name: Generate Pagefind search index
+#       run: npx pagefind --source "public"
+#     - name: Inspect build output TKM
+#       run: |
+#         echo "== Effective config =="
+#         hugo config | grep -Ei 'baseurl|cdn|asset|static' || true
+#         echo "== First stylesheet/script URLs on homepage =="
+#         grep -Eo 'href="[^"]+\.css[^"]*"|src="[^"]+\.js[^"]*"' public/index.html | head -n 20
+#     - name: Upload artifact
+#       uses: actions/upload-pages-artifact@v3
+#       with:
+#         path: ./public
+
+  # Deploy website to GitHub Pages hosting
+  # deploy:
+  #   if: github.repository_owner != 'HugoBlox'
+  #   environment:
+  #     name: github-pages
+  #     url: ${{ steps.deployment.outputs.page_url }}
+  #   runs-on: ubuntu-latest
+  #   needs: build
+  #   steps:
+  #   - name: Deploy to GitHub Pages
+  #     id: deployment
+  #     uses: actions/deploy-pages@v4
