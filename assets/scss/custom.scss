@@ -46,3 +46,9 @@
     transition: none !important;
   }
 }
+
+/* Add extra space between research intro and first showcase item */
+.view-showcase:first-of-type {
+  margin-top: 3rem;
+}
+
