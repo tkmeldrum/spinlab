@@ -120,3 +120,12 @@ publications:
   date_format: January 2006
   citation_style: apa
 
+assetCDN: ""
+static_cdn: ""
+cdn: ""
+assets:
+  baseURL: ""
+media:
+  cdn: ""
+
+
