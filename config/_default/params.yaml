@@ -30,8 +30,6 @@ marketing:
     baidu: ''
 
 # Site header
-# Old Wowchemy shape (flat string)
-logo: "media/logo.png"
 
 header:
   navbar:
@@ -43,8 +41,8 @@ header:
     show_search: true
     highlight_active_link: false
     logo: 
-      filename: "media/logo.png"
-      text: ""
+      filename: "logo.png"
+      text: "@ William & Mary"
 
 # Site footer
 
