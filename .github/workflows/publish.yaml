@@ -54,6 +54,12 @@ jobs:
         hugo --minify --baseURL "${{ vars.SITE_URL }}/"
     - name: Generate Pagefind search index
       run: npx pagefind --source "public"
+    - name: Inspect build output TKM
+      run: |
+        echo "== Effective config =="
+        hugo config | grep -Ei 'baseurl|cdn|asset|static' || true
+        echo "== First stylesheet/script URLs on homepage =="
+        grep -Eo 'href="[^"]+\.css[^"]*"|src="[^"]+\.js[^"]*"' public/index.html | head -n 20
     - name: Upload artifact
       uses: actions/upload-pages-artifact@v3
       with:
