@@ -1,13 +1,48 @@
-/* Make navbar brand image scale to navbar height */
-.navbar-brand img {
-  height: 100%;
+/* Navbar sizing variables */
+.navbar {
+  --navbar-h-desktop: 56px; /* adjust to match your desktop navbar height */
+  --navbar-h-mobile: 46px;  /* adjust to match your mobile navbar height */
+}
+
+/* Desktop brand sizing */
+.navbar .navbar-brand {
+  height: var(--navbar-h-desktop);
+  display: flex;
+  align-items: center;
+  line-height: 0; /* avoid extra inline spacing */
+}
+.navbar .navbar-brand img {
+  height: 100% !important;    
+  max-height: var(--navbar-h-desktop) !important;
   width: auto;
-  max-height: var(--navbar-height, 60px); /* fallback for browsers that don't support CSS vars */
   object-fit: contain;
   display: block;
 }
 
-/* Ensure navbar height variable matches your theme's setting */
-.navbar {
-  --navbar-height: 60px; /* adjust to match your actual navbar height */
+/* Mobile brand sizing (prevents clipping) */
+@media (max-width: 991.98px) {
+  .navbar .navbar-brand {
+    height: var(--navbar-h-mobile);
+  }
+  .navbar .navbar-brand img {
+    max-height: var(--navbar-h-mobile) !important;
+  }
+  .navbar-brand-mobile-wrapper {
+    align-items: center !important;
+  }
+}
+
+/* Smooth scaling on breakpoint changes */
+.navbar .navbar-brand,
+.navbar .navbar-brand img {
+  transition: height 200ms ease, max-height 200ms ease;
+  will-change: height, max-height;
+}
+
+/* Respect reduced-motion */
+@media (prefers-reduced-motion: reduce) {
+  .navbar .navbar-brand,
+  .navbar .navbar-brand img {
+    transition: none !important;
+  }
 }
