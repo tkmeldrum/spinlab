@@ -22,7 +22,7 @@ sections:
         ## Silly stuff
         - Spinlab's 2024 liquid nitrogen ice cream flyers, Summer Olympics edition! [PDF download](spinlab_ice_cream_2024.pdf)
         - Spinlab's 2025 liquid nitrogen ice cream flyers, research project edition! [PDF download](spinlab_ice_cream_2025.pdf)
-        - Spinlab on Instagram (link coming)
+        - [Follow Spinlab on Instagram!](https://instagram.com/wm_spinlab)
         
 ---
 
