@@ -1,0 +1,80 @@
+<script>
+(() => {
+  const FOCUSABLE = [
+    'a[href]','area[href]','button','input','select','textarea','summary',
+    'iframe','[tabindex]:not([tabindex="-1"])','[contenteditable]'
+  ].join(',');
+
+  function fixAriaHiddenConflicts(root = document) {
+    root.querySelectorAll('[aria-hidden="true"]').forEach(el => {
+      if (el.matches('[data-keep-aria-hidden]')) return;
+      if (el.querySelector(FOCUSABLE)) {
+        el.removeAttribute('aria-hidden');
+      }
+    });
+
+    // Keep icon glyphs decorative
+    root.querySelectorAll('.network-icon i, .social i, i.fab, i.fas, i.fa').forEach(icon => {
+      icon.setAttribute('aria-hidden', 'true');
+      icon.setAttribute('focusable', 'false');
+    });
+
+    // Give social links accessible names if missing
+    root.querySelectorAll('.network-icon a, .social a').forEach(a => {
+      const hasName = a.getAttribute('aria-label') || a.textContent.trim();
+      if (!hasName) {
+        const label =
+          a.title ||
+          (a.href && new URL(a.href, location.origin).hostname.replace(/^www\./,''));
+        if (label) a.setAttribute('aria-label', label);
+      }
+    });
+
+    // Mailto links: ensure they have a label
+    root.querySelectorAll('a[href^="mailto:"]').forEach(a => {
+      const hasName = a.getAttribute('aria-label') || a.textContent.trim();
+      if (!hasName) {
+        const email = a.getAttribute('href').replace(/^mailto:/, '');
+        a.setAttribute('aria-label', `Email ${email}`);
+      }
+    });
+
+    // All links: ensure they have discernible text or aria-label
+    root.querySelectorAll('a[href]').forEach(a => {
+      const visibleText = a.textContent.trim();
+      const ariaLabel = a.getAttribute('aria-label');
+      if (!visibleText && !ariaLabel) {
+        const fallback =
+          a.title ||
+          (a.href && new URL(a.href, location.origin).hostname.replace(/^www\./,''));
+        if (fallback) a.setAttribute('aria-label', fallback);
+      }
+      // Any image inside a link should have alt text
+      a.querySelectorAll('img').forEach(img => {
+        if (!img.hasAttribute('alt')) {
+          img.setAttribute('alt', ariaLabel || visibleText || 'Linked image');
+        }
+      });
+    });
+  }
+
+  // Run once on load
+  fixAriaHiddenConflicts();
+
+  // Observe for DOM changes
+  new MutationObserver(muts => {
+    for (const m of muts) {
+      if (m.type === 'attributes' && m.attributeName === 'aria-hidden') {
+        fixAriaHiddenConflicts(m.target);
+      } else if (m.type === 'childList' && (m.addedNodes.length || m.removedNodes.length)) {
+        fixAriaHiddenConflicts();
+      }
+    }
+  }).observe(document.documentElement, {
+    subtree: true,
+    childList: true,
+    attributes: true,
+    attributeFilter: ['aria-hidden']
+  });
+})();
+</script>
