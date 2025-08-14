@@ -65,11 +65,11 @@ locale:
 # Site features
 
 features:
-  syntax_highlighter:
-    enable: false
-    # extra_languages:
-      # - r
-      # - latex
+  # syntax_highlighter:
+  #   enable: false
+  #   extra_languages:
+  #     - r
+  #     - latex
   math:
     enable: false
   privacy_pack:
