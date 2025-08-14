@@ -11,7 +11,7 @@ avatar: avatar.png    # put this image in static/media/
 superuser: false
 
 # Role/position
-role: Physical Therapy track, 2026
+role: Physical therapy track, 2026
 
 
 # Organizations/Affiliations

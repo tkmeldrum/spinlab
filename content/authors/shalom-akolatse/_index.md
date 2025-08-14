@@ -11,7 +11,7 @@ avatar: avatar.jpg    # put this image in static/media/
 superuser: false
 
 # Role/position
-role: Biochemistry and Math, 2026
+role: Math major, Chemistry minor, 2026
 
 
 # Organizations/Affiliations
