@@ -44,10 +44,10 @@ organizations:
 #       year: 2006
 
 # # Social/Academic Networking
-# social:
-#   - icon: envelope
-#     icon_pack: fas
-#     link: 'mailto:tkmeldrum@wm.edu'
+social:
+  - icon: linkedin
+    icon_pack: fab
+    link: https://www.linkedin.com/in/kylie-mccoy-50aaa1263
 #   - icon: github
 #     icon_pack: fab
 #     link: https://github.com/tkmeldrum
@@ -59,6 +59,7 @@ organizations:
 #     link: https://scholar.google.com/citations?user=yKXJezQAAAAJ
 #   # Add more as needed
 
+
 # email: 'tkmeldrum@wm.edu'
 
 highlight_name: true
@@ -69,3 +70,5 @@ user_groups:
 # Custom/fun fields
 # favorite_coffee: Oat milk cortado, conditionally
 ---
+
+Kylie McCoy is always up to learn new things, especially in chemistry. You can usually find her in Swem library studying, enjoying music, or listening to her favorite podcasts. She likes to paint landscapes and thrift new outfits whenever she can.
