@@ -25,7 +25,7 @@ sections:
       title: Our Research
       subtitle:
       text: |
-        Research in the spinlab centers around single-sided nuclear magnetic resonance. We focus on methods and instrumentations development, data and computational models, and a range a applications. 
+        Research in the spinlab centers around single-sided nuclear magnetic resonance. We focus on methods and instrumentations development, data and computational models, and a range of applications. 
       count: 4
       # filters:
       #   author: ''
