@@ -1,1 +1,1 @@
-spinlab staging OK
+spinlab PROD OK

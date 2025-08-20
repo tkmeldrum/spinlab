@@ -69,6 +69,6 @@ user_groups:
 # Custom/fun fields
 # favorite_coffee: Oat milk cortado, conditionally
 ---
-Noah Zelch is a senior at William & Mary and is a psychology major on the pre-physical therapy tract. In lab, Noah is interested in measuring and characterizing pore structure in porous archaeological artifacts, such as pottery and bricks.
+Noah Zelch is a senior at William & Mary and is a psychology major on the pre-physical therapy track. In lab, Noah is interested in measuring and characterizing pore structure in porous archaeological artifacts, such as pottery and bricks.
 
 When not in lab, you can find Noah on the Club B soccer team, painting, or playing board games. He also loves to cook and watch movies (Eternal Sunshine of the Spotless Mind #1).

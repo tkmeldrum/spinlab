@@ -4,7 +4,7 @@
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
 title: spinlab @ William & Mary # Website name
-baseURL: 'https://staging.meldrumlab.org/' # Website URL
+baseURL: 'https://meldrumlab.org/' # Website URL
 relativeURLs: false
 canonifyURLs: true
 

@@ -72,4 +72,4 @@ favorite_coffee: Oat milk cortado, conditionally
 
 Tyler Meldrum is an Associate Professor of Chemistry at William & Mary and the PI of the spinlab. His research centers around nuclear magnetic resonance (NMR) to study a range of materials, including adhesives, archaeological samples, and art. His group also drives methodological advancements in single-sided NMR and uses computational and data-science methods to solve material problems. He teaches a range of general and physical chemistry courses.
 
-Outside of research and teaching, Tyler is a coffee enthusiast (black in the mornings, an oat milk cortado in the afternoons), loves scientific outreach, and is a proud father of two. 16-bit video games give him joy, physical activity keeps him grounded, and he's honed his sass watching Taskmaster.
+Outside of research and teaching, Tyler is a coffee enthusiast (black in the mornings, an oat milk cortado in the afternoons), loves scientific outreach, and is a proud father of two. When not sassing his students, Tyler grounds himself with 16-bit video games, baking, or dreaming about his next trip into the mountains.
