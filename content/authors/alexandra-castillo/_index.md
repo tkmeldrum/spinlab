@@ -11,7 +11,7 @@ avatar: meldrum.png    # put this image in static/media/
 superuser: false
 
 # Role/position
-role: 2028
+role: Math major, Chemistry minor, 2027
 
 
 # Organizations/Affiliations
