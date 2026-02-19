@@ -11,7 +11,7 @@ avatar: meldrum.png    # put this image in static/media/
 superuser: false
 
 # Role/position
-role: Chemistry, 2027
+role: 
 
 
 # Organizations/Affiliations
