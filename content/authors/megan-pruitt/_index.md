@@ -11,7 +11,7 @@ avatar: meldrum.png    # put this image in static/media/
 superuser: false
 
 # Role/position
-role: Chemistry, 2027
+role: Chemistry and Religious Studies, 2027
 
 
 # Organizations/Affiliations
@@ -69,3 +69,4 @@ user_groups:
 # Custom/fun fields
 # favorite_coffee: Oat milk cortado, conditionally
 ---
+Originally from Williamsburg, Megan Pruitt hopes to attend dental school after graduation. When she’s not studying, she can be found practicing the organ, “brushing up” on her calligraphy skills or trying to finish one of her 20 checked out library books.
