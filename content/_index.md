@@ -50,10 +50,20 @@ sections:
       #   view: card
       #   columns: 1
 
+  - block: markdown
+    content:
+      title:
+      text: |
+        <img src="/media/groupphoto_2026.jpg" alt="Spinlab group photo, 2026" style="width:100%;">
+        <p style="font-size: 0.85em; font-style: italic; text-align: center;">Spring 2026</p>
+    design:
+      columns: '1'
+      css_style: "padding-bottom: 20px;"
+
   - block: people
     id: people
     content:
-      title: Meet the Group
+      title: 
       # Choose which groups/teams of users to display.
       #   Edit `user_groups` in each user's profile to add them to one or more of these groups.
       user_groups:
@@ -70,6 +80,7 @@ sections:
       show_interests: false
       show_role: true
       show_social: true
+      css_class: "pt-0"
 
   - block: collection
     id: news
