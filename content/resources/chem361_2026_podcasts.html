@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CHEM 361, Winter 2026 — Student Audio Postcards</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=DM+Sans:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  :root {
+    --bg: #f7f4ef;
+    --surface: #ffffff;
+    --text: #1a1a18;
+    --muted: #6b6b64;
+    --accent: #185FA5;
+    --accent-light: #E6F1FB;
+    --border: rgba(0,0,0,0.10);
+    --radius: 10px;
+  }
+
+  body {
+    font-family: 'DM Sans', sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    min-height: 100vh;
+    padding: 3rem 1.25rem 5rem;
+  }
+
+  .page {
+    max-width: 680px;
+    margin: 0 auto;
+  }
+
+  header {
+    margin-bottom: 3rem;
+    border-bottom: 1px solid var(--border);
+    padding-bottom: 2rem;
+  }
+
+  .eyebrow {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 0.75rem;
+    font-weight: 500;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--accent);
+    margin-bottom: 0.75rem;
+  }
+
+  h1 {
+    font-family: 'DM Serif Display', serif;
+    font-size: clamp(1.9rem, 5vw, 2.75rem);
+    font-weight: 400;
+    line-height: 1.15;
+    color: var(--text);
+    margin-bottom: 1rem;
+  }
+
+  .subtitle {
+    font-size: 0.95rem;
+    color: var(--muted);
+    line-height: 1.6;
+    max-width: 520px;
+  }
+
+  .episode-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+    background: var(--border);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    overflow: hidden;
+  }
+
+  .episode {
+    display: flex;
+    align-items: flex-start;
+    gap: 1.25rem;
+    background: var(--surface);
+    padding: 1.1rem 1.25rem;
+    text-decoration: none;
+    color: inherit;
+    transition: background 0.15s ease;
+  }
+
+  .episode:hover {
+    background: var(--accent-light);
+  }
+
+  .ep-num {
+    font-family: 'DM Serif Display', serif;
+    font-size: 1.1rem;
+    color: var(--accent);
+    min-width: 2rem;
+    padding-top: 1px;
+    opacity: 0.7;
+    flex-shrink: 0;
+  }
+
+  .ep-body {
+    flex: 1;
+  }
+
+  .ep-title {
+    font-size: 0.975rem;
+    font-weight: 500;
+    color: var(--text);
+    margin-bottom: 0.2rem;
+    line-height: 1.4;
+  }
+
+  .ep-name {
+    font-size: 0.825rem;
+    color: var(--muted);
+  }
+
+  .ep-arrow {
+    color: var(--accent);
+    font-size: 1.1rem;
+    align-self: center;
+    opacity: 0;
+    transition: opacity 0.15s ease, transform 0.15s ease;
+    flex-shrink: 0;
+  }
+
+  .episode:hover .ep-arrow {
+    opacity: 1;
+    transform: translateX(3px);
+  }
+
+  footer {
+    margin-top: 2.5rem;
+    font-size: 0.8rem;
+    color: var(--muted);
+    text-align: center;
+  }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <header>
+    <p class="eyebrow">CHEM 361 &mdash; Winter 2026 &mdash; Heidelberg</p>
+    <h1>Student Audio Postcards</h1>
+    <p class="subtitle">Short stories about international science, produced by William &amp; Mary students during a three-week immersive course at the German Cancer Research Center.</p>
+  </header>
+
+  <div class="episode-list">
+
+    <a class="episode" href="PASTE_ONEDRIVE_LINK_1" target="_blank">
+      <span class="ep-num">01</span>
+      <div class="ep-body">
+        <p class="ep-title">[Episode Title]</p>
+        <p class="ep-name">[Student Name]</p>
+      </div>
+      <span class="ep-arrow">&#8594;</span>
+    </a>
+
+    <a class="episode" href="PASTE_ONEDRIVE_LINK_2" target="_blank">
+      <span class="ep-num">02</span>
+      <div class="ep-body">
+        <p class="ep-title">[Episode Title]</p>
+        <p class="ep-name">[Student Name]</p>
+      </div>
+      <span class="ep-arrow">&#8594;</span>
+    </a>
+
+    <a class="episode" href="PASTE_ONEDRIVE_LINK_3" target="_blank">
+      <span class="ep-num">03</span>
+      <div class="ep-body">
+        <p class="ep-title">[Episode Title]</p>
+        <p class="ep-name">[Student Name]</p>
+      </div>
+      <span class="ep-arrow">&#8594;</span>
+    </a>
+
+    <a class="episode" href="PASTE_ONEDRIVE_LINK_4" target="_blank">
+      <span class="ep-num">04</span>
+      <div class="ep-body">
+        <p class="ep-title">[Episode Title]</p>
+        <p class="ep-name">[Student Name]</p>
+      </div>
+      <span class="ep-arrow">&#8594;</span>
+    </a>
+
+    <a class="episode" href="PASTE_ONEDRIVE_LINK_5" target="_blank">
+      <span class="ep-num">05</span>
+      <div class="ep-body">
+        <p class="ep-title">[Episode Title]</p>
+        <p class="ep-name">[Student Name]</p>
+      </div>
+      <span class="ep-arrow">&#8594;</span>
+    </a>
+
+    <a class="episode" href="PASTE_ONEDRIVE_LINK_6" target="_blank">
+      <span class="ep-num">06</span>
+      <div class="ep-body">
+        <p class="ep-title">[Episode Title]</p>
+        <p class="ep-name">[Student Name]</p>
+      </div>
+      <span class="ep-arrow">&#8594;</span>
+    </a>
+
+    <a class="episode" href="PASTE_ONEDRIVE_LINK_7" target="_blank">
+      <span class="ep-num">07</span>
+      <div class="ep-body">
+        <p class="ep-title">[Episode Title]</p>
+        <p class="ep-name">[Student Name]</p>
+      </div>
+      <span class="ep-arrow">&#8594;</span>
+    </a>
+
+    <a class="episode" href="PASTE_ONEDRIVE_LINK_8" target="_blank">
+      <span class="ep-num">08</span>
+      <div class="ep-body">
+        <p class="ep-title">[Episode Title]</p>
+        <p class="ep-name">[Student Name]</p>
+      </div>
+      <span class="ep-arrow">&#8594;</span>
+    </a>
+
+    <a class="episode" href="PASTE_ONEDRIVE_LINK_9" target="_blank">
+      <span class="ep-num">09</span>
+      <div class="ep-body">
+        <p class="ep-title">[Episode Title]</p>
+        <p class="ep-name">[Student Name]</p>
+      </div>
+      <span class="ep-arrow">&#8594;</span>
+    </a>
+
+    <a class="episode" href="PASTE_ONEDRIVE_LINK_10" target="_blank">
+      <span class="ep-num">10</span>
+      <div class="ep-body">
+        <p class="ep-title">[Episode Title]</p>
+        <p class="ep-name">[Student Name]</p>
+      </div>
+      <span class="ep-arrow">&#8594;</span>
+    </a>
+
+    <a class="episode" href="PASTE_ONEDRIVE_LINK_11" target="_blank">
+      <span class="ep-num">11</span>
+      <div class="ep-body">
+        <p class="ep-title">[Episode Title]</p>
+        <p class="ep-name">[Student Name]</p>
+      </div>
+      <span class="ep-arrow">&#8594;</span>
+    </a>
+
+    <a class="episode" href="PASTE_ONEDRIVE_LINK_12" target="_blank">
+      <span class="ep-num">12</span>
+      <div class="ep-body">
+        <p class="ep-title">[Episode Title]</p>
+        <p class="ep-name">[Student Name]</p>
+      </div>
+      <span class="ep-arrow">&#8594;</span>
+    </a>
+
+    <a class="episode" href="PASTE_ONEDRIVE_LINK_13" target="_blank">
+      <span class="ep-num">13</span>
+      <div class="ep-body">
+        <p class="ep-title">[Episode Title]</p>
+        <p class="ep-name">[Student Name]</p>
+      </div>
+      <span class="ep-arrow">&#8594;</span>
+    </a>
+
+    <a class="episode" href="PASTE_ONEDRIVE_LINK_14" target="_blank">
+      <span class="ep-num">14</span>
+      <div class="ep-body">
+        <p class="ep-title">[Episode Title]</p>
+        <p class="ep-name">[Student Name]</p>
+      </div>
+      <span class="ep-arrow">&#8594;</span>
+    </a>
+
+    <a class="episode" href="PASTE_ONEDRIVE_LINK_15" target="_blank">
+      <span class="ep-num">15</span>
+      <div class="ep-body">
+        <p class="ep-title">[Episode Title]</p>
+        <p class="ep-name">[Student Name]</p>
+      </div>
+      <span class="ep-arrow">&#8594;</span>
+    </a>
+
+    <a class="episode" href="PASTE_ONEDRIVE_LINK_16" target="_blank">
+      <span class="ep-num">16</span>
+      <div class="ep-body">
+        <p class="ep-title">[Episode Title]</p>
+        <p class="ep-name">[Student Name]</p>
+      </div>
+      <span class="ep-arrow">&#8594;</span>
+    </a>
+
+    <a class="episode" href="PASTE_ONEDRIVE_LINK_17" target="_blank">
+      <span class="ep-num">17</span>
+      <div class="ep-body">
+        <p class="ep-title">[Episode Title]</p>
+        <p class="ep-name">[Student Name]</p>
+      </div>
+      <span class="ep-arrow">&#8594;</span>
+    </a>
+
+    <a class="episode" href="PASTE_ONEDRIVE_LINK_18" target="_blank">
+      <span class="ep-num">18</span>
+      <div class="ep-body">
+        <p class="ep-title">[Episode Title]</p>
+        <p class="ep-name">[Student Name]</p>
+      </div>
+      <span class="ep-arrow">&#8594;</span>
+    </a>
+
+    <a class="episode" href="PASTE_ONEDRIVE_LINK_19" target="_blank">
+      <span class="ep-num">19</span>
+      <div class="ep-body">
+        <p class="ep-title">[Episode Title]</p>
+        <p class="ep-name">[Student Name]</p>
+      </div>
+      <span class="ep-arrow">&#8594;</span>
+    </a>
+
+    <a class="episode" href="PASTE_ONEDRIVE_LINK_20" target="_blank">
+      <span class="ep-num">20</span>
+      <div class="ep-body">
+        <p class="ep-title">[Episode Title]</p>
+        <p class="ep-name">[Student Name]</p>
+      </div>
+      <span class="ep-arrow">&#8594;</span>
+    </a>
+
+  </div>
+
+  <footer>
+    William &amp; Mary &mdash; Department of Chemistry &mdash; Winter 2026
+  </footer>
+
+</div>
+</body>
+</html>
