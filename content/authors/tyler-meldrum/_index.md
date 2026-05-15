@@ -48,6 +48,9 @@ social:
   - icon: envelope
     icon_pack: fas
     link: 'mailto:tkmeldrum@wm.edu'
+  - icon: linkedin
+    icon_pack: fab
+    link: http://www.linkedin.com/in/tyler-meldrum
   - icon: github
     icon_pack: fab
     link: https://github.com/tkmeldrum
