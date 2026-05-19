@@ -54,6 +54,9 @@ social:
   - icon: linkedin
     icon_pack: fab
     link: https://www.linkedin.com/in/tdfelton/
+  - icon: house
+    icon_pack: fas
+    link: https://tdfelton.github.io
 #   - icon: orcid
 #     icon_pack: ai
 #     link: https://orcid.org/0000-0002-5954-0795
@@ -72,4 +75,4 @@ user_groups:
 # Custom/fun fields
 # favorite_coffee: Oat milk cortado, conditionally
 ---
-Thomas Felton is originally from Gainesville, Virginia. He is interested in Baseball, Data Analysis, and travel/exploration. He's trying to create as many experiences as he can while he still has the time. When he's not working/studying, he's either playing club baseball or meandering (physically and/or mentally). He likes to keep his friends close and his food closer. 
+Thomas Felton is originally from Gainesville, Virginia. He is interested in Baseball, Data Analysis, and travel/exploration. He's trying to create as many experiences as he can while he still has the time. When he's not working/studying, he's either playing club baseball or meandering (physically and/or mentally). He likes to keep his friends close and his food closer. Keep up with him [here](https://tdfelton.github.io).
