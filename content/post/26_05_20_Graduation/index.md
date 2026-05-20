@@ -10,7 +10,7 @@ Huge congratulations to the class of 2026, and especially to the six (!!) gradua
 
 <!--more-->
 
-Huge congratulations to the class of 2026, and especially to the six (!!) graduating members of the spinlab! They include:
+Spinlab graduates include:
 - Shalom Akolatse (B.S. Mathematics, minor and honors in Chemistry)
 - Eliza Evans (B.S. Chemistry, honors in Chemistry)
 - John Golding (B.S. Chemistry)
