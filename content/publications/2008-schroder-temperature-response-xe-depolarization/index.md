@@ -16,7 +16,7 @@ note: ""
 publication: ""
 publication_short: ""
 
-abstract: ""
+abstract: "Trapping xenon in functionalized cryptophane cages makes the sensitivity of hyperpolarized (HP) 129Xe available for specific NMR detection of biomolecules. Here, we study the signal transfer onto a reservoir of unbound HP xenon by gating the residence time of the nuclei in the cage through the temperature-dependent exchange rate. Temperature changes larger than 0.6 K are detectable as an altered reservoir signal. The temperature response is adjustable, with lower concentrations of caged xenon providing more sensitivity at higher temperatures. Ultrasensitive detection of functionalized cryptophane at 310 K is demonstrated with a concentration of 10 nM, corresponding to a 4000-fold sensitivity enhancement compared to conventional detection. This makes HP NMR capable of detecting such constructs in concentrations far below the detection limit of benchtop UV-visible light absorbance."
 summary: ""
 
 tags: []

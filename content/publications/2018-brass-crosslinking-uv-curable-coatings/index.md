@@ -16,7 +16,7 @@ note: "Open access"
 publication: ""
 publication_short: ""
 
-abstract: ""
+abstract: "The UV-driven photocuring of coatings results in a crosslinked polymeric network. The degree of crosslinking in these coatings is typically assessed via optical spectroscopy; unfortunately, optical methods are typically limited in their maximum depth access. Alternatively, single-sided nuclear magnetic resonance (NMR) can be used to probe the crosslinking of UV-curable coatings in a spatially sensitive manner. Relaxation measurements, which correlate with crosslinking, can be done with a spatial resolution on the order of microns throughout the depth dimension of the coating, regardless of optical transparency of the material. These results can be visualized via a relaxation cross-section that shows the depth at which a particular relaxation value is observed. These measurements are used to probe the effect of a scavenger molecule that is added to the coating mixture, allowing for efficient crosslinking despite the presence of atmospheric oxygen. This method may find purchase in evaluating systems whose crosslinking properties are intentionally varied throughout its thickness; using NMR, these systems, up to approximately one hundred microns thick, can be measured without repositioning or rastering."
 summary: ""
 
 tags: []

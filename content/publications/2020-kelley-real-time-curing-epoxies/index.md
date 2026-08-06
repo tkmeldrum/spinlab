@@ -16,7 +16,7 @@ note: ""
 publication: ""
 publication_short: ""
 
-abstract: ""
+abstract: "Adhesively bonded joints using epoxy are widely used in aircraft and aerospace structures. Quality control and defect detection during epoxy curing in such applications is critical. We used single-sided nuclear magnetic resonance (NMR) to nondestructively probe and spatially resolve the change in the characteristic NMR relaxation time (*T*2) of epoxies during curing on a substrate. Time-dependent *T*2 values were fit to a Weibull function to model temporal changes in the NMR measurables. Our results demonstrate that the reduction in molecular mobility of various epoxy/curing agent mixtures occurs more rapidly at the interface than in the bulk. Further use of single-sided NMR to acquire spatially resolved *T*2 data will provide a route for elucidatory epoxy curing studies."
 summary: ""
 
 tags: []

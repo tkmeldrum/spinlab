@@ -16,7 +16,7 @@ note: ""
 publication: ""
 publication_short: ""
 
-abstract: ""
+abstract: "Accurate spatial mapping of magnetic fields is crucial for a range of scientific, industrial, and medical magnetic devices. Here, we present RAMM: a Robotic, Autonomous Magnetic field Mapper. RAMM consists of a delta-style 3D robot coupled with a three-axis Hall sensor that is able to measure magnetic fields accurately and at relatively low cost. In addition, RAMM is programmatically controlled via a Python interface, facilitating volumetric measurement of x, y, and z-components of magnetic fields ranging from the millitesla to single-digit Tesla range. We demonstrate the performance of RAMM via detailed 3D maps of the magnetic fields of several different sizes and arrangements of permanent magnets, and demonstrate agreement between measured and manufacturer-reported field gradient values. RAMM is easy to build, affordable, and suitable for teaching and research applications."
 summary: ""
 
 tags: []

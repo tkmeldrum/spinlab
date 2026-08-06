@@ -16,7 +16,7 @@ note: ""
 publication: ""
 publication_short: ""
 
-abstract: ""
+abstract: "A MATLAB-based graphical user interface for simplified comparisons of nuclear magnetic resonance depth profiles or other 1-dimensional datasets was developed. It allows for the application and combination of three statistical methods for computing and visualising similarities: principal component analysis, linear discriminant analysis, and dynamic time warping. The toolkit was used to analyse affinity and differences between depth profiles of ancient Roman wall paintings on stratified mortar backings. Whereas principal component analysis and linear discriminant analysis serve to characterise similarities in a single class or multiple classes, respectively, differences in mortar-layer thickness can be corrected with the help of dynamic time warping."
 summary: ""
 
 tags: []

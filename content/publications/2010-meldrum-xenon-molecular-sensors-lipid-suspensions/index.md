@@ -16,7 +16,7 @@ note: "Cover article"
 publication: ""
 publication_short: ""
 
-abstract: ""
+abstract: "There have been many proposals to use xenon-based molecular sensors in biological settings. Fundamental to understanding the properties of these sensors in vivo is characterizing their behavior in lipid environments. We report the investigation of xenon-based molecular sensors in suspensions of lipid vesicles with a size comparable to cells. We detail spectroscopic properties of sensors associated with lipid vesicles as well as those in equilibrium in the surrounding solution. We characterize the dependence of the spectral parameters on temperature, relevant for studies at physiological temperatures. We also demonstrate the ability to perform selective saturation transfer (Hyper-CEST) between sensor, both lipid bound and unbound, and the bulk solution. Lastly, we demonstrate the applicability of saturation transfer in the heterogeneous medium as an imaging modality."
 summary: ""
 
 tags: []

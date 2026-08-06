@@ -16,7 +16,7 @@ note: "Open access"
 publication: ""
 publication_short: ""
 
-abstract: ""
+abstract: "Ultrafast NMR measurements of diffusion and *T*2 relaxation reveal physical properties of samples and are compatible with hyperpolarization-based signal enhancement."
 summary: ""
 
 tags: []

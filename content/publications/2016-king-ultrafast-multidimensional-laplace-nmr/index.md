@@ -16,7 +16,7 @@ note: ""
 publication: ""
 publication_short: ""
 
-abstract: ""
+abstract: "Laplace NMR (LNMR) consists of relaxation and diffusion measurements providing detailed information about molecular motion and interaction. Here we demonstrate that ultrafast single- and multidimensional LNMR experiments, based on spatial encoding, are viable with low-field, single-sided magnets with an inhomogeneous magnetic field. This approach shortens the experiment time by one to two orders of magnitude relative to traditional experiments, and increases the sensitivity per unit time by a factor of three. The reduction of time required to collect multidimensional data opens significant prospects for mobile chemical analysis using NMR. Particularly tantalizing is future use of hyperpolarization to increase sensitivity by orders of magnitude, allowed by a single-scan approach."
 summary: ""
 
 tags: []
