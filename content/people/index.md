@@ -1,6 +1,7 @@
 ---
 title: People
 date: 2022-10-24
+summary: Meet the students, researchers, and alumni of the spinlab research group at William & Mary.
 
 type: landing
 url: /people/
