@@ -12,6 +12,7 @@ superuser: false
 
 # Role/position
 role: Chemistry and Physics, 2026
+current_position: Pantex (Amarillo, TX)
 
 
 # Organizations/Affiliations
@@ -67,7 +68,7 @@ social:
 highlight_name: true
 
 user_groups:
-  - Undergraduate Students
+  - Alumni
 
 # Custom/fun fields
 # favorite_coffee: Oat milk cortado, conditionally

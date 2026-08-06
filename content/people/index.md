@@ -3,6 +3,7 @@ title: People
 date: 2022-10-24
 
 type: landing
+url: /people/
 
 sections:
   - block: people
@@ -13,7 +14,7 @@ sections:
       user_groups:
           - Principal Investigator
           - Researchers
-          - Graduate Students
+          - Graduate Student
           - Undergraduate Students
           - Administration
           - Visitors

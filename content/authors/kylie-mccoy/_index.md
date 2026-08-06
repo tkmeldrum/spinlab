@@ -11,7 +11,7 @@ avatar: meldrum.png    # put this image in static/media/
 superuser: false
 
 # Role/position
-role: Biochemistry, 2026
+role: Biochemistry, 2026; M.S. 2028
 
 
 # Organizations/Affiliations
@@ -65,7 +65,7 @@ social:
 highlight_name: true
 
 user_groups:
-  - Undergraduate Students
+  - Graduate Student
 
 # Custom/fun fields
 # favorite_coffee: Oat milk cortado, conditionally

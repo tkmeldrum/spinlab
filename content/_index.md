@@ -25,7 +25,7 @@ sections:
       title: Our Research
       subtitle:
       text: |
-        Research in the spinlab centers around single-sided nuclear magnetic resonance. We focus on methods and instrumentations development, data and computational models, and a range of applications. 
+        <p class="research-intro">Research in the spinlab centers around single-sided nuclear magnetic resonance. We focus on methods and instrumentations development, data and computational models, and a range of applications.</p>
       count: 4
       # filters:
       #   author: ''
@@ -38,23 +38,29 @@ sections:
       page_type: research
     design:
       view: showcase
-      columns: 2
+      columns: '1'
 
-  - block: markdown
+  - block: collection
     id: publications
     content:
-      title: Publications
-      text: |
-        {{% cta cta_link="https://scholar.google.com/citations?user=yKXJezQAAAAJ" cta_text="View at Google Scholar →" %}}
-      # design:
-      #   view: card
-      #   columns: 1
+      title: Recent Publications
+      subtitle:
+      count: 5
+      filters:
+        exclude_featured: false
+      page_type: publications
+      order: desc
+      archive:
+        text: "See all publications"
+    design:
+      view: citation
+      columns: '1'
 
   - block: markdown
     content:
-      title:
+      title: Group
       text: |
-        <img src="/media/groupphoto_2026.jpg" alt="Spinlab group photo, 2026" style="width:100%;">
+        <img src="/media/groupphoto_2026.jpg" alt="Spinlab group photo, 2026" style="width:70%; max-width:70%; display:block; margin:0 auto;">
         <p style="font-size: 0.85em; font-style: italic; text-align: center;">Spring 2026</p>
     design:
       columns: '1'
@@ -63,19 +69,18 @@ sections:
   - block: people
     id: people
     content:
-      title: 
+      title:
       # Choose which groups/teams of users to display.
       #   Edit `user_groups` in each user's profile to add them to one or more of these groups.
       user_groups:
           - Principal Investigator
           - Researchers
-          - Graduate Students
+          - Graduate Student
           - Undergraduate Students
-          - Administration
-          - Visitors
-          - Alumni
       sort_by: Params.last_name
       sort_ascending: true
+      footer_text: |
+        {{% cta cta_alt_link="/people/" cta_alt_text="See the full roster, including alumni" %}}
     design:
       show_interests: false
       show_role: true

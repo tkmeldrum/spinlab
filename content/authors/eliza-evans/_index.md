@@ -12,6 +12,7 @@ superuser: false
 
 # Role/position
 role: Chemistry, 2026
+current_position: Gap year
 
 
 # Organizations/Affiliations
@@ -64,7 +65,7 @@ organizations:
 highlight_name: true
 
 user_groups:
-  - Undergraduate Students
+  - Alumni
 
 # Custom/fun fields
 # favorite_coffee: Oat milk cortado, conditionally

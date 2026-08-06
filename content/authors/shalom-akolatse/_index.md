@@ -12,6 +12,7 @@ superuser: false
 
 # Role/position
 role: Math major, Chemistry minor, 2026
+current_position: Post-bac, University of Wisconsin
 
 
 # Organizations/Affiliations
@@ -63,7 +64,7 @@ social:
 highlight_name: true
 
 user_groups:
-  - Undergraduate Students
+  - Alumni
 
 # Custom/fun fields
 # favorite_coffee: Oat milk cortado, conditionally

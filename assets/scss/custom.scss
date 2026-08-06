@@ -52,3 +52,83 @@
   margin-top: 3rem;
 }
 
+/* Shrink homepage hero image (spinlab logo) */
+.wg-hero .hero-media img {
+  max-width: 70%;
+  height: auto;
+}
+
+/* Cluster hero text and logo toward the centerline: logo hugs the left
+   edge of its column, intro text hugs the right edge of its column. */
+.wg-hero .hero-media {
+  justify-content: flex-start;
+}
+@media (min-width: 768px) {
+  .wg-hero .row > .col-md-6:first-child {
+    text-align: right !important;
+  }
+}
+
+/* Cluster research showcase rows toward the centerline (used together with
+   the wg-align-left/right classes set per-row in layouts/partials/views/showcase.html).
+   text-align handles the text column's paragraph text; the image is a
+   block-level element, so it needs its own margin pushed to the matching
+   side rather than relying on text-align (which doesn't move block boxes). */
+@media (min-width: 768px) {
+  .wg-align-right {
+    text-align: right;
+  }
+  .wg-align-right img {
+    margin-left: auto;
+    margin-right: 0;
+  }
+  .wg-align-left {
+    text-align: left;
+  }
+  .wg-align-left img {
+    margin-right: auto;
+    margin-left: 0;
+  }
+}
+
+/* Center the "Our Research" intro text and narrow it to half width */
+.research-intro {
+  max-width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+/* Right-justify the "Latest News" heading so it sits closer to the news items */
+@media (min-width: 992px) {
+  #news .section-heading {
+    align-items: flex-end !important;
+    text-align: right;
+  }
+}
+
+/* Narrow the publication citation list so it doesn't stretch full width */
+.view-citation {
+  max-width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1rem;
+}
+.citation-number {
+  font-weight: 700;
+  margin-right: 0.25em;
+}
+
+/* Center the "See all publications" link and drop the theme's default
+   all-caps styling */
+.see-all {
+  text-align: center;
+  text-transform: none;
+}
+
+/* More vertical breathing room between wrapped rows of avatars, so a
+   row's social icons don't crowd the row below it */
+.people-widget .people-person {
+  margin-bottom: 2rem;
+}
+

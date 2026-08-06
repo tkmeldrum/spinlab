@@ -1,0 +1,41 @@
+{{ $item := .item }}
+
+{{/* Number publications so the oldest (bottom of a reverse-chronological
+     list) is 1, counting up toward the newest. Computed from each item's
+     rank among ALL publications (not the index of a truncated/paginated
+     subset) so numbering stays correct whether this is a top-N homepage
+     list or a paginated archive page. */}}
+{{ $all := sort (where site.RegularPages "Type" "publications") "Date" "desc" }}
+{{ $total := len $all }}
+{{ $rank := 0 }}
+{{ range $i, $p := $all }}
+  {{ if eq $p.RelPermalink $item.RelPermalink }}
+    {{ $rank = $i }}
+  {{ end }}
+{{ end }}
+{{ $number := sub $total $rank }}
+
+<div class="pub-list-item view-citation">
+  <span class="citation-number">{{ $number }}.</span>
+  {{ $authors_html := partial "page_metadata_authors" $item }}
+  {{ $authors_html = trim (printf "%s" $authors_html) "." | safeHTML }}
+  <span class="article-metadata li-cite-author">{{ $authors_html }}.</span>
+  <em><a href="{{ $item.RelPermalink }}">{{ $item.Title }}</a>.</em>
+  {{ if $item.Params.journal }}
+    <strong>{{ $item.Params.journal | markdownify }}</strong>
+    {{ $item.Date.Format "2006" -}}
+    {{- if $item.Params.volume -}}
+      , <em>{{ $item.Params.volume }}</em>{{ with $item.Params.issue }}({{ . }}){{ end }}{{ with $item.Params.pages }}, {{ . }}{{ end }}
+    {{- else if $item.Params.pages -}}
+      , {{ $item.Params.pages }}
+    {{- end -}}.
+    {{ with $item.Params.note }} {{ . }}.{{ end }}
+  {{ else if $item.Params.publication }}
+    {{ $item.Params.publication | markdownify }}.
+  {{ end }}
+  {{ if $item.Params.doi }}
+    <a href="https://doi.org/{{ $item.Params.doi }}" target="_blank" rel="noopener">Link</a>
+  {{ else }}
+    {{ partial "page_links" (dict "page" $item "is_list" 1) }}
+  {{ end }}
+</div>
