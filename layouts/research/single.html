@@ -1,0 +1,34 @@
+{{- define "main" -}}
+
+{{/* Same as _default/single.html, but skips the social share-button row
+     from page_footer.html (partial "components/page_sharer") -- not
+     useful on these pages, so we inline the rest of page_footer's
+     contents directly instead of calling it wholesale. */}}
+
+<article class="article">
+
+  {{ partial "page_header" . }}
+
+  <div class="article-container">
+
+    <div class="article-style">
+      {{ .Content }}
+    </div>
+
+    {{ partial "page_edit" . }}
+    {{ partial "tags" . }}
+    {{ partial "page_author" . }}
+    {{ partial "comments" . }}
+
+    {{ if .Params.pager }}
+    <div class="article-widget">
+      {{ partial "components/pager" . }}
+    </div>
+    {{ end }}
+
+    {{ partial "page_related" . }}
+
+  </div>
+</article>
+
+{{- end -}}

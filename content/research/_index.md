@@ -1,43 +1,10 @@
 ---
 title: Spinlab research
 view: masonry  # or 'compact' or 'list'
+subtitle: Single-sided magnetic resonance, from hardware to data to applications.
 
 # Optional banner image (relative to assets/media/)
 banner:
   image: ''
   caption: ''
-
-# Optional summary displayed under section title
-# summary: Explore our recent and ongoing research.
-
-# Sections display publications or other content
-sections:
-  - block: collection
-    content:
-      title: Our Research
-      summary: 
-      text: |
-        Research in the spinlab centers around single-sided nuclear magnetic resonance. We focus on methods and instrumentations development, data and computational models, and a range of applications. 
-      count: 4
-      # filters:
-      #   author: ''
-      #   category: ''
-      #   exclude_featured: false
-      #   tag: ''
-      # offset: 0
-      order: descending
-      page_type: research
-    design:
-      view: showcase
-      columns: 2
-
-  - block: markdown
-    content:
-      title: Our Publications
-      summary: Test publications
-      text: |
-        View our publications at [Google Scholar.](https://scholar.google.com/citations?user=yKXJezQAAAAJ)
-      design:
-        view: card
-        columns: 1
 ---

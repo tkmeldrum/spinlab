@@ -25,7 +25,7 @@ sections:
       title: Our Research
       subtitle:
       text: |
-        <p class="research-intro">Research in the spinlab centers around single-sided nuclear magnetic resonance. We focus on methods and instrumentations development, data and computational models, and a range of applications.</p>
+        <p class="research-intro">Our research addresses problems in physical chemistry and materials science using both experimental and computational methods, centered on single-sided nuclear magnetic resonance (NMR) relaxometry — trading the atom-specific signal of a million-dollar spectrometer for something far cheaper and more flexible. What we do: instrumentation and methods that make better measurements possible, computational work that makes sense of what we measure, and applications that put both to use on real materials.</p>
       count: 4
       # filters:
       #   author: ''
@@ -34,7 +34,8 @@ sections:
       #   publication_type: ''
       #   tag: ''
       # offset: 0
-      # order: desc
+      sort_by: Weight
+      sort_ascending: true
       page_type: research
     design:
       view: showcase

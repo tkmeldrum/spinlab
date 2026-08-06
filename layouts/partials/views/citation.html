@@ -20,10 +20,10 @@
   {{ $authors_html := partial "page_metadata_authors" $item }}
   {{ $authors_html = trim (printf "%s" $authors_html) "." | safeHTML }}
   <span class="article-metadata li-cite-author">{{ $authors_html }}.</span>
-  <em>{{ $item.Title }}.</em>
+  {{ $item.Title }}.
   {{ if $item.Params.journal }}
-    <strong>{{ $item.Params.journal | markdownify }}</strong>
-    {{ $item.Date.Format "2006" -}}
+    <em>{{ $item.Params.journal | markdownify }}</em>
+    <strong>{{ $item.Date.Format "2006" }}</strong>
     {{- if $item.Params.volume -}}
       , <em>{{ $item.Params.volume }}</em>{{ with $item.Params.issue }}({{ . }}){{ end }}{{ with $item.Params.pages }}, {{ . }}{{ end }}
     {{- else if $item.Params.pages -}}

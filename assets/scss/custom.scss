@@ -91,9 +91,9 @@
   }
 }
 
-/* Center the "Our Research" intro text and narrow it to half width */
+/* Center the "Our Research" intro text */
 .research-intro {
-  max-width: 50%;
+  max-width: 75%;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
@@ -141,5 +141,13 @@
   color: #fff !important;
   text-decoration: none;
   border-radius: 0 0 4px 0;
+}
+
+/* Restore full bold weight on section headings (e.g. "Our Research").
+   These render as <h2> for correct document structure (see
+   parse_block_v2.html), but Bootstrap gives h1/h2 the same font-weight,
+   so h2's smaller default size reads as noticeably less prominent. */
+.section-heading h2 {
+  font-weight: 700;
 }
 
