@@ -1,6 +1,6 @@
 ---
 title: "Characterization of aging and solvent treatments of painted surfaces using single-sided NMR"
-authors: ["Fife, G.", "Stabik, B.", "Kelley, A. E.", "King, J. N.", "Blumich, B.", "Hoppenbrouwers, R.", "Meldrum, T."]
+authors: ["Fife, G.", "Stabik, B.", "Kelley, A. E.", "King, J. N.", "Blümich, B.", "Hoppenbrouwers, R.", "Meldrum, T."]
 date: 2014-01-01
 doi: "10.1002/mrc.4164"
 

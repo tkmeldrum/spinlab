@@ -1,6 +1,6 @@
 ---
 title: "Effect of pigment volume concentration on acrylic emulsion paints"
-authors: ["Rooney, Mary T.", "Meldrum, Tyler"]
+authors: ["Rooney, M. T.", "Meldrum, T."]
 date: 2020-01-01
 doi: "10.1002/mrc.5053"
 

@@ -6,7 +6,10 @@
 # You can also do this from the CMS at /admin instead of editing files by hand.
 
 title: "Title of the paper"
-authors: ["Tyler Meldrum"]
+# Use "Lastname, Initials" for every author, matching the rest of the
+# publications list (e.g. "Meldrum, T.") -- otherwise this entry's authors
+# won't be grouped with the same person's other papers.
+authors: ["Meldrum, T."]
 date: 2026-01-01
 doi: ""
 

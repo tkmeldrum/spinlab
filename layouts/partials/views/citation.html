@@ -20,7 +20,7 @@
   {{ $authors_html := partial "page_metadata_authors" $item }}
   {{ $authors_html = trim (printf "%s" $authors_html) "." | safeHTML }}
   <span class="article-metadata li-cite-author">{{ $authors_html }}.</span>
-  <em><a href="{{ $item.RelPermalink }}">{{ $item.Title }}</a>.</em>
+  <em>{{ $item.Title }}.</em>
   {{ if $item.Params.journal }}
     <strong>{{ $item.Params.journal | markdownify }}</strong>
     {{ $item.Date.Format "2006" -}}

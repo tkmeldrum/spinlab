@@ -1,6 +1,6 @@
 ---
 title: "Nondestructive Investigation of the Internal Structure of Fresco Paintings"
-authors: ["Fukunaga, K.", "Meldrum, T.", "Zia, W.", "Ohno, M.", "Fuchida, T.", "Blumich, B."]
+authors: ["Fukunaga, K.", "Meldrum, T.", "Zia, W.", "Ohno, M.", "Fuchida, T.", "Blümich, B."]
 date: 2013-01-01
 doi: "10.1109/DigitalHeritage.2013.6743716"
 

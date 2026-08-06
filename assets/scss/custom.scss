@@ -132,3 +132,14 @@
   margin-bottom: 2rem;
 }
 
+/* Skip-to-content link: invisible until keyboard-focused, then shown as a
+   clear, high-contrast box above the fixed navbar */
+.sr-only-focusable:focus {
+  z-index: 2000;
+  padding: 0.5em 1em !important;
+  background: #1565c0;
+  color: #fff !important;
+  text-decoration: none;
+  border-radius: 0 0 4px 0;
+}
+
