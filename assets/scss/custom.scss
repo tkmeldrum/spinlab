@@ -69,34 +69,37 @@
   }
 }
 
-/* Cluster research showcase rows toward the centerline (used together with
-   the wg-align-left/right classes set per-row in layouts/partials/views/showcase.html).
-   text-align handles the text column's paragraph text; the image is a
-   block-level element, so it needs its own margin pushed to the matching
-   side rather than relying on text-align (which doesn't move block boxes). */
+/* Research showcase rows share the same left/right boundary as
+   .research-intro below, so the intro paragraph, the figures, and the
+   row text all line up to one consistent width. Within a row, the image
+   (a block-level element, so text-align won't move it) hugs the outer
+   edge of that shared width via margin; the wg-align-left/right classes
+   are set per-row in layouts/partials/views/showcase.html. */
+.view-showcase {
+  max-width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+}
 @media (min-width: 768px) {
-  .wg-align-right {
-    text-align: right;
-  }
   .wg-align-right img {
     margin-left: auto;
     margin-right: 0;
-  }
-  .wg-align-left {
-    text-align: left;
   }
   .wg-align-left img {
     margin-right: auto;
     margin-left: 0;
   }
 }
+.view-showcase .article-style {
+  text-align: justify;
+}
 
-/* Center the "Our Research" intro text */
+/* Justify the "Our Research" intro text; shares .view-showcase's width */
 .research-intro {
   max-width: 75%;
   margin-left: auto;
   margin-right: auto;
-  text-align: center;
+  text-align: justify;
 }
 
 /* Right-justify the "Latest News" heading so it sits closer to the news items */
