@@ -58,14 +58,21 @@
   height: auto;
 }
 
-/* Cluster hero text and logo toward the centerline: logo hugs the left
-   edge of its column, intro text hugs the right edge of its column. */
+/* Hero row shares the same 75%-wide shared boundary as .research-intro and
+   .view-showcase below, so the hero paragraph's left edge lines up with
+   theirs, and the logo (hugging the right edge of its column) lines up
+   with their right edge too. */
+.wg-hero .row {
+  max-width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+}
 .wg-hero .hero-media {
-  justify-content: flex-start;
+  justify-content: flex-end;
 }
 @media (min-width: 768px) {
   .wg-hero .row > .col-md-6:first-child {
-    text-align: right !important;
+    text-align: justify !important;
   }
 }
 
@@ -92,6 +99,9 @@
 }
 .view-showcase .article-style {
   text-align: justify;
+}
+.view-showcase img {
+  border-radius: 12px;
 }
 
 /* Justify the "Our Research" intro text; shares .view-showcase's width */

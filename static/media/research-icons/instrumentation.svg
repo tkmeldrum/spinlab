@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 300 200" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;">
+    <rect x="0" y="0" width="300" height="200" style="fill:rgb(223,233,244);"/>
+    <g transform="matrix(1,0,0,1,50,0)">
+        <path d="M72,120C90.667,103.333 109.333,103.333 128,120" style="fill:none;fill-rule:nonzero;stroke:rgb(224,138,62);stroke-width:4px;"/>
+        <path d="M55,120C85,86.667 115,86.667 145,120" style="fill:none;fill-rule:nonzero;stroke:rgb(224,138,62);stroke-width:4px;"/>
+        <g transform="matrix(1,0,0,0.779109,0,22.038114)">
+            <path d="M80,82C93.333,100.667 106.667,100.667 120,82" style="fill:none;fill-rule:nonzero;stroke:rgb(58,110,165);stroke-width:4px;stroke-linecap:butt;"/>
+        </g>
+        <g transform="matrix(1,0,0,0.856164,0,15.719605)">
+            <path d="M65,82C88.333,110.667 111.667,110.667 135,82" style="fill:none;fill-rule:nonzero;stroke:rgb(58,110,165);stroke-width:4px;stroke-linecap:butt;"/>
+        </g>
+        <path d="M150,70L150,80C150,81.104 149.104,82 148,82L52,82C50.896,82 50,81.104 50,80L50,70C50,68.896 50.896,68 52,68L148,68C149.104,68 150,68.896 150,70Z" style="fill:rgb(224,138,62);fill-opacity:0.41;"/>
+        <path d="M152.5,70L152.5,80L152.408,80.905L152.145,81.753L151.73,82.518L151.182,83.182L150.518,83.73L149.753,84.145L148.905,84.408L148,84.5L52,84.5L51.095,84.408L50.247,84.145L49.482,83.73L48.818,83.182L48.27,82.518L47.855,81.753L47.592,80.905L47.5,80L47.5,70L47.592,69.095L47.855,68.247L48.27,67.482L48.818,66.818L49.482,66.27L50.247,65.855L51.095,65.592L52,65.5L148,65.5L148.905,65.592L149.753,65.855L150.518,66.27L151.182,66.818L151.73,67.482L152.145,68.247L152.408,69.095L152.5,70ZM150,70C150,68.896 149.104,68 148,68L52,68C50.896,68 50,68.896 50,70L50,80C50,81.104 50.896,82 52,82L148,82C149.104,82 150,81.104 150,80L150,70Z" style="fill:rgb(38,52,74);fill-opacity:0.56;"/>
+        <path d="M148,126L148,179C148,182.311 145.311,185 142,185L58,185C54.689,185 52,182.311 52,179L52,126C52,122.689 54.689,120 58,120L142,120C145.311,120 148,122.689 148,126Z" style="fill:rgb(139,149,165);stroke:rgb(38,52,74);stroke-width:4px;stroke-linecap:butt;"/>
+    </g>
+</svg>
