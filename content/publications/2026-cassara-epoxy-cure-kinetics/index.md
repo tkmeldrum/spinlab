@@ -1,17 +1,17 @@
 ---
 title: "Comparison of calorimetry and NMR relaxometry measurements of epoxy cure kinetics"
 authors: ["Cassara, O.", "Copeman, K.", "Tate, S. J.", "Ballenger, J.", "Meldrum, T."]
-date: 2026-01-01
-doi: ""
+date: 2026-08-06
+doi: "10.1002/pola.70292"
 
-publishDate: 2026-01-01
+publishDate: 2026-08-06
 
 publication_types: ["2"]
 
 journal: "J. Polym. Sci."
 volume: ""
 issue: ""
-pages: "in press"
+pages: "e70292"
 note: ""
 publication: ""
 publication_short: ""
