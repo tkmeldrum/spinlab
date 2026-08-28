@@ -1,17 +1,17 @@
 ---
 # Display name
-title: Aya Musselmani
+title: Elena Torres
 
 # Full Name (for SEO)
-first_name: Aya
-last_name: Musselmani
-avatar: avatar.png    # put this image in static/media/
+first_name: Elena
+last_name: Torres
+avatar: meldrum.png    # put this image in static/media/
 
 # Is this the primary user of the site?
 superuser: false
 
 # Role/position
-role: 2029
+role: Chemistry and Art/Art History, 2026
 
 
 # Organizations/Affiliations

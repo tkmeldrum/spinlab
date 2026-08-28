@@ -1,17 +1,17 @@
 ---
 # Display name
-title: Aya Musselmani
+title: Henry Hladky
 
 # Full Name (for SEO)
-first_name: Aya
-last_name: Musselmani
-avatar: avatar.png    # put this image in static/media/
+first_name: Henry
+last_name: Hladky
+avatar: meldrum.png    # put this image in static/media/
 
 # Is this the primary user of the site?
 superuser: false
 
 # Role/position
-role: 2029
+role: Chemistry and Biology, 2027
 
 
 # Organizations/Affiliations

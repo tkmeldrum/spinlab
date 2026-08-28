@@ -1,17 +1,17 @@
 ---
 # Display name
-title: Aya Musselmani
+title: Amelia Haid
 
 # Full Name (for SEO)
-first_name: Aya
-last_name: Musselmani
-avatar: avatar.png    # put this image in static/media/
+first_name: Amelia
+last_name: Haid
+avatar: meldrum.png    # put this image in static/media/
 
 # Is this the primary user of the site?
 superuser: false
 
 # Role/position
-role: 2029
+role: Chemistry, 2029
 
 
 # Organizations/Affiliations
