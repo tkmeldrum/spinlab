@@ -17,6 +17,7 @@ sections:
       #   </ul>
       text: |
         ## Science stuff
+        - An online dashboard for processing single-sided NMR data collected using Magritek and Tecmag spectrometers: [NMR Dashboard.](https://tkmeldrum.github.io/nmr-dashboard/)
         - A collection of equations useful to physical chemistry. LaTeX source code [available on GitHub;](https://github.com/tkmeldrum/pchem_equations) [PDF is available here.](CHEM302_equations.pdf)
         - [Spinlab SOPs](https://wmedu.sharepoint.com/:f:/s/CHM-MeldrumLab/Eq35tPNMHSdIk53tJ3SdMnQBG1Ug3vpxbHwsC9kOYkjfmg?e=72gLyn) (group members only, authentication required)
         ## Silly stuff
